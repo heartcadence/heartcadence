@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heartcadence.com/sitemap-index.xml

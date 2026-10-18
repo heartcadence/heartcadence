@@ -3,6 +3,7 @@ import '../styles/theme.css';
 import ThemeScript from '../components/ThemeScript.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import StructuredData from '../components/StructuredData.astro';
 import { SITE } from '../site';
 
 interface Props {
@@ -36,6 +37,8 @@ const canonical = new URL(Astro.url.pathname, SITE.url).href;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
+    <meta property="og:image" content={new URL('/images/heart-cadence-logo.png', SITE.url).href} />
+    <StructuredData />
   </head>
   <body class="min-h-screen flex flex-col">
     <a class="skip-link" href="#main">{lang === 'fr' ? 'Passer au contenu' : 'Skip to content'}</a>

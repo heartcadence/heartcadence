@@ -1,0 +1,53 @@
+---
+// Business details for search engines (schema.org JSON-LD).
+// Only lists facts that are confirmed. Update here if anything changes.
+import { SITE } from '../site';
+
+const data = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ProfessionalService',
+      '@id': `${SITE.url}/#organization`,
+      name: SITE.name,
+      alternateName: SITE.shortName,
+      url: SITE.url,
+      logo: `${SITE.url}/images/heart-cadence-logo.png`,
+      image: `${SITE.url}/images/heart-cadence-icon-512.png`,
+      description: SITE.description,
+      email: SITE.email,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Brantford',
+        addressRegion: 'ON',
+        addressCountry: 'CA',
+      },
+      areaServed: { '@type': 'Country', name: 'Canada' },
+      knowsLanguage: 'en',
+      founder: { '@type': 'Person', name: 'Jason K. McEwan', jobTitle: 'Founder and Principal Consultant' },
+      employee: [
+        { '@type': 'Person', name: 'Jason K. McEwan', jobTitle: 'Founder and Principal Consultant' },
+        { '@type': 'Person', name: 'Rory Stennett', jobTitle: 'Director, Client Experience and Growth' },
+      ],
+      knowsAbout: [
+        'Government procurement readiness',
+        'Bid and proposal development',
+        'Project management',
+        'IT management and cloud',
+        'Technology stack selection and deployment',
+        'Customer experience and journey design',
+        'Business process improvement',
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE.url}/#website`,
+      url: SITE.url,
+      name: SITE.name,
+      publisher: { '@id': `${SITE.url}/#organization` },
+      inLanguage: ['en-CA', 'fr-CA'],
+    },
+  ],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(data)} />
