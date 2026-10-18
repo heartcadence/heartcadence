@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBand from '../components/CtaBand.astro';
+
+const steps = [
+  {
+    title: 'Fit call',
+    text: 'We talk about your business, the contracts you want, and your timeline. If we are not the right fit, we will say so and point you to better options.',
+  },
+  {
+    title: 'Readiness review',
+    text: 'We look at your registrations, documents, systems and processes. You get a plain-language summary of what is in place and what is missing.',
+  },
+  {
+    title: 'Plan',
+    text: 'We agree on priorities, tasks, owners and dates. You always know what is happening next and who is doing it.',
+  },
+  {
+    title: 'Do the work',
+    text: 'We write bid sections, set up technology, and design client processes with your team. You review and approve everything.',
+  },
+  {
+    title: 'Deliver and improve',
+    text: 'We support you through contract delivery and review what worked after each bid, so the next one is stronger.',
+  },
+];
+
+const principles = [
+  { title: 'One point of contact', text: 'You always know who to call.' },
+  { title: 'Plain language', text: 'No jargon. If something is unclear, we explain it.' },
+  { title: 'Honest advice', text: 'If a bid is not worth pursuing, we will tell you.' },
+  { title: 'You own the work', text: 'Every document and system we build for you is yours to keep.' },
+];
+---
+<Base title="How we work" description="Our five-step process: fit call, readiness review, plan, do the work, and deliver and improve.">
+  <PageHeader
+    eyebrow="How we work"
+    title="A clear process, with no surprises"
+    intro="Every engagement follows the same five steps. The work in each step changes with your needs."
+  />
+
+  <section class="container-site">
+    <ol class="grid gap-4">
+      {steps.map((s, i) => (
+        <li class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:grid md:grid-cols-[4rem_1fr] md:gap-6">
+          <p class="font-serif text-3xl font-semibold text-link" aria-hidden="true">{i + 1}</p>
+          <div>
+            <h2 class="text-2xl"><span class="sr-only">Step {i + 1}: </span>{s.title}</h2>
+            <p class="mt-2 max-w-2xl">{s.text}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="container-site mt-16">
+    <h2>How we work with you</h2>
+    <ul class="mt-6 grid gap-4 md:grid-cols-2">
+      {principles.map((p) => (
+        <li class="rounded-[var(--radius-md)] border border-border p-6">
+          <h3>{p.title}</h3>
+          <p class="mt-2">{p.text}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container-site mt-16">
+    <div class="rounded-[var(--radius-md)] bg-surface-alt border border-border p-8">
+      <h2>What we don't do</h2>
+      <ul class="mt-4 list-disc pl-5 grid gap-2 max-w-2xl">
+        <li>We do not lobby or contact public officials on your behalf.</li>
+        <li>We do not promise contract wins. The buyer makes that decision, based on your bid.</li>
+        <li>We do not claim insider access or government connections.</li>
+        <li>We do not submit bids for you. You review, approve and submit your own response.</li>
+      </ul>
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>

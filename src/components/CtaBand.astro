@@ -1,0 +1,16 @@
+---
+interface Props { title?: string; text?: string }
+const {
+  title = 'See if we are a good fit',
+  text = 'Book a short call. We will ask about your business, the contracts you want, and where you are today. You will leave with clear next steps, whether or not we work together.',
+} = Astro.props;
+---
+<section class="container-site mt-16">
+  <div class="rounded-[var(--radius-md)] bg-surface-alt border border-border p-8 md:p-10 md:flex md:items-center md:justify-between md:gap-10">
+    <div class="max-w-2xl">
+      <h2>{title}</h2>
+      <p class="mt-3">{text}</p>
+    </div>
+    <a href="/book-a-call/" class="btn-primary mt-6 md:mt-0 shrink-0">Book a call</a>
+  </div>
+</section>

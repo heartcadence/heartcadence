@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { SITE } from '../site';
+
+const hasBooking = Boolean(SITE.bookingUrl);
+---
+<Base title="Book a call" description="Book a call with Heart Cadence Inc. to see if we are a good fit for your government contract goals.">
+  <PageHeader
+    eyebrow="Book a call"
+    title="See if we are a good fit"
+    intro="A short video or phone call to talk about your business and the contracts you want. There is no obligation."
+  />
+
+  <div class="container-site grid gap-6 lg:grid-cols-[1.2fr_1fr]">
+    <section class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
+      <h2 class="text-2xl">Choose a time</h2>
+      {hasBooking ? (
+        <>
+          <p class="mt-3">Pick a time that works for you. You will get a calendar invite with the call details.</p>
+          <a href={SITE.bookingUrl} class="btn-primary mt-6" rel="noopener">Open the booking calendar<span class="sr-only"> (opens Google Calendar)</span></a>
+        </>
+      ) : (
+        <>
+          <p class="mt-3">Online booking is being set up. Until then, email us with two or three times that work for you, and we will confirm one.</p>
+          <a href={`mailto:${SITE.email}?subject=Book%20a%20call`} class="btn-primary mt-6">Email to book a call</a>
+        </>
+      )}
+      <p class="mt-6 text-[0.9375rem] text-text-muted">Calls are in English. Booking is handled by Google Calendar. See our <a href="/privacy/">privacy policy</a>.</p>
+    </section>
+
+    <section class="rounded-[var(--radius-md)] border border-border p-6 md:p-8">
+      <h2 class="text-2xl">What to expect</h2>
+      <ul class="mt-4 list-disc pl-5 grid gap-2">
+        <li>We ask about your business, your services and your goals.</li>
+        <li>We talk about the kinds of contracts you want to pursue.</li>
+        <li>We give you an honest view of whether we can help.</li>
+        <li>You leave with clear next steps, whether or not we work together.</li>
+      </ul>
+      <h3 class="mt-6 text-lg">Good to have ready</h3>
+      <ul class="mt-2 list-disc pl-5 grid gap-1">
+        <li>A short description of what your business sells</li>
+        <li>Any past government bids, won or lost</li>
+        <li>Your Procurement Business Number, if you have one</li>
+      </ul>
+    </section>
+  </div>
+</Base>

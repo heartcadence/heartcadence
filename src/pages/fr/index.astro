@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../site';
+---
+<Base
+  title="En français"
+  lang="fr"
+  description="Heart Cadence Inc. aide les entreprises canadiennes à se préparer aux marchés publics, à présenter de meilleures soumissions et à réaliser leurs contrats avec confiance."
+>
+  <section class="container-site pt-12 pb-8 md:pt-16">
+    <p class="text-sm font-semibold uppercase tracking-wider text-text-muted mb-3">Résumé en français</p>
+    <h1 class="max-w-3xl">Préparez-vous aux marchés publics, avec une équipe qui fait le travail.</h1>
+    <p class="mt-4 max-w-2xl text-lg">
+      Heart Cadence Inc. (HCI) aide les entreprises canadiennes à se préparer aux marchés publics, à présenter de meilleures soumissions et à réaliser leurs contrats avec confiance.
+    </p>
+  </section>
+
+  <section class="container-site">
+    <div class="rounded-[var(--radius-md)] bg-surface-alt border border-border p-6 md:p-8 max-w-3xl">
+      <h2 class="text-2xl">Langue de service</h2>
+      <p class="mt-3"><strong>Nos consultations sont offertes en anglais.</strong> Cette page résume nos services en français. Notre énoncé de capacités est aussi offert en français.</p>
+    </div>
+  </section>
+
+  <section class="container-site mt-12 grid gap-6 md:grid-cols-2">
+    <div>
+      <h2>Nos services</h2>
+      <ul class="mt-4 list-disc pl-5 grid gap-1">
+        <li>Préparation aux marchés publics</li>
+        <li>Rédaction de soumissions et de propositions</li>
+        <li>Gestion de projet</li>
+        <li>Gestion des TI et infonuagique</li>
+        <li>Choix et déploiement de solutions technologiques</li>
+        <li>Expérience client et conception du parcours client</li>
+        <li>Amélioration des processus d’affaires</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Ce que nous ne faisons pas</h2>
+      <ul class="mt-4 list-disc pl-5 grid gap-1">
+        <li>Nous ne faisons pas de lobbying.</li>
+        <li>Nous ne garantissons pas l’obtention de contrats.</li>
+        <li>Nous ne prétendons pas avoir d’accès privilégié ni de relations au sein du gouvernement.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container-site mt-12">
+    <div class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8 max-w-3xl">
+      <h2 class="text-2xl">Coordonnées</h2>
+      <dl class="mt-4 grid gap-2">
+        <div><dt class="inline font-semibold text-heading">Raison sociale : </dt><dd class="inline">Heart Cadence Inc.</dd></div>
+        <div><dt class="inline font-semibold text-heading">Emplacement : </dt><dd class="inline">Brantford (Ontario). Clients partout au Canada.</dd></div>
+        <div><dt class="inline font-semibold text-heading">Numéro d’entreprise-approvisionnement (NEA) : </dt><dd class="inline">{SITE.pbn}</dd></div>
+        <div><dt class="inline font-semibold text-heading">Courriel : </dt><dd class="inline"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></dd></div>
+      </dl>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="/documents/heart-cadence-enonce-de-capacites-fr.pdf" class="btn-primary" download>Télécharger l’énoncé de capacités (PDF)</a>
+        <a href="/book-a-call/" class="btn-secondary" hreflang="en">Prendre rendez-vous (en anglais)</a>
+        <a href="/" class="btn-secondary" hreflang="en" lang="en">English site</a>
+      </div>
+    </div>
+  </section>
+</Base>

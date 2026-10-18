@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBand from '../components/CtaBand.astro';
+
+const people = [
+  {
+    name: 'Jason K. McEwan',
+    initials: 'JM',
+    role: 'Founder and Principal Consultant',
+    bio: 'Jason has about 20 years of experience in IT. He leads readiness, bid development, and technology work for HCI clients.',
+  },
+  {
+    name: 'Rory Stennett',
+    initials: 'RS',
+    role: 'Director, Client Experience and Growth',
+    bio: 'Rory is an expert in customer experience and customer journey design. Rory helps clients shape how their work is received and delivered, so buyers want to work with them again.',
+  },
+];
+---
+<Base title="About" description="Meet the team at Heart Cadence Inc., a Canadian firm helping businesses become government-ready.">
+  <PageHeader
+    eyebrow="About"
+    title="A small team that does the work"
+    intro="Heart Cadence Inc. (HCI) is based in Brantford, Ontario, and works with businesses across Canada. We help vendors and subcontractors get ready for government work, bid well, and deliver with confidence."
+  />
+
+  <section class="container-site">
+    <h2 class="sr-only">Our team</h2>
+    <ul class="grid gap-6 md:grid-cols-2">
+      {people.map((p) => (
+        <li class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
+          <div class="flex items-center gap-4">
+            <div class="w-20 h-20 rounded-full bg-surface-alt border border-border flex items-center justify-center font-serif text-2xl font-semibold text-heading" role="img" aria-label={`Photo of ${p.name} coming soon`}>{p.initials}</div>
+            <div>
+              <h3>{p.name}</h3>
+              <p class="text-text-muted">{p.role}</p>
+            </div>
+          </div>
+          <p class="mt-4">{p.bio}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container-site mt-16 grid gap-6 md:grid-cols-2">
+    <div>
+      <h2>Why we started HCI</h2>
+      <p class="mt-4">
+        Government contracts can be a strong source of steady work. But the process is hard to learn alone, and free guidance only goes so far. We started HCI to give smaller firms a team that rolls up its sleeves and does the work with them.
+      </p>
+    </div>
+    <div>
+      <h2>An honest note</h2>
+      <p class="mt-4">
+        We are a new company. We do not have government contract wins or case studies to show you yet, and we will not pretend otherwise. What we offer is real experience, a clear process, and honest advice from the first call.
+      </p>
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>

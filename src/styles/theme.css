@@ -1,0 +1,102 @@
+/* Heart Cadence Inc. light and dark themes.
+   Generated from the brand guide tokens. Every text pair meets WCAG 2.1 AA.
+   Default: follows the visitor's system setting. A choice made with the
+   theme toggle is saved and wins over the system setting. */
+
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/source-serif-4";
+
+/* Tailwind's dark: variant follows the data-theme attribute set below. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --bg: #F7F5F1;
+  --surface: #FFFFFF;
+  --surface-alt: #F2EEE8;
+  --text: #1E2329;
+  --heading: #0F2A44;
+  --text-muted: #3B5B7A;
+  --link: #B4472F;
+  --accent: #2F7D79;
+  --border: #D6D0C4;
+  --control-border: #768392;
+  --button-bg: #B4472F;
+  --button-text: #F7F5F1;
+  --focus-ring: #B4472F;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0B1E31;
+  --surface: #0F2A44;
+  --surface-alt: #16385A;
+  --text: #E9E6E0;
+  --heading: #F7F5F1;
+  --text-muted: #A9BACB;
+  --link: #EE9A84;
+  --accent: #6CC3BC;
+  --border: #2C4B6A;
+  --control-border: #7590AB;
+  --button-bg: #B4472F;
+  --button-text: #F7F5F1;
+  --focus-ring: #EE9A84;
+}
+
+/* Lets Tailwind classes use the tokens, for example bg-bg, text-heading, border-control-border. */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-text: var(--text);
+  --color-heading: var(--heading);
+  --color-text-muted: var(--text-muted);
+  --color-link: var(--link);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-control-border: var(--control-border);
+  --color-button-bg: var(--button-bg);
+  --color-button-text: var(--button-text);
+  --color-focus-ring: var(--focus-ring);
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter Variable", Inter, Arial, sans-serif;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+html { background: var(--bg); color: var(--text); font-family: var(--font-sans); }
+h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 600; color: var(--heading); }
+@layer base {
+  a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+}
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+/* Show the right logo for each theme. */
+.logo-dark { display: none; }
+[data-theme="dark"] .logo-light { display: none; }
+[data-theme="dark"] .logo-dark { display: block; }
+
+/* Base type */
+body { font-size: 1.0625rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+h1 { font-size: clamp(2rem, 4vw + 1rem, 2.75rem); line-height: 1.18; letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.625rem, 2vw + 1rem, 2rem); line-height: 1.25; }
+h3 { font-size: 1.375rem; line-height: 1.35; }
+::selection { background: var(--link); color: var(--button-text); }
+
+/* Shared building blocks */
+@utility container-site { width: 100%; max-width: 72rem; margin-inline: auto; padding-inline: 1rem; @media (width >= 48rem) { padding-inline: 2rem; } }
+@utility prose-site { max-width: 42rem; & p { margin-block: 0 1rem; } & ul { list-style: disc; padding-left: 1.25rem; margin-block: 0 1rem; } & li { margin-block: 0.25rem; } & h2 { margin-block: 2.5rem 0.75rem; } & h3 { margin-block: 1.75rem 0.5rem; } & a { text-decoration: underline; text-underline-offset: 3px; } }
+
+@layer components {
+.btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0.75rem 1.25rem; border-radius: var(--radius-sm); background: var(--button-bg); color: var(--button-text); font-weight: 600; text-decoration: none; }
+.btn-primary:hover { filter: brightness(0.92); }
+.btn-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0.75rem 1.25rem; border-radius: var(--radius-sm); border: 1px solid var(--control-border); color: var(--heading); font-weight: 600; text-decoration: none; }
+.btn-secondary:hover { background: var(--surface-alt); }
+.skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 50; padding: 0.5rem 1rem; background: var(--surface); color: var(--heading); border-radius: var(--radius-sm); }
+.skip-link:focus { top: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

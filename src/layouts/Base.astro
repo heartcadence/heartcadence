@@ -1,0 +1,48 @@
+---
+import '../styles/theme.css';
+import ThemeScript from '../components/ThemeScript.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../site';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang?: 'en' | 'fr';
+}
+
+const { title, description = SITE.description, lang = 'en' } = Astro.props;
+const fullTitle = Astro.url.pathname === '/' ? `${SITE.name} | Government contract readiness and bid support` : `${title} | ${SITE.name}`;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+---
+<!doctype html>
+<html lang={lang} data-theme="light">
+  <head>
+    <ThemeScript />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en-CA" href={new URL('/', SITE.url).href} />
+    <link rel="alternate" hreflang="fr-CA" href={new URL('/fr/', SITE.url).href} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#F7F5F1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B1E31" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a class="skip-link" href="#main">{lang === 'fr' ? 'Passer au contenu' : 'Skip to content'}</a>
+    <Header lang={lang} />
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

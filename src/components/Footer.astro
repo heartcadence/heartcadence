@@ -1,0 +1,31 @@
+---
+import { SITE, NAV } from '../site';
+interface Props { lang?: 'en' | 'fr' }
+const { lang = 'en' } = Astro.props;
+const year = new Date().getFullYear();
+---
+<footer class="bg-surface border-t border-border mt-16">
+  <div class="container-site py-10 grid gap-8 md:grid-cols-3 text-[0.9375rem]">
+    <div>
+      <img class="logo-light h-8 w-auto" src="/images/heart-cadence-logo-colour.svg" alt="Heart Cadence Inc." width="154" height="32" loading="lazy" />
+      <img class="logo-dark h-8 w-auto" src="/images/heart-cadence-logo-reversed.svg" alt="Heart Cadence Inc." width="154" height="32" loading="lazy" />
+      <p class="mt-4 text-text-muted">{SITE.location}. Serving clients across Canada.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="grid gap-2">
+        {NAV.map((item) => <li><a href={item.href} class="text-text hover:text-link">{item.label}</a></li>)}
+        <li><a href="/book-a-call/" class="text-text hover:text-link">Book a call</a></li>
+        <li><a href="/fr/" lang="fr" class="text-text hover:text-link">Français</a></li>
+      </ul>
+    </nav>
+    <div class="grid gap-2 content-start">
+      <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+      <p class="text-text-muted">{lang === 'fr' ? 'Numéro d’entreprise-approvisionnement (NEA)' : 'Procurement Business Number'}: {SITE.pbn}</p>
+      <p><a href="/privacy/" class="text-text hover:text-link">{lang === 'fr' ? 'Politique de confidentialité (en anglais)' : 'Privacy policy'}</a></p>
+      <p><a href="/accessibility/" class="text-text hover:text-link">{lang === 'fr' ? 'Accessibilité (en anglais)' : 'Accessibility'}</a></p>
+    </div>
+  </div>
+  <div class="border-t border-border">
+    <p class="container-site py-4 text-sm text-text-muted">&copy; {year} Heart Cadence Inc.</p>
+  </div>
+</footer>

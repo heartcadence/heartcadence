@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { SITE } from '../site';
+---
+<Base title="Accessibility" description="Heart Cadence Inc.'s commitment to an accessible website.">
+  <PageHeader eyebrow="Accessibility" title="Accessibility statement" intro="Last updated: [DATE TO CONFIRM]" />
+
+  <div class="container-site prose-site">
+    <p>Heart Cadence Inc. wants everyone to be able to use this website. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1, Level AA.</p>
+
+    <h2>What we do</h2>
+    <ul>
+      <li>Text and background colours meet WCAG contrast levels in both light and dark mode.</li>
+      <li>Every page works with a keyboard alone, and focus is always visible.</li>
+      <li>Pages use clear headings and labels for screen readers.</li>
+      <li>Text can be enlarged to 200% without losing content.</li>
+      <li>The site respects your device’s light or dark mode and reduced motion settings.</li>
+    </ul>
+
+    <h2>Known limits</h2>
+    <p>Some documents we link to, such as PDFs from other organizations, may not be fully accessible. Team photos are not yet posted.</p>
+
+    <h2>Feedback</h2>
+    <p>
+      If you have trouble using any part of this site, please tell us. We will work to fix the problem, and we can send information in another format.
+      Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+    </p>
+  </div>
+</Base>

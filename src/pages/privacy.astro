@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { SITE } from '../site';
+---
+<Base title="Privacy policy" description="How Heart Cadence Inc. collects, uses and protects personal information.">
+  <PageHeader eyebrow="Privacy" title="Privacy policy" intro="Last updated: [DATE TO CONFIRM]" />
+
+  <div class="container-site prose-site">
+    <p>
+      Heart Cadence Inc. (HCI) respects your privacy. This policy explains what personal information we collect, why we collect it, and how we protect it. We follow Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA).
+    </p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>When you email us:</strong> your name, email address, and anything you choose to include in your message.</li>
+      <li><strong>When you book a call:</strong> your name, email address, and the time you choose. Booking is handled by Google Calendar.</li>
+      <li><strong>When you visit the site:</strong> our hosting provider, Cloudflare, processes basic technical data such as your IP address and browser type to deliver and protect the site.</li>
+    </ul>
+    <p>We do not use advertising or tracking cookies. The site remembers your light or dark mode choice in your own browser. That setting never leaves your device.</p>
+
+    <h2>Why we collect it</h2>
+    <ul>
+      <li>To reply to your questions and schedule calls</li>
+      <li>To provide services you have asked for</li>
+      <li>To keep the website secure and working</li>
+    </ul>
+    <p>We do not sell or rent your personal information.</p>
+
+    <h2>Who we share it with</h2>
+    <p>
+      We use a small number of service providers to run our business, including Google (email and calendar) and Cloudflare (website hosting). They may store data outside Canada, including in the United States, where it may be subject to local laws. We share only what is needed for them to provide their service.
+    </p>
+
+    <h2>How long we keep it</h2>
+    <p>We keep personal information only as long as we need it for the purposes above, or as required by law.</p>
+
+    <h2>Your choices and rights</h2>
+    <p>You can ask to see, correct or delete the personal information we hold about you. You can also withdraw your consent at any time, subject to legal or contract limits.</p>
+
+    <h2>Contact our privacy officer</h2>
+    <p>
+      Jason K. McEwan, Privacy Officer<br />
+      Heart Cadence Inc., {SITE.location}<br />
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+    </p>
+    <p>If you are not satisfied with our response, you can contact the Office of the Privacy Commissioner of Canada.</p>
+  </div>
+</Base>

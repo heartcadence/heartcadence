@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBand from '../components/CtaBand.astro';
+
+const services = [
+  {
+    id: 'readiness',
+    title: 'Procurement readiness',
+    lead: 'Getting ready before the right opportunity appears, so you are not rushing when it does.',
+    work: [
+      'Review your registrations, such as your Procurement Business Number and supplier profiles',
+      'Gather the documents buyers often ask for, such as insurance, policies and past work summaries',
+      'Find gaps in your processes and fix them',
+      'Set up a simple way to track opportunities that fit your business',
+    ],
+    result: 'A clear picture of where you stand, and the pieces in place to bid with confidence.',
+  },
+  {
+    id: 'bids',
+    title: 'Bid and proposal development',
+    lead: 'Stronger, clearer responses that answer what the buyer actually asked.',
+    work: [
+      'Help you decide whether a bid is worth pursuing',
+      'Break down the requirements and build a response plan',
+      'Write and edit bid sections with your team',
+      'Check the response against every requirement before you submit',
+      'Manage the bid schedule so nothing is late',
+    ],
+    result: 'A complete, compliant, well-written bid, submitted on time.',
+  },
+  {
+    id: 'technology',
+    title: 'Technology and cloud',
+    lead: 'The right tools for the work, set up properly and kept running.',
+    work: [
+      'Review your current systems and what a contract will need',
+      'Recommend a technology stack that fits your size and budget',
+      'Set up and move you to cloud services',
+      'Manage IT and support your team through the change',
+    ],
+    result: 'Technology that supports delivery, instead of getting in the way.',
+  },
+  {
+    id: 'customer-experience',
+    title: 'Customer experience and delivery',
+    lead: 'Delivering the contract well, so the buyer wants to work with you again.',
+    work: [
+      'Map the journey your clients go through, from first contact to final report',
+      'Design processes that make your work easy to receive and easy to trust',
+      'Improve how your business runs day to day',
+      'Plan and manage contract delivery, with clear milestones',
+    ],
+    result: 'Smooth delivery and a better experience for the people you serve.',
+  },
+];
+---
+<Base title="Services" description="Procurement readiness, bid and proposal development, technology and cloud, and customer experience services for Canadian businesses selling to government.">
+  <PageHeader
+    eyebrow="Services"
+    title="Hands-on help, from first registration to final delivery"
+    intro="We work alongside your team in four areas. You can start with one or bring us in for all of them."
+  >
+    <nav aria-label="Services on this page" class="mt-6">
+      <ul class="flex flex-wrap gap-2">
+        {services.map((s) => <li><a href={`#${s.id}`} class="btn-secondary">{s.title}</a></li>)}
+      </ul>
+    </nav>
+  </PageHeader>
+
+  <div class="container-site grid gap-6">
+    {services.map((s) => (
+      <section id={s.id} class="scroll-mt-6 rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
+        <div>
+          <h2>{s.title}</h2>
+          <p class="mt-3 text-lg">{s.lead}</p>
+        </div>
+        <div class="mt-6 md:mt-0">
+          <h3 class="text-lg">What we do</h3>
+          <ul class="mt-2 list-disc pl-5 grid gap-1">
+            {s.work.map((w) => <li>{w}</li>)}
+          </ul>
+          <h3 class="text-lg mt-6">What you get</h3>
+          <p class="mt-2">{s.result}</p>
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <CtaBand title="Not sure where to start?" text="Book a call. We will help you figure out which service fits where you are today." />
+</Base>

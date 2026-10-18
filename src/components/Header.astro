@@ -1,0 +1,77 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import { NAV } from '../site';
+
+interface Props { lang?: 'en' | 'fr' }
+const { lang = 'en' } = Astro.props;
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => path === href || path === href.replace(/\/$/, '');
+---
+<header class="bg-surface border-b border-border">
+  <div class="container-site flex items-center justify-between gap-4 py-3">
+    <a href={lang === 'fr' ? '/fr/' : '/'} class="shrink-0" aria-label="Heart Cadence Inc., home">
+      <img class="logo-light h-9 w-auto" src="/images/heart-cadence-logo-colour.svg" alt="" width="173" height="36" />
+      <img class="logo-dark h-9 w-auto" src="/images/heart-cadence-logo-reversed.svg" alt="" width="173" height="36" />
+    </a>
+
+    <nav aria-label="Main" class="hidden lg:block">
+      <ul class="flex items-center gap-6 text-[0.9375rem]">
+        {NAV.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class="text-text no-underline hover:text-link aria-[current=page]:text-link aria-[current=page]:font-semibold"
+              aria-current={isCurrent(item.href) ? 'page' : undefined}
+            >{item.label}</a>
+          </li>
+        ))}
+        <li>
+          {lang === 'fr'
+            ? <a href="/" lang="en" class="text-text no-underline hover:text-link">English</a>
+            : <a href="/fr/" lang="fr" class="text-text no-underline hover:text-link">Français</a>}
+        </li>
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="/book-a-call/" class="btn-primary hidden sm:inline-flex">{lang === 'fr' ? 'Prendre rendez-vous' : 'Book a call'}</a>
+      <ThemeToggle />
+      <button
+        type="button"
+        id="menu-button"
+        class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-sm)] border border-control-border text-heading"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="sr-only">Menu</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-menu" aria-label="Main" class="lg:hidden border-t border-border" hidden>
+    <ul class="container-site py-3">
+      {NAV.map((item) => (
+        <li>
+          <a href={item.href} class="block py-3 text-text no-underline" aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>
+        </li>
+      ))}
+      <li><a href="/book-a-call/" class="block py-3 font-semibold no-underline">Book a call</a></li>
+      <li>
+        {lang === 'fr'
+          ? <a href="/" lang="en" class="block py-3 text-text no-underline">English</a>
+          : <a href="/fr/" lang="fr" class="block py-3 text-text no-underline">Français</a>}
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const btn = document.getElementById('menu-button');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    const open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (menu) menu.hidden = open;
+  });
+</script>

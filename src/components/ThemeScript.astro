@@ -1,0 +1,12 @@
+---
+// Put this inside <head>, before any stylesheet, in the main layout.
+// It sets the theme before the page paints, so there is no flash of the wrong theme.
+---
+<script is:inline>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', saved === 'light' || saved === 'dark' ? saved : system);
+  })();
+</script>
