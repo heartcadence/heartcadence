@@ -73,7 +73,7 @@ const steps = [
     <h2>What we do</h2>
     <ul class="mt-8 grid gap-4 md:grid-cols-2">
       {services.map((s) => (
-        <li class="rounded-[var(--radius-md)] bg-surface border border-border p-6">
+        <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6">
           <h3><a href={s.href} class="text-heading no-underline hover:text-link">{s.title}</a></h3>
           <p class="mt-2">{s.text}</p>
         </li>
@@ -105,7 +105,7 @@ const steps = [
     </div>
     <ol class="mt-8 grid gap-4 md:grid-cols-4">
       {steps.map((s, i) => (
-        <li class="rounded-[var(--radius-md)] border border-border p-6">
+        <li class="card-hover rounded-[var(--radius-md)] border border-border p-6">
           <p class="text-sm font-semibold text-text-muted">Step {i + 1}</p>
           <h3 class="mt-1">{s.title}</h3>
           <p class="mt-2">{s.text}</p>
@@ -115,7 +115,7 @@ const steps = [
   </section>
 
   <section class="container-site">
-    <div class="rounded-[var(--radius-md)] border border-border p-8">
+    <div class="card-hover rounded-[var(--radius-md)] border border-border p-8">
       <h2>What we don't do</h2>
       <ul class="mt-4 list-disc pl-5 grid gap-2 max-w-2xl">
         <li>We do not lobby or contact public officials on your behalf.</li>

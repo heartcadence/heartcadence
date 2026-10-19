@@ -28,6 +28,8 @@
   --button-bg: #B4472F;
   --button-text: #F7F5F1;
   --focus-ring: #B4472F;
+  --card-shadow: 0 8px 24px rgb(15 42 68 / 0.12);
+  --card-glow: 0 0 28px rgb(47 125 121 / 0.35);
 }
 
 [data-theme="dark"] {
@@ -45,6 +47,8 @@
   --button-bg: #B4472F;
   --button-text: #F7F5F1;
   --focus-ring: #EE9A84;
+  --card-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+  --card-glow: 0 0 28px rgb(108 195 188 / 0.35);
 }
 
 /* Lets Tailwind classes use the tokens, for example bg-bg, text-heading, border-control-border. */
@@ -98,5 +102,10 @@ h3 { font-size: 1.375rem; line-height: 1.35; }
 .btn-secondary:hover { background: var(--surface-alt); }
 .skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 50; padding: 0.5rem 1rem; background: var(--surface); color: var(--heading); border-radius: var(--radius-sm); }
 .skip-link:focus { top: 1rem; }
+/* Cards lift slightly and show the accent border on hover. Only applies to devices with a mouse or trackpad. */
+.card-hover { transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease; }
+@media (hover: hover) {
+  .card-hover:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: var(--card-shadow), var(--card-glow); }
+}
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

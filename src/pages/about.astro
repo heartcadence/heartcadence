@@ -29,7 +29,7 @@ const people = [
     <h2 class="sr-only">Our team</h2>
     <ul class="grid gap-6 md:grid-cols-2">
       {people.map((p) => (
-        <li class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
+        <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
           <div class="flex items-center gap-4">
             <div class="w-20 h-20 rounded-full bg-surface-alt border border-border flex items-center justify-center font-serif text-2xl font-semibold text-heading" role="img" aria-label={`Photo of ${p.name} coming soon`}>{p.initials}</div>
             <div>

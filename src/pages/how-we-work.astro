@@ -43,7 +43,7 @@ const principles = [
   <section class="container-site">
     <ol class="grid gap-4">
       {steps.map((s, i) => (
-        <li class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:grid md:grid-cols-[4rem_1fr] md:gap-6">
+        <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:grid md:grid-cols-[4rem_1fr] md:gap-6">
           <p class="font-serif text-3xl font-semibold text-link" aria-hidden="true">{i + 1}</p>
           <div>
             <h2 class="text-2xl"><span class="sr-only">Step {i + 1}: </span>{s.title}</h2>
@@ -58,7 +58,7 @@ const principles = [
     <h2>How we work with you</h2>
     <ul class="mt-6 grid gap-4 md:grid-cols-2">
       {principles.map((p) => (
-        <li class="rounded-[var(--radius-md)] border border-border p-6">
+        <li class="card-hover rounded-[var(--radius-md)] border border-border p-6">
           <h3>{p.title}</h3>
           <p class="mt-2">{p.text}</p>
         </li>
@@ -67,7 +67,7 @@ const principles = [
   </section>
 
   <section class="container-site mt-16">
-    <div class="rounded-[var(--radius-md)] bg-surface-alt border border-border p-8">
+    <div class="card-hover rounded-[var(--radius-md)] bg-surface-alt border border-border p-8">
       <h2>What we don't do</h2>
       <ul class="mt-4 list-disc pl-5 grid gap-2 max-w-2xl">
         <li>We do not lobby or contact public officials on your behalf.</li>
