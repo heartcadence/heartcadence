@@ -54,6 +54,12 @@ const services = [
     result: 'Smooth delivery and a better experience for the people you serve.',
   },
 ];
+
+// Illustrations by service id. Add a line here as each image is ready.
+// The images are decorative, so they use empty alt text. The heading beside each one already says what it is.
+const images: Record<string, string> = {
+  readiness: '/images/service-readiness.webp',
+};
 ---
 <Base title="Services" description="Procurement readiness, bid and proposal development, technology and cloud, and customer experience services for Canadian businesses selling to government.">
   <PageHeader
@@ -74,6 +80,9 @@ const services = [
         <div>
           <h2>{s.title}</h2>
           <p class="mt-3 text-lg">{s.lead}</p>
+          {images[s.id] && (
+            <img src={images[s.id]} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
+          )}
         </div>
         <div class="mt-6 md:mt-0">
           <h3 class="text-lg">What we do</h3>
