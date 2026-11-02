@@ -13,6 +13,7 @@ const services = [
       'Gather the documents buyers often ask for, such as insurance, policies and past work summaries',
       'Find gaps in your processes and fix them',
       'Set up a simple way to track opportunities that fit your business',
+      'Review your security practices and arrange an assessment if buyers will expect one',
     ],
     result: 'A clear picture of where you stand, and the pieces in place to bid with confidence.',
   },
@@ -31,14 +32,23 @@ const services = [
   },
   {
     id: 'technology',
-    title: 'Technology and cloud',
-    lead: 'The right tools for the work, set up properly and kept running.',
+    title: 'Technology sourcing and setup',
+    lead: 'We work with a network of technology providers. We review what your contract needs, compare options, and manage the setup with you. You get one point of contact instead of five vendors.',
     work: [
       'Review your current systems and what a contract will need',
-      'Recommend a technology stack that fits your size and budget',
-      'Set up and move you to cloud services',
-      'Manage IT and support your team through the change',
+      'Compare options from our provider network that fit your size and budget',
+      'Manage the setup with the provider and your team',
+      'Stay your main point of contact once the service is running',
     ],
+    categories: [
+      { name: 'Cybersecurity', items: 'assessments, managed security, staff training, incident response' },
+      { name: 'Cloud and IT management', items: 'cloud setup and migration, backup and recovery, helpdesk, licence management' },
+      { name: 'Networking and connectivity', items: 'internet, SD-WAN, managed Wi-Fi, network security' },
+      { name: 'Phone and contact centre', items: 'business phone systems, contact centre, call recording' },
+      { name: 'Mobile devices', items: 'phones, plans, device management' },
+      { name: 'Sensors and physical security', items: 'cameras, access control, IoT monitoring' },
+    ],
+    note: 'Some technology providers pay us a referral fee. We tell you when that applies, and it does not change what we recommend.',
     result: 'Technology that supports delivery, instead of getting in the way.',
   },
   {
@@ -48,6 +58,7 @@ const services = [
     work: [
       'Map the journey your clients go through, from first contact to final report',
       'Design processes that make your work easy to receive and easy to trust',
+      'Choose and set up the phone, chat and contact centre tools your clients use to reach you',
       'Improve how your business runs day to day',
       'Plan and manage contract delivery, with clear milestones',
     ],
@@ -64,7 +75,7 @@ const images: Record<string, string> = {
   'customer-experience': '/images/service-customer-experience.webp',
 };
 ---
-<Base title="Services" description="Procurement readiness, bid and proposal development, technology and cloud, and customer experience services for Canadian businesses selling to government.">
+<Base title="Services" description="Procurement readiness, bid and proposal development, technology sourcing and setup, and customer experience services for Canadian businesses selling to government.">
   <PageHeader
     eyebrow="Services"
     title="Hands-on help, from first registration to final delivery"
@@ -92,8 +103,17 @@ const images: Record<string, string> = {
           <ul class="mt-2 list-disc pl-5 grid gap-1">
             {s.work.map((w) => <li>{w}</li>)}
           </ul>
+          {s.categories && (
+            <>
+              <h3 class="text-lg mt-6">What we can source</h3>
+              <ul class="mt-2 list-disc pl-5 grid gap-1">
+                {s.categories.map((c) => <li><strong class="font-semibold">{c.name}:</strong> {c.items}</li>)}
+              </ul>
+            </>
+          )}
           <h3 class="text-lg mt-6">What you get</h3>
           <p class="mt-2">{s.result}</p>
+          {s.note && <p class="mt-6 text-sm text-text-muted">{s.note}</p>}
         </div>
       </section>
     ))}
