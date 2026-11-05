@@ -8,6 +8,7 @@ const people = [
     name: 'Jason K. McEwan',
     initials: 'JM',
     role: 'Founder and Principal Consultant',
+    photo: '/images/jason-mcewan.webp',
     bio: 'Jason has about 20 years of experience in IT. He leads readiness, bid development, and technology work for HCI clients.',
   },
   {
@@ -31,7 +32,11 @@ const people = [
       {people.map((p) => (
         <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
           <div class="flex items-center gap-4">
-            <div class="w-20 h-20 rounded-full bg-surface-alt border border-border flex items-center justify-center font-serif text-2xl font-semibold text-heading" role="img" aria-label={`Photo of ${p.name} coming soon`}>{p.initials}</div>
+            {p.photo ? (
+              <img src={p.photo} alt={`Photo of ${p.name}`} width="96" height="96" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border border-border" />
+            ) : (
+              <div class="w-24 h-24 shrink-0 rounded-full bg-surface-alt border border-border flex items-center justify-center font-serif text-2xl font-semibold text-heading" role="img" aria-label={`Photo of ${p.name} coming soon`}>{p.initials}</div>
+            )}
             <div>
               <h3>{p.name}</h3>
               <p class="text-text-muted">{p.role}</p>
