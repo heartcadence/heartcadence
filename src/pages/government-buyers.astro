@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
-import { SITE } from '../site';
+import { SITE, UNSPSC } from '../site';
 
 const details = [
   ['Legal name', 'Heart Cadence Inc.'],
@@ -88,6 +88,37 @@ const capabilities = [
         <li><a href="/documents/heart-cadence-capability-statement-en.pdf" class="btn-primary" download>Download in English (PDF)</a></li>
         <li><a href="/documents/heart-cadence-enonce-de-capacites-fr.pdf" class="btn-secondary" hreflang="fr" download>Télécharger en français (PDF)</a></li>
       </ul>
+    </div>
+  </section>
+
+  <section id="unspsc" class="container-site mt-6 scroll-mt-6">
+    <div class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
+      <h2 class="text-2xl">Commodity codes (UNSPSC)</h2>
+      <p class="mt-2 max-w-3xl text-text-muted text-[0.9375rem]">The United Nations Standard Products and Services Codes (UNSPSC) that match our services. Buyers can use these to search for us on CanadaBuys and other procurement systems.</p>
+      <div class="mt-2">
+        <table class="w-full text-left">
+          <caption class="sr-only">UNSPSC commodity codes for Heart Cadence Inc.</caption>
+          <thead>
+            <tr class="border-b border-border">
+              <th scope="col" class="py-2 pr-4 w-28">Code</th>
+              <th scope="col" class="py-2">Description</th>
+            </tr>
+          </thead>
+          {UNSPSC.map((g) => (
+            <tbody>
+              <tr class="border-b border-border">
+                <th scope="colgroup" colspan="2" class="pt-5 pb-2 text-heading font-semibold">{g.group}</th>
+              </tr>
+              {g.codes.map((c) => (
+                <tr class="border-b border-border">
+                  <th scope="row" class="py-2 pr-4 font-normal tabular-nums whitespace-nowrap align-top">{c.code}</th>
+                  <td class="py-2 break-words">{c.en}</td>
+                </tr>
+              ))}
+            </tbody>
+          ))}
+        </table>
+      </div>
     </div>
   </section>
 
