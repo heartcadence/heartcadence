@@ -93,7 +93,7 @@
       "Unified communications",
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "8x8.png",
     "review": false
@@ -253,7 +253,7 @@
       "Cybersecurity",
       "Cloud and managed services"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Akamai Technologies, Inc.png",
     "review": false
@@ -1138,7 +1138,7 @@
       "Cybersecurity",
       "Unified communications"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Cisco.png",
     "review": false
@@ -1970,7 +1970,7 @@
     "categories": [
       "Cloud and managed services"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Equinix.png",
     "review": false
@@ -1984,7 +1984,7 @@
     "categories": [
       "Cybersecurity"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "eSentire.png",
     "review": false
@@ -2194,7 +2194,7 @@
     "categories": [
       "Cybersecurity"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Field Effect.png",
     "review": false
@@ -2252,7 +2252,7 @@
     "categories": [
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Five9.png",
     "review": false
@@ -2391,7 +2391,7 @@
     "categories": [
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Genesys.png",
     "review": false
@@ -3135,7 +3135,7 @@
     "categories": [
       "Networking and connectivity"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Lumen.png",
     "review": false
@@ -4163,7 +4163,7 @@
     "categories": [
       "Cloud and managed services"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Rackspace Technology.png",
     "review": false
@@ -4286,7 +4286,7 @@
       "Unified communications",
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "RingCentral.png",
     "review": false
@@ -4329,7 +4329,7 @@
       "Networking and connectivity",
       "Mobility"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Rogers Communications.png",
     "review": false
@@ -5029,7 +5029,7 @@
     "categories": [
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Talkdesk.png",
     "review": false
@@ -5818,7 +5818,7 @@
       "Unified communications",
       "Contact centre and CX"
     ],
-    "featured": false,
+    "featured": true,
     "include": true,
     "sourceFile": "Zoom.png",
     "review": false
