@@ -177,12 +177,13 @@
     "height": 160,
     "categories": [
       "Mobility",
-      "IoT and physical security"
+      "IoT and physical security",
+      "Expense management and other"
     ],
     "featured": false,
     "include": true,
     "sourceFile": "Advantix.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Affirma",
@@ -190,11 +191,13 @@
     "logo": "/images/providers/affirma.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Affirma.png",
-    "review": true
+    "review": false
   },
   {
     "name": "AgileBlue",
@@ -374,12 +377,13 @@
     "width": 320,
     "height": 160,
     "categories": [
+      "Cloud and managed services",
       "Unified communications"
     ],
     "featured": false,
     "include": true,
     "sourceFile": "Ancero.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Answer Hero",
@@ -402,12 +406,13 @@
     "width": 320,
     "height": 160,
     "categories": [
-      "Unified communications"
+      "Unified communications",
+      "Networking and connectivity"
     ],
     "featured": false,
     "include": true,
     "sourceFile": "APIO.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Appgate Cybersecurity",
@@ -572,7 +577,7 @@
     "featured": false,
     "include": true,
     "sourceFile": "Aura Wireless.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Authenticx",
@@ -637,11 +642,13 @@
     "logo": "/images/providers/beyondreach.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "BeyondReach.png",
-    "review": true
+    "review": false
   },
   {
     "name": "BH IoT",
@@ -748,11 +755,14 @@
     "logo": "/images/providers/blueline-telecom.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "BlueLine Telecom.png",
-    "review": true
+    "review": false
   },
   {
     "name": "boost.ai",
@@ -986,7 +996,7 @@
     "height": 160,
     "categories": [],
     "featured": false,
-    "include": true,
+    "include": false,
     "sourceFile": "Carahsoft.png",
     "review": true
   },
@@ -1080,11 +1090,13 @@
     "logo": "/images/providers/cielo-vision.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Cielo Vision.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Cipher",
@@ -1152,7 +1164,9 @@
     "logo": "/images/providers/cleaner-air-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Cleaner Air Solutions.png",
@@ -1176,7 +1190,9 @@
     "logo": "/images/providers/clearview.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "ClearView.png",
@@ -1202,11 +1218,13 @@
     "logo": "/images/providers/cloudadmin-io.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "CloudAdminio.png",
-    "review": true
+    "review": false
   },
   {
     "name": "CloudFirst",
@@ -1248,7 +1266,7 @@
     "featured": false,
     "include": true,
     "sourceFile": "CloudPlus.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Coeo Solutions",
@@ -1299,11 +1317,13 @@
     "logo": "/images/providers/comm-core.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Comm-Core.png",
-    "review": true
+    "review": false
   },
   {
     "name": "CommandLink",
@@ -1342,7 +1362,7 @@
     "height": 160,
     "categories": [],
     "featured": false,
-    "include": true,
+    "include": false,
     "sourceFile": "Condado.png",
     "review": true
   },
@@ -1409,11 +1429,13 @@
     "logo": "/images/providers/corporate-it-solutions-inc-cis.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Corporate IT Solutions, Inc (CIS).png",
-    "review": true
+    "review": false
   },
   {
     "name": "Cox Communications",
@@ -1611,7 +1633,7 @@
     "featured": false,
     "include": true,
     "sourceFile": "Data2Go Wireless.png",
-    "review": true
+    "review": false
   },
   {
     "name": "DataBank",
@@ -1690,11 +1712,13 @@
     "logo": "/images/providers/dhd-lp.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "DHD LP.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Dialpad",
@@ -1801,11 +1825,13 @@
     "logo": "/images/providers/dynalink.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Dynalink.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Earthlink Business",
@@ -1997,11 +2023,13 @@
     "logo": "/images/providers/esureai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "eSureAI.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Eventus",
@@ -2255,7 +2283,7 @@
     "featured": false,
     "include": true,
     "sourceFile": "For2Fi.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Foresite",
@@ -2388,11 +2416,13 @@
     "logo": "/images/providers/gha-technologies.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "GHA Technologies.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Giltech",
@@ -2400,11 +2430,14 @@
     "logo": "/images/providers/giltech.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Giltech.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Glia",
@@ -2455,11 +2488,13 @@
     "logo": "/images/providers/goexceed.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "GoExceed.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Granite",
@@ -2482,11 +2517,14 @@
     "logo": "/images/providers/graphene-networks-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Graphene Networks Inc.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Graphiant",
@@ -2508,11 +2546,13 @@
     "logo": "/images/providers/halo-global.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Halo Global.png",
-    "review": true
+    "review": false
   },
   {
     "name": "HGC Global Communications",
@@ -2604,12 +2644,13 @@
     "width": 320,
     "height": 160,
     "categories": [
+      "Networking and connectivity",
       "Mobility"
     ],
     "featured": false,
     "include": true,
     "sourceFile": "Infinite Wireless.png",
-    "review": true
+    "review": false
   },
   {
     "name": "InflowCX",
@@ -2689,13 +2730,12 @@
     "width": 320,
     "height": 160,
     "categories": [
-      "Unified communications",
-      "Contact centre and CX"
+      "Unified communications"
     ],
     "featured": false,
     "include": true,
     "sourceFile": "Intrado.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Intraedge",
@@ -2784,11 +2824,13 @@
     "logo": "/images/providers/juvo.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Juvo.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Keystone Solutions",
@@ -2796,11 +2838,14 @@
     "logo": "/images/providers/keystone-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Keystone Solutions.png",
-    "review": true
+    "review": false
   },
   {
     "name": "KORE Wireless",
@@ -3245,7 +3290,7 @@
     "featured": false,
     "include": true,
     "sourceFile": "Metro Wireless.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Metrobloks",
@@ -3368,11 +3413,13 @@
     "logo": "/images/providers/mosaic-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Mosaic Networks.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Movylo",
@@ -3404,11 +3451,13 @@
     "logo": "/images/providers/natural-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Natural Wireless.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Net2Phone",
@@ -3572,11 +3621,13 @@
     "logo": "/images/providers/nhc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "NHC.png",
-    "review": true
+    "review": false
   },
   {
     "name": "NICE",
@@ -3723,11 +3774,13 @@
     "logo": "/images/providers/oak-innovation-limited.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Oak Innovation Limited.png",
-    "review": true
+    "review": false
   },
   {
     "name": "ObserveAI",
@@ -3749,11 +3802,14 @@
     "logo": "/images/providers/omninet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "OmniNet.png",
-    "review": true
+    "review": false
   },
   {
     "name": "One Source",
@@ -3761,11 +3817,14 @@
     "logo": "/images/providers/one-source.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "One Source.png",
-    "review": true
+    "review": false
   },
   {
     "name": "OneCloud Corporation (OneCloud)",
@@ -3773,11 +3832,13 @@
     "logo": "/images/providers/onecloud-corporation-onecloud.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "OneCloud Corporation (OneCloud).png",
-    "review": true
+    "review": false
   },
   {
     "name": "Onemind Services",
@@ -3951,11 +4012,13 @@
     "logo": "/images/providers/physaas.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "PhySaaS.png",
-    "review": true
+    "review": false
   },
   {
     "name": "PiKNik",
@@ -4031,11 +4094,13 @@
     "logo": "/images/providers/pulse-technologies-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Pulse Technologies Inc.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Pure IP",
@@ -4189,11 +4254,13 @@
     "logo": "/images/providers/resolve-tech-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Resolve Tech Solutions.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Retarus",
@@ -4725,11 +4792,13 @@
     "logo": "/images/providers/splice-technologies.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Splice Technologies.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Sprinklr",
@@ -4845,11 +4914,13 @@
     "logo": "/images/providers/strata-pointe-technologies.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Strata Pointe Technologies.png",
-    "review": true
+    "review": false
   },
   {
     "name": "SuccessKPI",
@@ -4998,7 +5069,9 @@
     "logo": "/images/providers/tcs-professional-services-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "TCS Professional Services LLC.png",
@@ -5010,11 +5083,13 @@
     "logo": "/images/providers/tecex.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "TecEx.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Techmate",
@@ -5022,11 +5097,13 @@
     "logo": "/images/providers/techmate.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Techmate.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Telefónica Global Solutions",
@@ -5091,7 +5168,10 @@
     "logo": "/images/providers/telsynergy.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "TelSynergy.png",
@@ -5117,11 +5197,14 @@
     "logo": "/images/providers/teranova.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility",
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "TeraNova.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Ternio",
@@ -5390,11 +5473,13 @@
     "logo": "/images/providers/vertek.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Vertek.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Verve",
@@ -5402,11 +5487,15 @@
     "logo": "/images/providers/verve.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Verve.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Viasat",
@@ -5515,11 +5604,13 @@
     "logo": "/images/providers/warner-telecomm.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
     "sourceFile": "Warner Telecomm.png",
-    "review": true
+    "review": false
   },
   {
     "name": "Weave",
