@@ -5,10 +5,14 @@
     "logo": "/images/providers/11-11-systems-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "11-11 Systems Inc.png"
+    "sourceFile": "11-11 Systems Inc.png",
+    "review": false
   },
   {
     "name": "123NET",
@@ -16,10 +20,14 @@
     "logo": "/images/providers/123net.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "123NET.png"
+    "sourceFile": "123NET.png",
+    "review": false
   },
   {
     "name": "1440",
@@ -30,7 +38,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "1440.png"
+    "sourceFile": "1440.png",
+    "review": true
   },
   {
     "name": "360 SOC",
@@ -38,10 +47,13 @@
     "logo": "/images/providers/360-soc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "360 SOC.png"
+    "sourceFile": "360 SOC.png",
+    "review": false
   },
   {
     "name": "365 Data Centers",
@@ -49,10 +61,13 @@
     "logo": "/images/providers/365-data-centers.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "365 Data Centers.png"
+    "sourceFile": "365 Data Centers.png",
+    "review": false
   },
   {
     "name": "4Voice",
@@ -60,10 +75,13 @@
     "logo": "/images/providers/4voice.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "4Voice.png"
+    "sourceFile": "4Voice.png",
+    "review": false
   },
   {
     "name": "8x8",
@@ -71,10 +89,14 @@
     "logo": "/images/providers/8x8.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "8x8.png"
+    "sourceFile": "8x8.png",
+    "review": false
   },
   {
     "name": "Abundant IoT",
@@ -82,10 +104,13 @@
     "logo": "/images/providers/abundant-iot.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Abundant IoT.png"
+    "sourceFile": "Abundant IoT.png",
+    "review": false
   },
   {
     "name": "ACC Business",
@@ -93,10 +118,14 @@
     "logo": "/images/providers/acc-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ACC Business.png"
+    "sourceFile": "ACC Business.png",
+    "review": false
   },
   {
     "name": "ACD Direct",
@@ -104,10 +133,13 @@
     "logo": "/images/providers/acd-direct.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ACD Direct.png"
+    "sourceFile": "ACD Direct.png",
+    "review": false
   },
   {
     "name": "Acrisure Cyber Services",
@@ -115,10 +147,13 @@
     "logo": "/images/providers/acrisure-cyber-services.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Acrisure Cyber Services.png"
+    "sourceFile": "Acrisure Cyber Services.png",
+    "review": false
   },
   {
     "name": "Ada",
@@ -126,10 +161,13 @@
     "logo": "/images/providers/ada.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ada.png"
+    "sourceFile": "Ada.png",
+    "review": false
   },
   {
     "name": "Advantix",
@@ -137,10 +175,14 @@
     "logo": "/images/providers/advantix.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility",
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Advantix.png"
+    "sourceFile": "Advantix.png",
+    "review": true
   },
   {
     "name": "Affirma",
@@ -151,7 +193,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Affirma.png"
+    "sourceFile": "Affirma.png",
+    "review": true
   },
   {
     "name": "AgileBlue",
@@ -159,10 +202,13 @@
     "logo": "/images/providers/agileblue.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "AgileBlue.png"
+    "sourceFile": "AgileBlue.png",
+    "review": false
   },
   {
     "name": "Aircall",
@@ -170,10 +216,14 @@
     "logo": "/images/providers/aircall.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Aircall.png"
+    "sourceFile": "Aircall.png",
+    "review": false
   },
   {
     "name": "AireSpring",
@@ -181,10 +231,14 @@
     "logo": "/images/providers/airespring.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "AireSpring.png"
+    "sourceFile": "AireSpring.png",
+    "review": false
   },
   {
     "name": "Akamai Technologies, Inc",
@@ -192,10 +246,14 @@
     "logo": "/images/providers/akamai-technologies-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Akamai Technologies, Inc.png"
+    "sourceFile": "Akamai Technologies, Inc.png",
+    "review": false
   },
   {
     "name": "Alkira",
@@ -203,10 +261,13 @@
     "logo": "/images/providers/alkira.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Alkira.png"
+    "sourceFile": "Alkira.png",
+    "review": false
   },
   {
     "name": "Allgress",
@@ -214,10 +275,13 @@
     "logo": "/images/providers/allgress.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Allgress.png"
+    "sourceFile": "Allgress.png",
+    "review": false
   },
   {
     "name": "Allied Telecom Group, LLC",
@@ -225,10 +289,13 @@
     "logo": "/images/providers/allied-telecom-group-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Allied Telecom Group, LLC.png"
+    "sourceFile": "Allied Telecom Group, LLC.png",
+    "review": true
   },
   {
     "name": "ALLO Fiber",
@@ -236,10 +303,13 @@
     "logo": "/images/providers/allo-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ALLO Fiber.png"
+    "sourceFile": "ALLO Fiber.png",
+    "review": false
   },
   {
     "name": "Altafiber",
@@ -247,10 +317,13 @@
     "logo": "/images/providers/altafiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Altafiber.png"
+    "sourceFile": "Altafiber.png",
+    "review": false
   },
   {
     "name": "Alvaria",
@@ -258,10 +331,13 @@
     "logo": "/images/providers/alvaria.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Alvaria.png"
+    "sourceFile": "Alvaria.png",
+    "review": false
   },
   {
     "name": "AmericanEagle Managed Cloud Services",
@@ -269,10 +345,13 @@
     "logo": "/images/providers/americaneagle-managed-cloud-services.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "AmericanEagle Managed Cloud Services.png"
+    "sourceFile": "AmericanEagle Managed Cloud Services.png",
+    "review": false
   },
   {
     "name": "AmplifAI",
@@ -280,10 +359,13 @@
     "logo": "/images/providers/amplifai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "AmplifAI.png"
+    "sourceFile": "AmplifAI.png",
+    "review": false
   },
   {
     "name": "Ancero",
@@ -291,10 +373,13 @@
     "logo": "/images/providers/ancero.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ancero.png"
+    "sourceFile": "Ancero.png",
+    "review": true
   },
   {
     "name": "Answer Hero",
@@ -302,10 +387,13 @@
     "logo": "/images/providers/answer-hero.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Answer Hero.png"
+    "sourceFile": "Answer Hero.png",
+    "review": false
   },
   {
     "name": "APIO",
@@ -313,10 +401,13 @@
     "logo": "/images/providers/apio.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "APIO.png"
+    "sourceFile": "APIO.png",
+    "review": true
   },
   {
     "name": "Appgate Cybersecurity",
@@ -324,10 +415,13 @@
     "logo": "/images/providers/appgate-cybersecurity.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Appgate Cybersecurity.png"
+    "sourceFile": "Appgate Cybersecurity.png",
+    "review": false
   },
   {
     "name": "Aptum Managed Services (Canada) Inc",
@@ -335,10 +429,13 @@
     "logo": "/images/providers/aptum-managed-services-canada-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Aptum Managed Services (Canada) Inc.png"
+    "sourceFile": "Aptum Managed Services (Canada) Inc.png",
+    "review": false
   },
   {
     "name": "APX Net",
@@ -346,10 +443,13 @@
     "logo": "/images/providers/apx-net.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "APX Net.png"
+    "sourceFile": "APX Net.png",
+    "review": false
   },
   {
     "name": "Arelion",
@@ -357,10 +457,13 @@
     "logo": "/images/providers/arelion.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Arelion.png"
+    "sourceFile": "Arelion.png",
+    "review": false
   },
   {
     "name": "Ariento Inc",
@@ -368,10 +471,13 @@
     "logo": "/images/providers/ariento-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ariento Inc.png"
+    "sourceFile": "Ariento Inc.png",
+    "review": false
   },
   {
     "name": "Aryaka",
@@ -379,10 +485,14 @@
     "logo": "/images/providers/aryaka.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Aryaka.png"
+    "sourceFile": "Aryaka.png",
+    "review": false
   },
   {
     "name": "Ascent Business Partners",
@@ -393,7 +503,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Ascent Business Partners.png"
+    "sourceFile": "Ascent Business Partners.png",
+    "review": true
   },
   {
     "name": "Assured Data Protection",
@@ -401,10 +512,13 @@
     "logo": "/images/providers/assured-data-protection.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Assured Data Protection.png"
+    "sourceFile": "Assured Data Protection.png",
+    "review": false
   },
   {
     "name": "Astound Business Solutions",
@@ -412,10 +526,13 @@
     "logo": "/images/providers/astound-business-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Astound Business Solutions.png"
+    "sourceFile": "Astound Business Solutions.png",
+    "review": false
   },
   {
     "name": "Atlas",
@@ -426,7 +543,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Atlas.png"
+    "sourceFile": "Atlas.png",
+    "review": true
   },
   {
     "name": "AT&T Wireless",
@@ -434,10 +552,13 @@
     "logo": "/images/providers/at-and-t-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ATT Wireless.png"
+    "sourceFile": "ATT Wireless.png",
+    "review": false
   },
   {
     "name": "Aura Wireless",
@@ -445,10 +566,13 @@
     "logo": "/images/providers/aura-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Aura Wireless.png"
+    "sourceFile": "Aura Wireless.png",
+    "review": true
   },
   {
     "name": "Authenticx",
@@ -456,10 +580,13 @@
     "logo": "/images/providers/authenticx.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Authenticx.png"
+    "sourceFile": "Authenticx.png",
+    "review": false
   },
   {
     "name": "Balto",
@@ -467,10 +594,13 @@
     "logo": "/images/providers/balto.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Balto.png"
+    "sourceFile": "Balto.png",
+    "review": false
   },
   {
     "name": "BCN Telecom Inc",
@@ -478,10 +608,14 @@
     "logo": "/images/providers/bcn-telecom-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "BCN Telecom Inc.png"
+    "sourceFile": "BCN Telecom Inc.png",
+    "review": false
   },
   {
     "name": "Beanfield MetroConnect",
@@ -489,10 +623,13 @@
     "logo": "/images/providers/beanfield-metroconnect.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Beanfield MetroConnect.png"
+    "sourceFile": "Beanfield MetroConnect.png",
+    "review": false
   },
   {
     "name": "BeyondReach",
@@ -503,7 +640,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "BeyondReach.png"
+    "sourceFile": "BeyondReach.png",
+    "review": true
   },
   {
     "name": "BH IoT",
@@ -511,10 +649,13 @@
     "logo": "/images/providers/bh-iot.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "BH IoT.png"
+    "sourceFile": "BH IoT.png",
+    "review": false
   },
   {
     "name": "Big Fiber",
@@ -522,10 +663,13 @@
     "logo": "/images/providers/big-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Big Fiber.png"
+    "sourceFile": "Big Fiber.png",
+    "review": false
   },
   {
     "name": "Bigleaf",
@@ -533,10 +677,13 @@
     "logo": "/images/providers/bigleaf.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Bigleaf.png"
+    "sourceFile": "Bigleaf.png",
+    "review": false
   },
   {
     "name": "Blitzz Inc",
@@ -544,10 +691,13 @@
     "logo": "/images/providers/blitzz-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Blitzz Inc.png"
+    "sourceFile": "Blitzz Inc.png",
+    "review": false
   },
   {
     "name": "Blue Mantis",
@@ -555,10 +705,14 @@
     "logo": "/images/providers/blue-mantis.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Blue Mantis.png"
+    "sourceFile": "Blue Mantis.png",
+    "review": false
   },
   {
     "name": "Blue Stream Fiber",
@@ -566,10 +720,13 @@
     "logo": "/images/providers/blue-stream-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Blue Stream Fiber.png"
+    "sourceFile": "Blue Stream Fiber.png",
+    "review": false
   },
   {
     "name": "Bluebird Fiber",
@@ -577,10 +734,13 @@
     "logo": "/images/providers/bluebird-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Bluebird Fiber.png"
+    "sourceFile": "Bluebird Fiber.png",
+    "review": false
   },
   {
     "name": "BlueLine Telecom",
@@ -591,7 +751,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "BlueLine Telecom.png"
+    "sourceFile": "BlueLine Telecom.png",
+    "review": true
   },
   {
     "name": "boost.ai",
@@ -599,10 +760,13 @@
     "logo": "/images/providers/boost-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "boostai.png"
+    "sourceFile": "boostai.png",
+    "review": false
   },
   {
     "name": "Breezeline",
@@ -610,10 +774,13 @@
     "logo": "/images/providers/breezeline.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Breezeline.png"
+    "sourceFile": "Breezeline.png",
+    "review": false
   },
   {
     "name": "BridgeConnex",
@@ -624,7 +791,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "BridgeConnex.png"
+    "sourceFile": "BridgeConnex.png",
+    "review": true
   },
   {
     "name": "BridgePointeCX",
@@ -632,10 +800,13 @@
     "logo": "/images/providers/bridgepointecx.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "BridgePointeCX.png"
+    "sourceFile": "BridgePointeCX.png",
+    "review": false
   },
   {
     "name": "Brightfin",
@@ -643,10 +814,14 @@
     "logo": "/images/providers/brightfin.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Brightfin.png"
+    "sourceFile": "Brightfin.png",
+    "review": false
   },
   {
     "name": "Brightspeed",
@@ -654,10 +829,13 @@
     "logo": "/images/providers/brightspeed.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Brightspeed.png"
+    "sourceFile": "Brightspeed.png",
+    "review": false
   },
   {
     "name": "Broadvoice",
@@ -665,10 +843,13 @@
     "logo": "/images/providers/broadvoice.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Broadvoice.png"
+    "sourceFile": "Broadvoice.png",
+    "review": false
   },
   {
     "name": "Bucher + Suter",
@@ -676,10 +857,13 @@
     "logo": "/images/providers/bucher-and-suter.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Bucher + Suter.png"
+    "sourceFile": "Bucher + Suter.png",
+    "review": false
   },
   {
     "name": "C Spire",
@@ -687,10 +871,14 @@
     "logo": "/images/providers/c-spire.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "C Spire.png"
+    "sourceFile": "C Spire.png",
+    "review": false
   },
   {
     "name": "C3 Integrated Solutions LLC",
@@ -698,10 +886,13 @@
     "logo": "/images/providers/c3-integrated-solutions-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "C3 Integrated Solutions LLC.png"
+    "sourceFile": "C3 Integrated Solutions LLC.png",
+    "review": false
   },
   {
     "name": "Calero",
@@ -709,10 +900,13 @@
     "logo": "/images/providers/calero.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Calero.png"
+    "sourceFile": "Calero.png",
+    "review": false
   },
   {
     "name": "Call Center Power",
@@ -720,10 +914,13 @@
     "logo": "/images/providers/call-center-power.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Call Center Power.png"
+    "sourceFile": "Call Center Power.png",
+    "review": false
   },
   {
     "name": "Caller ID Reputation",
@@ -731,10 +928,13 @@
     "logo": "/images/providers/caller-id-reputation.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Caller ID Reputation.png"
+    "sourceFile": "Caller ID Reputation.png",
+    "review": false
   },
   {
     "name": "CallMiner Inc",
@@ -742,10 +942,13 @@
     "logo": "/images/providers/callminer-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CallMiner Inc.png"
+    "sourceFile": "CallMiner Inc.png",
+    "review": false
   },
   {
     "name": "CallTower",
@@ -753,10 +956,13 @@
     "logo": "/images/providers/calltower.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CallTower.png"
+    "sourceFile": "CallTower.png",
+    "review": false
   },
   {
     "name": "Capacity",
@@ -764,10 +970,13 @@
     "logo": "/images/providers/capacity.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Capacity.png"
+    "sourceFile": "Capacity.png",
+    "review": false
   },
   {
     "name": "Carahsoft",
@@ -778,7 +987,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Carahsoft.png"
+    "sourceFile": "Carahsoft.png",
+    "review": true
   },
   {
     "name": "Cato Networks",
@@ -786,10 +996,14 @@
     "logo": "/images/providers/cato-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cato Networks.png"
+    "sourceFile": "Cato Networks.png",
+    "review": false
   },
   {
     "name": "CBTS",
@@ -797,10 +1011,14 @@
     "logo": "/images/providers/cbts.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CBTS.png"
+    "sourceFile": "CBTS.png",
+    "review": false
   },
   {
     "name": "CCNA",
@@ -811,7 +1029,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "CCNA.png"
+    "sourceFile": "CCNA.png",
+    "review": true
   },
   {
     "name": "Centersquare",
@@ -819,10 +1038,13 @@
     "logo": "/images/providers/centersquare.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Centersquare.png"
+    "sourceFile": "Centersquare.png",
+    "review": false
   },
   {
     "name": "CentraCom",
@@ -830,10 +1052,13 @@
     "logo": "/images/providers/centracom.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CentraCom.png"
+    "sourceFile": "CentraCom.png",
+    "review": false
   },
   {
     "name": "China Mobile International",
@@ -841,10 +1066,13 @@
     "logo": "/images/providers/china-mobile-international.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "China Mobile International.png"
+    "sourceFile": "China Mobile International.png",
+    "review": false
   },
   {
     "name": "Cielo Vision",
@@ -855,7 +1083,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Cielo Vision.png"
+    "sourceFile": "Cielo Vision.png",
+    "review": true
   },
   {
     "name": "Cipher",
@@ -863,10 +1092,13 @@
     "logo": "/images/providers/cipher.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cipher.png"
+    "sourceFile": "Cipher.png",
+    "review": false
   },
   {
     "name": "Cirion",
@@ -874,10 +1106,14 @@
     "logo": "/images/providers/cirion.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cirion.png"
+    "sourceFile": "Cirion.png",
+    "review": false
   },
   {
     "name": "Cisco",
@@ -885,10 +1121,15 @@
     "logo": "/images/providers/cisco.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cisco.png"
+    "sourceFile": "Cisco.png",
+    "review": false
   },
   {
     "name": "Claro",
@@ -896,10 +1137,14 @@
     "logo": "/images/providers/claro.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Claro.png"
+    "sourceFile": "Claro.png",
+    "review": false
   },
   {
     "name": "Cleaner Air Solutions",
@@ -910,7 +1155,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Cleaner Air Solutions.png"
+    "sourceFile": "Cleaner Air Solutions.png",
+    "review": true
   },
   {
     "name": "Clear Software",
@@ -921,7 +1167,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Clear Software.png"
+    "sourceFile": "Clear Software.png",
+    "review": true
   },
   {
     "name": "ClearView",
@@ -932,7 +1179,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "ClearView.png"
+    "sourceFile": "ClearView.png",
+    "review": true
   },
   {
     "name": "Cloud Tech Guru",
@@ -940,10 +1188,13 @@
     "logo": "/images/providers/cloud-tech-guru.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cloud Tech Guru.png"
+    "sourceFile": "Cloud Tech Guru.png",
+    "review": true
   },
   {
     "name": "CloudAdmin.io",
@@ -954,7 +1205,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "CloudAdminio.png"
+    "sourceFile": "CloudAdminio.png",
+    "review": true
   },
   {
     "name": "CloudFirst",
@@ -962,10 +1214,13 @@
     "logo": "/images/providers/cloudfirst.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CloudFirst.png"
+    "sourceFile": "CloudFirst.png",
+    "review": false
   },
   {
     "name": "Cloudli Communications Inc",
@@ -973,10 +1228,13 @@
     "logo": "/images/providers/cloudli-communications-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cloudli Communications Inc.png"
+    "sourceFile": "Cloudli Communications Inc.png",
+    "review": false
   },
   {
     "name": "CloudPlus",
@@ -984,10 +1242,13 @@
     "logo": "/images/providers/cloudplus.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CloudPlus.png"
+    "sourceFile": "CloudPlus.png",
+    "review": true
   },
   {
     "name": "Coeo Solutions",
@@ -995,10 +1256,14 @@
     "logo": "/images/providers/coeo-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Coeo Solutions.png"
+    "sourceFile": "Coeo Solutions.png",
+    "review": false
   },
   {
     "name": "Cologix",
@@ -1006,10 +1271,13 @@
     "logo": "/images/providers/cologix.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cologix.png"
+    "sourceFile": "Cologix.png",
+    "review": false
   },
   {
     "name": "Comcast Business",
@@ -1017,10 +1285,13 @@
     "logo": "/images/providers/comcast-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Comcast Business.png"
+    "sourceFile": "Comcast Business.png",
+    "review": false
   },
   {
     "name": "Comm-Core",
@@ -1031,7 +1302,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Comm-Core.png"
+    "sourceFile": "Comm-Core.png",
+    "review": true
   },
   {
     "name": "CommandLink",
@@ -1039,10 +1311,14 @@
     "logo": "/images/providers/commandlink.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CommandLink.png"
+    "sourceFile": "CommandLink.png",
+    "review": false
   },
   {
     "name": "CommunityWFM",
@@ -1050,10 +1326,13 @@
     "logo": "/images/providers/communitywfm.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CommunityWFM.png"
+    "sourceFile": "CommunityWFM.png",
+    "review": false
   },
   {
     "name": "Condado",
@@ -1064,7 +1343,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Condado.png"
+    "sourceFile": "Condado.png",
+    "review": true
   },
   {
     "name": "Content Guru",
@@ -1072,10 +1352,13 @@
     "logo": "/images/providers/content-guru.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Content Guru.png"
+    "sourceFile": "Content Guru.png",
+    "review": false
   },
   {
     "name": "Continuant",
@@ -1083,10 +1366,13 @@
     "logo": "/images/providers/continuant.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Continuant.png"
+    "sourceFile": "Continuant.png",
+    "review": false
   },
   {
     "name": "Convergia",
@@ -1094,10 +1380,14 @@
     "logo": "/images/providers/convergia.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Convergia.png"
+    "sourceFile": "Convergia.png",
+    "review": false
   },
   {
     "name": "CoreSite",
@@ -1105,10 +1395,13 @@
     "logo": "/images/providers/coresite.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CoreSite.png"
+    "sourceFile": "CoreSite.png",
+    "review": false
   },
   {
     "name": "Corporate IT Solutions, Inc (CIS)",
@@ -1119,7 +1412,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Corporate IT Solutions, Inc (CIS).png"
+    "sourceFile": "Corporate IT Solutions, Inc (CIS).png",
+    "review": true
   },
   {
     "name": "Cox Communications",
@@ -1127,10 +1421,13 @@
     "logo": "/images/providers/cox-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cox Communications.png"
+    "sourceFile": "Cox Communications.png",
+    "review": false
   },
   {
     "name": "Crexendo",
@@ -1138,10 +1435,13 @@
     "logo": "/images/providers/crexendo.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Crexendo.png"
+    "sourceFile": "Crexendo.png",
+    "review": false
   },
   {
     "name": "Crown Castle",
@@ -1149,10 +1449,13 @@
     "logo": "/images/providers/crown-castle.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Crown Castle.png"
+    "sourceFile": "Crown Castle.png",
+    "review": false
   },
   {
     "name": "CSPI Tech",
@@ -1160,10 +1463,14 @@
     "logo": "/images/providers/cspi-tech.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CSPI Tech.png"
+    "sourceFile": "CSPI Tech.png",
+    "review": false
   },
   {
     "name": "Customer Dynamics",
@@ -1171,10 +1478,13 @@
     "logo": "/images/providers/customer-dynamics.webp",
     "width": 180,
     "height": 60,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Customer Dynamics.png"
+    "sourceFile": "Customer Dynamics.png",
+    "review": false
   },
   {
     "name": "CX Advanced Solutions LLC",
@@ -1182,10 +1492,13 @@
     "logo": "/images/providers/cx-advanced-solutions-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CX Advanced Solutions LLC.png"
+    "sourceFile": "CX Advanced Solutions LLC.png",
+    "review": false
   },
   {
     "name": "Cyber Defense Group",
@@ -1193,10 +1506,13 @@
     "logo": "/images/providers/cyber-defense-group.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cyber Defense Group.png"
+    "sourceFile": "Cyber Defense Group.png",
+    "review": false
   },
   {
     "name": "Cyber Sainik",
@@ -1204,10 +1520,13 @@
     "logo": "/images/providers/cyber-sainik.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cyber Sainik.png"
+    "sourceFile": "Cyber Sainik.png",
+    "review": false
   },
   {
     "name": "CyberCompass",
@@ -1215,10 +1534,13 @@
     "logo": "/images/providers/cybercompass.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CyberCompass.png"
+    "sourceFile": "CyberCompass.png",
+    "review": false
   },
   {
     "name": "CyberMaxx",
@@ -1226,10 +1548,13 @@
     "logo": "/images/providers/cybermaxx.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CyberMaxx.png"
+    "sourceFile": "CyberMaxx.png",
+    "review": false
   },
   {
     "name": "CyberReef Solutions",
@@ -1237,10 +1562,14 @@
     "logo": "/images/providers/cyberreef-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "CyberReef Solutions.png"
+    "sourceFile": "CyberReef Solutions.png",
+    "review": false
   },
   {
     "name": "Cyrisma",
@@ -1248,10 +1577,13 @@
     "logo": "/images/providers/cyrisma.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Cyrisma.png"
+    "sourceFile": "Cyrisma.png",
+    "review": false
   },
   {
     "name": "DartPoints",
@@ -1259,10 +1591,13 @@
     "logo": "/images/providers/dartpoints.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "DartPoints.png"
+    "sourceFile": "DartPoints.png",
+    "review": false
   },
   {
     "name": "Data2Go Wireless",
@@ -1270,10 +1605,13 @@
     "logo": "/images/providers/data2go-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Data2Go Wireless.png"
+    "sourceFile": "Data2Go Wireless.png",
+    "review": true
   },
   {
     "name": "DataBank",
@@ -1281,10 +1619,13 @@
     "logo": "/images/providers/databank.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "DataBank.png"
+    "sourceFile": "DataBank.png",
+    "review": false
   },
   {
     "name": "Databarracks",
@@ -1292,10 +1633,13 @@
     "logo": "/images/providers/databarracks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Databarracks.png"
+    "sourceFile": "Databarracks.png",
+    "review": false
   },
   {
     "name": "Dataprise",
@@ -1303,10 +1647,14 @@
     "logo": "/images/providers/dataprise.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Dataprise.png"
+    "sourceFile": "Dataprise.png",
+    "review": false
   },
   {
     "name": "Datavalet",
@@ -1314,10 +1662,13 @@
     "logo": "/images/providers/datavalet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Datavalet.png"
+    "sourceFile": "Datavalet.png",
+    "review": false
   },
   {
     "name": "DC Blox",
@@ -1325,10 +1676,13 @@
     "logo": "/images/providers/dc-blox.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "DC Blox.png"
+    "sourceFile": "DC Blox.png",
+    "review": false
   },
   {
     "name": "DHD LP",
@@ -1339,7 +1693,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "DHD LP.png"
+    "sourceFile": "DHD LP.png",
+    "review": true
   },
   {
     "name": "Dialpad",
@@ -1347,10 +1702,14 @@
     "logo": "/images/providers/dialpad.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Dialpad.png"
+    "sourceFile": "Dialpad.png",
+    "review": false
   },
   {
     "name": "Digital Fortress",
@@ -1358,10 +1717,13 @@
     "logo": "/images/providers/digital-fortress.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Digital Fortress.png"
+    "sourceFile": "Digital Fortress.png",
+    "review": false
   },
   {
     "name": "Digital Realty",
@@ -1369,10 +1731,13 @@
     "logo": "/images/providers/digital-realty.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Digital Realty.png"
+    "sourceFile": "Digital Realty.png",
+    "review": false
   },
   {
     "name": "DIRECTV",
@@ -1380,10 +1745,13 @@
     "logo": "/images/providers/directv.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "DIRECTV.png"
+    "sourceFile": "DIRECTV.png",
+    "review": false
   },
   {
     "name": "Dizzion",
@@ -1391,10 +1759,13 @@
     "logo": "/images/providers/dizzion.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Dizzion.png"
+    "sourceFile": "Dizzion.png",
+    "review": false
   },
   {
     "name": "Dobson Fiber",
@@ -1402,10 +1773,13 @@
     "logo": "/images/providers/dobson-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Dobson Fiber.png"
+    "sourceFile": "Dobson Fiber.png",
+    "review": false
   },
   {
     "name": "Drata",
@@ -1413,10 +1787,13 @@
     "logo": "/images/providers/drata.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Drata.png"
+    "sourceFile": "Drata.png",
+    "review": false
   },
   {
     "name": "Dynalink",
@@ -1427,7 +1804,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Dynalink.png"
+    "sourceFile": "Dynalink.png",
+    "review": true
   },
   {
     "name": "Earthlink Business",
@@ -1435,10 +1813,13 @@
     "logo": "/images/providers/earthlink-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Earthlink Business.png"
+    "sourceFile": "Earthlink Business.png",
+    "review": false
   },
   {
     "name": "Echelon Risk + Cyber",
@@ -1446,10 +1827,13 @@
     "logo": "/images/providers/echelon-risk-and-cyber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Echelon Risk + Cyber.png"
+    "sourceFile": "Echelon Risk + Cyber.png",
+    "review": false
   },
   {
     "name": "ECI",
@@ -1457,10 +1841,14 @@
     "logo": "/images/providers/eci.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ECI.png"
+    "sourceFile": "ECI.png",
+    "review": false
   },
   {
     "name": "Effectual",
@@ -1468,10 +1856,13 @@
     "logo": "/images/providers/effectual.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Effectual.png"
+    "sourceFile": "Effectual.png",
+    "review": false
   },
   {
     "name": "Effortless Office",
@@ -1479,10 +1870,13 @@
     "logo": "/images/providers/effortless-office.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Effortless Office.png"
+    "sourceFile": "Effortless Office.png",
+    "review": true
   },
   {
     "name": "EliteCX.ai",
@@ -1490,10 +1884,13 @@
     "logo": "/images/providers/elitecx-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "EliteCXai.png"
+    "sourceFile": "EliteCXai.png",
+    "review": false
   },
   {
     "name": "EnTelegent Solutions",
@@ -1501,10 +1898,14 @@
     "logo": "/images/providers/entelegent-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "EnTelegent Solutions.png"
+    "sourceFile": "EnTelegent Solutions.png",
+    "review": false
   },
   {
     "name": "Enzu",
@@ -1512,10 +1913,13 @@
     "logo": "/images/providers/enzu.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Enzu.png"
+    "sourceFile": "Enzu.png",
+    "review": false
   },
   {
     "name": "EPIC iO",
@@ -1523,10 +1927,13 @@
     "logo": "/images/providers/epic-io.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "EPIC iO.png"
+    "sourceFile": "EPIC iO.png",
+    "review": false
   },
   {
     "name": "Equinix",
@@ -1534,10 +1941,13 @@
     "logo": "/images/providers/equinix.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Equinix.png"
+    "sourceFile": "Equinix.png",
+    "review": false
   },
   {
     "name": "eSentire",
@@ -1545,10 +1955,13 @@
     "logo": "/images/providers/esentire.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "eSentire.png"
+    "sourceFile": "eSentire.png",
+    "review": false
   },
   {
     "name": "Eseye",
@@ -1556,10 +1969,13 @@
     "logo": "/images/providers/eseye.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Eseye.png"
+    "sourceFile": "Eseye.png",
+    "review": false
   },
   {
     "name": "eStruxture",
@@ -1567,10 +1983,13 @@
     "logo": "/images/providers/estruxture.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "eStruxture.png"
+    "sourceFile": "eStruxture.png",
+    "review": false
   },
   {
     "name": "eSureAI",
@@ -1581,7 +2000,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "eSureAI.png"
+    "sourceFile": "eSureAI.png",
+    "review": true
   },
   {
     "name": "Eventus",
@@ -1589,10 +2009,14 @@
     "logo": "/images/providers/eventus.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Eventus.png"
+    "sourceFile": "Eventus.png",
+    "review": true
   },
   {
     "name": "Everbridge",
@@ -1600,10 +2024,13 @@
     "logo": "/images/providers/everbridge.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Everbridge.png"
+    "sourceFile": "Everbridge.png",
+    "review": true
   },
   {
     "name": "EverFast Fiber",
@@ -1611,10 +2038,13 @@
     "logo": "/images/providers/everfast-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "EverFast Fiber.png"
+    "sourceFile": "EverFast Fiber.png",
+    "review": false
   },
   {
     "name": "Expedient",
@@ -1622,10 +2052,13 @@
     "logo": "/images/providers/expedient.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Expedient.png"
+    "sourceFile": "Expedient.png",
+    "review": false
   },
   {
     "name": "Expereo",
@@ -1633,10 +2066,13 @@
     "logo": "/images/providers/expereo.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Expereo.png"
+    "sourceFile": "Expereo.png",
+    "review": false
   },
   {
     "name": "Eze Technologies Inc",
@@ -1647,7 +2083,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Eze Technologies Inc.png"
+    "sourceFile": "Eze Technologies Inc.png",
+    "review": true
   },
   {
     "name": "Fastly",
@@ -1655,10 +2092,14 @@
     "logo": "/images/providers/fastly.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Fastly.png"
+    "sourceFile": "Fastly.png",
+    "review": false
   },
   {
     "name": "Fatbeam",
@@ -1666,10 +2107,13 @@
     "logo": "/images/providers/fatbeam.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Fatbeam.png"
+    "sourceFile": "Fatbeam.png",
+    "review": false
   },
   {
     "name": "Fatpipe Networks",
@@ -1677,10 +2121,13 @@
     "logo": "/images/providers/fatpipe-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Fatpipe Networks.png"
+    "sourceFile": "Fatpipe Networks.png",
+    "review": false
   },
   {
     "name": "Faxpipe",
@@ -1688,10 +2135,13 @@
     "logo": "/images/providers/faxpipe.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Faxpipe.png"
+    "sourceFile": "Faxpipe.png",
+    "review": false
   },
   {
     "name": "FiberLight",
@@ -1699,10 +2149,13 @@
     "logo": "/images/providers/fiberlight.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "FiberLight.png"
+    "sourceFile": "FiberLight.png",
+    "review": false
   },
   {
     "name": "Field Effect",
@@ -1710,10 +2163,13 @@
     "logo": "/images/providers/field-effect.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Field Effect.png"
+    "sourceFile": "Field Effect.png",
+    "review": false
   },
   {
     "name": "FirstComm",
@@ -1721,10 +2177,14 @@
     "logo": "/images/providers/firstcomm.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "FirstComm.png"
+    "sourceFile": "FirstComm.png",
+    "review": false
   },
   {
     "name": "FirstDigital",
@@ -1732,10 +2192,14 @@
     "logo": "/images/providers/firstdigital.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "FirstDigital.png"
+    "sourceFile": "FirstDigital.png",
+    "review": false
   },
   {
     "name": "FirstLight Fiber Inc",
@@ -1743,10 +2207,13 @@
     "logo": "/images/providers/firstlight-fiber-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "FirstLight Fiber Inc.png"
+    "sourceFile": "FirstLight Fiber Inc.png",
+    "review": false
   },
   {
     "name": "Five9",
@@ -1754,10 +2221,13 @@
     "logo": "/images/providers/five9.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Five9.png"
+    "sourceFile": "Five9.png",
+    "review": false
   },
   {
     "name": "Flexential",
@@ -1765,10 +2235,13 @@
     "logo": "/images/providers/flexential.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Flexential.png"
+    "sourceFile": "Flexential.png",
+    "review": false
   },
   {
     "name": "For2Fi",
@@ -1776,10 +2249,13 @@
     "logo": "/images/providers/for2fi.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "For2Fi.png"
+    "sourceFile": "For2Fi.png",
+    "review": true
   },
   {
     "name": "Foresite",
@@ -1787,10 +2263,13 @@
     "logo": "/images/providers/foresite.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Foresite.png"
+    "sourceFile": "Foresite.png",
+    "review": false
   },
   {
     "name": "Fortis",
@@ -1801,7 +2280,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Fortis.png"
+    "sourceFile": "Fortis.png",
+    "review": true
   },
   {
     "name": "FreeConferenceCall.com",
@@ -1809,10 +2289,13 @@
     "logo": "/images/providers/freeconferencecall-com.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "FreeConferenceCallcom.png"
+    "sourceFile": "FreeConferenceCallcom.png",
+    "review": false
   },
   {
     "name": "Front",
@@ -1820,10 +2303,13 @@
     "logo": "/images/providers/front.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Front.png"
+    "sourceFile": "Front.png",
+    "review": false
   },
   {
     "name": "Frontier",
@@ -1831,10 +2317,13 @@
     "logo": "/images/providers/frontier.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Frontier.png"
+    "sourceFile": "Frontier.png",
+    "review": false
   },
   {
     "name": "Frontline Group",
@@ -1842,10 +2331,13 @@
     "logo": "/images/providers/frontline-group.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Frontline Group.png"
+    "sourceFile": "Frontline Group.png",
+    "review": true
   },
   {
     "name": "Fusion Connect",
@@ -1853,10 +2345,14 @@
     "logo": "/images/providers/fusion-connect.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Fusion Connect.png"
+    "sourceFile": "Fusion Connect.png",
+    "review": false
   },
   {
     "name": "Genesys",
@@ -1864,10 +2360,13 @@
     "logo": "/images/providers/genesys.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Genesys.png"
+    "sourceFile": "Genesys.png",
+    "review": false
   },
   {
     "name": "GeoLinks",
@@ -1875,10 +2374,13 @@
     "logo": "/images/providers/geolinks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "GeoLinks.png"
+    "sourceFile": "GeoLinks.png",
+    "review": false
   },
   {
     "name": "GHA Technologies",
@@ -1889,7 +2391,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "GHA Technologies.png"
+    "sourceFile": "GHA Technologies.png",
+    "review": true
   },
   {
     "name": "Giltech",
@@ -1900,7 +2403,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Giltech.png"
+    "sourceFile": "Giltech.png",
+    "review": true
   },
   {
     "name": "Glia",
@@ -1908,10 +2412,13 @@
     "logo": "/images/providers/glia.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Glia.png"
+    "sourceFile": "Glia.png",
+    "review": false
   },
   {
     "name": "Glo Fiber",
@@ -1919,10 +2426,13 @@
     "logo": "/images/providers/glo-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Glo Fiber.png"
+    "sourceFile": "Glo Fiber.png",
+    "review": false
   },
   {
     "name": "Globalgig",
@@ -1930,10 +2440,14 @@
     "logo": "/images/providers/globalgig.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Globalgig.png"
+    "sourceFile": "Globalgig.png",
+    "review": false
   },
   {
     "name": "GoExceed",
@@ -1944,7 +2458,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "GoExceed.png"
+    "sourceFile": "GoExceed.png",
+    "review": true
   },
   {
     "name": "Granite",
@@ -1952,10 +2467,14 @@
     "logo": "/images/providers/granite.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Granite.png"
+    "sourceFile": "Granite.png",
+    "review": false
   },
   {
     "name": "Graphene Networks Inc",
@@ -1966,7 +2485,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Graphene Networks Inc.png"
+    "sourceFile": "Graphene Networks Inc.png",
+    "review": true
   },
   {
     "name": "Graphiant",
@@ -1974,10 +2494,13 @@
     "logo": "/images/providers/graphiant.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Graphiant.png"
+    "sourceFile": "Graphiant.png",
+    "review": false
   },
   {
     "name": "Halo Global",
@@ -1988,7 +2511,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Halo Global.png"
+    "sourceFile": "Halo Global.png",
+    "review": true
   },
   {
     "name": "HGC Global Communications",
@@ -1996,10 +2520,13 @@
     "logo": "/images/providers/hgc-global-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "HGC Global Communications.png"
+    "sourceFile": "HGC Global Communications.png",
+    "review": false
   },
   {
     "name": "Hiya",
@@ -2007,10 +2534,13 @@
     "logo": "/images/providers/hiya.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Hiya.png"
+    "sourceFile": "Hiya.png",
+    "review": false
   },
   {
     "name": "Hootsuite",
@@ -2018,10 +2548,13 @@
     "logo": "/images/providers/hootsuite.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Hootsuite.png"
+    "sourceFile": "Hootsuite.png",
+    "review": false
   },
   {
     "name": "Humach",
@@ -2029,10 +2562,13 @@
     "logo": "/images/providers/humach.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Humach.png"
+    "sourceFile": "Humach.png",
+    "review": false
   },
   {
     "name": "IceBlue",
@@ -2043,7 +2579,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "IceBlue.png"
+    "sourceFile": "IceBlue.png",
+    "review": true
   },
   {
     "name": "Industrial Networking Solutions",
@@ -2051,10 +2588,14 @@
     "logo": "/images/providers/industrial-networking-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Industrial Networking Solutions.png"
+    "sourceFile": "Industrial Networking Solutions.png",
+    "review": false
   },
   {
     "name": "Infinite Wireless",
@@ -2062,10 +2603,13 @@
     "logo": "/images/providers/infinite-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Infinite Wireless.png"
+    "sourceFile": "Infinite Wireless.png",
+    "review": true
   },
   {
     "name": "InflowCX",
@@ -2073,10 +2617,13 @@
     "logo": "/images/providers/inflowcx.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "InflowCX.png"
+    "sourceFile": "InflowCX.png",
+    "review": false
   },
   {
     "name": "Infobip",
@@ -2084,10 +2631,13 @@
     "logo": "/images/providers/infobip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Infobip.png"
+    "sourceFile": "Infobip.png",
+    "review": false
   },
   {
     "name": "IntelePeer",
@@ -2095,10 +2645,14 @@
     "logo": "/images/providers/intelepeer.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "IntelePeer.png"
+    "sourceFile": "IntelePeer.png",
+    "review": false
   },
   {
     "name": "Intelligent Technical Solutions",
@@ -2106,10 +2660,13 @@
     "logo": "/images/providers/intelligent-technical-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Intelligent Technical Solutions.png"
+    "sourceFile": "Intelligent Technical Solutions.png",
+    "review": false
   },
   {
     "name": "Intermedia",
@@ -2117,10 +2674,13 @@
     "logo": "/images/providers/intermedia.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Intermedia.png"
+    "sourceFile": "Intermedia.png",
+    "review": false
   },
   {
     "name": "Intrado",
@@ -2128,10 +2688,14 @@
     "logo": "/images/providers/intrado.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Intrado.png"
+    "sourceFile": "Intrado.png",
+    "review": true
   },
   {
     "name": "Intraedge",
@@ -2142,7 +2706,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Intraedge.png"
+    "sourceFile": "Intraedge.png",
+    "review": true
   },
   {
     "name": "IPFone",
@@ -2150,10 +2715,13 @@
     "logo": "/images/providers/ipfone.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "IPFone.png"
+    "sourceFile": "IPFone.png",
+    "review": false
   },
   {
     "name": "IPv4 Depot",
@@ -2161,10 +2729,13 @@
     "logo": "/images/providers/ipv4-depot.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "IPv4 Depot.png"
+    "sourceFile": "IPv4 Depot.png",
+    "review": false
   },
   {
     "name": "Iron Mountain Data Centers",
@@ -2172,10 +2743,13 @@
     "logo": "/images/providers/iron-mountain-data-centers.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Iron Mountain Data Centers.png"
+    "sourceFile": "Iron Mountain Data Centers.png",
+    "review": false
   },
   {
     "name": "iTel Networks",
@@ -2183,10 +2757,14 @@
     "logo": "/images/providers/itel-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "iTel Networks.png"
+    "sourceFile": "iTel Networks.png",
+    "review": false
   },
   {
     "name": "Ivinex",
@@ -2197,7 +2775,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Ivinex.png"
+    "sourceFile": "Ivinex.png",
+    "review": true
   },
   {
     "name": "Juvo",
@@ -2208,7 +2787,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Juvo.png"
+    "sourceFile": "Juvo.png",
+    "review": true
   },
   {
     "name": "Keystone Solutions",
@@ -2219,7 +2799,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Keystone Solutions.png"
+    "sourceFile": "Keystone Solutions.png",
+    "review": true
   },
   {
     "name": "KORE Wireless",
@@ -2227,10 +2808,14 @@
     "logo": "/images/providers/kore-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "KORE Wireless.png"
+    "sourceFile": "KORE Wireless.png",
+    "review": false
   },
   {
     "name": "Kore.ai",
@@ -2238,10 +2823,13 @@
     "logo": "/images/providers/kore-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Koreai.png"
+    "sourceFile": "Koreai.png",
+    "review": false
   },
   {
     "name": "Krisp Technology Inc",
@@ -2249,10 +2837,13 @@
     "logo": "/images/providers/krisp-technology-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Krisp Technology Inc.png"
+    "sourceFile": "Krisp Technology Inc.png",
+    "review": false
   },
   {
     "name": "Krista Software",
@@ -2263,7 +2854,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Krista Software.png"
+    "sourceFile": "Krista Software.png",
+    "review": true
   },
   {
     "name": "KsFiberNet",
@@ -2271,10 +2863,13 @@
     "logo": "/images/providers/ksfibernet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "KsFiberNet.png"
+    "sourceFile": "KsFiberNet.png",
+    "review": false
   },
   {
     "name": "Kustomer",
@@ -2282,10 +2877,13 @@
     "logo": "/images/providers/kustomer.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Kustomer.png"
+    "sourceFile": "Kustomer.png",
+    "review": false
   },
   {
     "name": "Laivly",
@@ -2293,10 +2891,13 @@
     "logo": "/images/providers/laivly.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Laivly.png"
+    "sourceFile": "Laivly.png",
+    "review": false
   },
   {
     "name": "Level AI",
@@ -2304,10 +2905,13 @@
     "logo": "/images/providers/level-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Level AI.png"
+    "sourceFile": "Level AI.png",
+    "review": false
   },
   {
     "name": "Level365",
@@ -2315,10 +2919,13 @@
     "logo": "/images/providers/level365.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Level365.png"
+    "sourceFile": "Level365.png",
+    "review": false
   },
   {
     "name": "LevelBlue",
@@ -2326,10 +2933,13 @@
     "logo": "/images/providers/levelblue.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "LevelBlue.png"
+    "sourceFile": "LevelBlue.png",
+    "review": false
   },
   {
     "name": "Lightedge",
@@ -2337,10 +2947,13 @@
     "logo": "/images/providers/lightedge.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Lightedge.png"
+    "sourceFile": "Lightedge.png",
+    "review": false
   },
   {
     "name": "Lightpath",
@@ -2348,10 +2961,13 @@
     "logo": "/images/providers/lightpath.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Lightpath.png"
+    "sourceFile": "Lightpath.png",
+    "review": false
   },
   {
     "name": "Liminal AI",
@@ -2362,7 +2978,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Liminal AI.png"
+    "sourceFile": "Liminal AI.png",
+    "review": true
   },
   {
     "name": "Linc",
@@ -2370,10 +2987,13 @@
     "logo": "/images/providers/linc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Linc.png"
+    "sourceFile": "Linc.png",
+    "review": false
   },
   {
     "name": "Lingo",
@@ -2381,10 +3001,14 @@
     "logo": "/images/providers/lingo.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Lingo.png"
+    "sourceFile": "Lingo.png",
+    "review": false
   },
   {
     "name": "LinkLive.ai",
@@ -2392,10 +3016,13 @@
     "logo": "/images/providers/linklive-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "LinkLiveai.png"
+    "sourceFile": "LinkLiveai.png",
+    "review": false
   },
   {
     "name": "Liveops",
@@ -2403,10 +3030,13 @@
     "logo": "/images/providers/liveops.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Liveops.png"
+    "sourceFile": "Liveops.png",
+    "review": false
   },
   {
     "name": "Livepro",
@@ -2414,10 +3044,13 @@
     "logo": "/images/providers/livepro.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Livepro.png"
+    "sourceFile": "Livepro.png",
+    "review": false
   },
   {
     "name": "Logically",
@@ -2425,10 +3058,14 @@
     "logo": "/images/providers/logically.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Logically.png"
+    "sourceFile": "Logically.png",
+    "review": false
   },
   {
     "name": "Logix",
@@ -2436,10 +3073,13 @@
     "logo": "/images/providers/logix.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Logix.png"
+    "sourceFile": "Logix.png",
+    "review": false
   },
   {
     "name": "Lumen",
@@ -2447,10 +3087,13 @@
     "logo": "/images/providers/lumen.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Lumen.png"
+    "sourceFile": "Lumen.png",
+    "review": false
   },
   {
     "name": "Lunavi",
@@ -2458,10 +3101,13 @@
     "logo": "/images/providers/lunavi.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Lunavi.png"
+    "sourceFile": "Lunavi.png",
+    "review": false
   },
   {
     "name": "Magna5",
@@ -2469,10 +3115,13 @@
     "logo": "/images/providers/magna5.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Magna5.png"
+    "sourceFile": "Magna5.png",
+    "review": false
   },
   {
     "name": "Managed Solution",
@@ -2480,10 +3129,13 @@
     "logo": "/images/providers/managed-solution.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Managed Solution.png"
+    "sourceFile": "Managed Solution.png",
+    "review": false
   },
   {
     "name": "Massive Networks",
@@ -2491,10 +3143,13 @@
     "logo": "/images/providers/massive-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Massive Networks.png"
+    "sourceFile": "Massive Networks.png",
+    "review": false
   },
   {
     "name": "MassiveIT",
@@ -2505,7 +3160,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "MassiveIT.png"
+    "sourceFile": "MassiveIT.png",
+    "review": true
   },
   {
     "name": "Maxxsure",
@@ -2513,10 +3169,13 @@
     "logo": "/images/providers/maxxsure.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Maxxsure.png"
+    "sourceFile": "Maxxsure.png",
+    "review": false
   },
   {
     "name": "MediaCom",
@@ -2524,10 +3183,13 @@
     "logo": "/images/providers/mediacom.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "MediaCom.png"
+    "sourceFile": "MediaCom.png",
+    "review": false
   },
   {
     "name": "Megaport",
@@ -2535,10 +3197,13 @@
     "logo": "/images/providers/megaport.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Megaport.png"
+    "sourceFile": "Megaport.png",
+    "review": false
   },
   {
     "name": "Mereo Fiber",
@@ -2546,10 +3211,13 @@
     "logo": "/images/providers/mereo-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Mereo Fiber.png"
+    "sourceFile": "Mereo Fiber.png",
+    "review": false
   },
   {
     "name": "Meter Inc",
@@ -2557,10 +3225,13 @@
     "logo": "/images/providers/meter-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Meter Inc.png"
+    "sourceFile": "Meter Inc.png",
+    "review": false
   },
   {
     "name": "Metro Wireless",
@@ -2568,10 +3239,13 @@
     "logo": "/images/providers/metro-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Metro Wireless.png"
+    "sourceFile": "Metro Wireless.png",
+    "review": true
   },
   {
     "name": "Metrobloks",
@@ -2579,10 +3253,13 @@
     "logo": "/images/providers/metrobloks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Metrobloks.png"
+    "sourceFile": "Metrobloks.png",
+    "review": false
   },
   {
     "name": "Metronet",
@@ -2590,10 +3267,13 @@
     "logo": "/images/providers/metronet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Metronet.png"
+    "sourceFile": "Metronet.png",
+    "review": false
   },
   {
     "name": "MetTel",
@@ -2601,10 +3281,15 @@
     "logo": "/images/providers/mettel.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "MetTel.png"
+    "sourceFile": "MetTel.png",
+    "review": false
   },
   {
     "name": "MHO Networks",
@@ -2612,10 +3297,13 @@
     "logo": "/images/providers/mho-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "MHO Networks.png"
+    "sourceFile": "MHO Networks.png",
+    "review": false
   },
   {
     "name": "Microspace",
@@ -2623,10 +3311,13 @@
     "logo": "/images/providers/microspace.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Microspace.png"
+    "sourceFile": "Microspace.png",
+    "review": true
   },
   {
     "name": "Mobile Mentor",
@@ -2634,10 +3325,13 @@
     "logo": "/images/providers/mobile-mentor.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Mobile Mentor.png"
+    "sourceFile": "Mobile Mentor.png",
+    "review": false
   },
   {
     "name": "MobilSense",
@@ -2645,10 +3339,14 @@
     "logo": "/images/providers/mobilsense.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "MobilSense.png"
+    "sourceFile": "MobilSense.png",
+    "review": false
   },
   {
     "name": "Momentum",
@@ -2656,10 +3354,13 @@
     "logo": "/images/providers/momentum.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Momentum.png"
+    "sourceFile": "Momentum.png",
+    "review": false
   },
   {
     "name": "Mosaic Networks",
@@ -2670,7 +3371,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Mosaic Networks.png"
+    "sourceFile": "Mosaic Networks.png",
+    "review": true
   },
   {
     "name": "Movylo",
@@ -2681,7 +3383,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Movylo.png"
+    "sourceFile": "Movylo.png",
+    "review": true
   },
   {
     "name": "MultiTek",
@@ -2692,7 +3395,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "MultiTek.png"
+    "sourceFile": "MultiTek.png",
+    "review": true
   },
   {
     "name": "Natural Wireless",
@@ -2703,7 +3407,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Natural Wireless.png"
+    "sourceFile": "Natural Wireless.png",
+    "review": true
   },
   {
     "name": "Net2Phone",
@@ -2711,10 +3416,13 @@
     "logo": "/images/providers/net2phone.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Net2Phone.png"
+    "sourceFile": "Net2Phone.png",
+    "review": false
   },
   {
     "name": "Netacea",
@@ -2722,10 +3430,13 @@
     "logo": "/images/providers/netacea.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Netacea.png"
+    "sourceFile": "Netacea.png",
+    "review": false
   },
   {
     "name": "NetCarrier",
@@ -2733,10 +3444,14 @@
     "logo": "/images/providers/netcarrier.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NetCarrier.png"
+    "sourceFile": "NetCarrier.png",
+    "review": false
   },
   {
     "name": "Netrality",
@@ -2744,10 +3459,13 @@
     "logo": "/images/providers/netrality.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Netrality.png"
+    "sourceFile": "Netrality.png",
+    "review": false
   },
   {
     "name": "Netrio",
@@ -2755,10 +3473,14 @@
     "logo": "/images/providers/netrio.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Netrio.png"
+    "sourceFile": "Netrio.png",
+    "review": false
   },
   {
     "name": "Netrix Global",
@@ -2766,10 +3488,14 @@
     "logo": "/images/providers/netrix-global.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Netrix Global.png"
+    "sourceFile": "Netrix Global.png",
+    "review": false
   },
   {
     "name": "Netwolves",
@@ -2777,10 +3503,14 @@
     "logo": "/images/providers/netwolves.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Netwolves.png"
+    "sourceFile": "Netwolves.png",
+    "review": false
   },
   {
     "name": "Nexon",
@@ -2791,7 +3521,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Nexon.png"
+    "sourceFile": "Nexon.png",
+    "review": true
   },
   {
     "name": "Nextiva",
@@ -2799,10 +3530,14 @@
     "logo": "/images/providers/nextiva.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Nextiva.png"
+    "sourceFile": "Nextiva.png",
+    "review": false
   },
   {
     "name": "NexusTek",
@@ -2810,10 +3545,14 @@
     "logo": "/images/providers/nexustek.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NexusTek.png"
+    "sourceFile": "NexusTek.png",
+    "review": false
   },
   {
     "name": "ngenious",
@@ -2824,7 +3563,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "ngenious.png"
+    "sourceFile": "ngenious.png",
+    "review": true
   },
   {
     "name": "NHC",
@@ -2835,7 +3575,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "NHC.png"
+    "sourceFile": "NHC.png",
+    "review": true
   },
   {
     "name": "NICE",
@@ -2843,10 +3584,13 @@
     "logo": "/images/providers/nice.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NICE.png"
+    "sourceFile": "NICE.png",
+    "review": false
   },
   {
     "name": "Nord Security",
@@ -2854,10 +3598,13 @@
     "logo": "/images/providers/nord-security.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Nord Security.png"
+    "sourceFile": "Nord Security.png",
+    "review": false
   },
   {
     "name": "NovelVox",
@@ -2865,10 +3612,13 @@
     "logo": "/images/providers/novelvox.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NovelVox.png"
+    "sourceFile": "NovelVox.png",
+    "review": false
   },
   {
     "name": "Ntegrated",
@@ -2879,7 +3629,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Ntegrated.png"
+    "sourceFile": "Ntegrated.png",
+    "review": true
   },
   {
     "name": "Ntirety",
@@ -2887,10 +3638,13 @@
     "logo": "/images/providers/ntirety.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ntirety.png"
+    "sourceFile": "Ntirety.png",
+    "review": false
   },
   {
     "name": "Ntiva",
@@ -2898,10 +3652,14 @@
     "logo": "/images/providers/ntiva.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ntiva.png"
+    "sourceFile": "Ntiva.png",
+    "review": false
   },
   {
     "name": "NTT Cloud Communications",
@@ -2909,10 +3667,13 @@
     "logo": "/images/providers/ntt-cloud-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NTT Cloud Communications.png"
+    "sourceFile": "NTT Cloud Communications.png",
+    "review": false
   },
   {
     "name": "NTT Global Data Centers",
@@ -2920,10 +3681,13 @@
     "logo": "/images/providers/ntt-global-data-centers.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NTT Global Data Centers.png"
+    "sourceFile": "NTT Global Data Centers.png",
+    "review": false
   },
   {
     "name": "Numeracle, Inc",
@@ -2931,10 +3695,13 @@
     "logo": "/images/providers/numeracle-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Numeracle, Inc.png"
+    "sourceFile": "Numeracle, Inc.png",
+    "review": false
   },
   {
     "name": "NuWave Communications",
@@ -2942,10 +3709,13 @@
     "logo": "/images/providers/nuwave-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "NuWave Communications.png"
+    "sourceFile": "NuWave Communications.png",
+    "review": false
   },
   {
     "name": "Oak Innovation Limited",
@@ -2956,7 +3726,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Oak Innovation Limited.png"
+    "sourceFile": "Oak Innovation Limited.png",
+    "review": true
   },
   {
     "name": "ObserveAI",
@@ -2964,10 +3735,13 @@
     "logo": "/images/providers/observeai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ObserveAI.png"
+    "sourceFile": "ObserveAI.png",
+    "review": false
   },
   {
     "name": "OmniNet",
@@ -2978,7 +3752,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "OmniNet.png"
+    "sourceFile": "OmniNet.png",
+    "review": true
   },
   {
     "name": "One Source",
@@ -2989,7 +3764,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "One Source.png"
+    "sourceFile": "One Source.png",
+    "review": true
   },
   {
     "name": "OneCloud Corporation (OneCloud)",
@@ -3000,7 +3776,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "OneCloud Corporation (OneCloud).png"
+    "sourceFile": "OneCloud Corporation (OneCloud).png",
+    "review": true
   },
   {
     "name": "Onemind Services",
@@ -3011,7 +3788,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Onemind Services.png"
+    "sourceFile": "Onemind Services.png",
+    "review": true
   },
   {
     "name": "OnSIP (an Ooma Company)",
@@ -3019,10 +3797,13 @@
     "logo": "/images/providers/onsip-an-ooma-company.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "OnSIP (an Ooma Company).png"
+    "sourceFile": "OnSIP (an Ooma Company).png",
+    "review": false
   },
   {
     "name": "Ontinue",
@@ -3030,10 +3811,13 @@
     "logo": "/images/providers/ontinue.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ontinue.png"
+    "sourceFile": "Ontinue.png",
+    "review": false
   },
   {
     "name": "Ooma",
@@ -3041,10 +3825,13 @@
     "logo": "/images/providers/ooma.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ooma.png"
+    "sourceFile": "Ooma.png",
+    "review": false
   },
   {
     "name": "Open Systems",
@@ -3052,10 +3839,14 @@
     "logo": "/images/providers/open-systems.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Open Systems.png"
+    "sourceFile": "Open Systems.png",
+    "review": false
   },
   {
     "name": "Optimum Business",
@@ -3063,10 +3854,13 @@
     "logo": "/images/providers/optimum-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Optimum Business.png"
+    "sourceFile": "Optimum Business.png",
+    "review": false
   },
   {
     "name": "OTAVA",
@@ -3074,10 +3868,13 @@
     "logo": "/images/providers/otava.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "OTAVA.png"
+    "sourceFile": "OTAVA.png",
+    "review": false
   },
   {
     "name": "Outsource Consultants",
@@ -3085,10 +3882,13 @@
     "logo": "/images/providers/outsource-consultants.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Outsource Consultants.png"
+    "sourceFile": "Outsource Consultants.png",
+    "review": true
   },
   {
     "name": "Parameter Security",
@@ -3096,10 +3896,13 @@
     "logo": "/images/providers/parameter-security.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Parameter Security.png"
+    "sourceFile": "Parameter Security.png",
+    "review": false
   },
   {
     "name": "Pax8",
@@ -3107,10 +3910,13 @@
     "logo": "/images/providers/pax8.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Pax8.png"
+    "sourceFile": "Pax8.png",
+    "review": false
   },
   {
     "name": "PCI Pal",
@@ -3118,10 +3924,14 @@
     "logo": "/images/providers/pci-pal.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "PCI Pal.png"
+    "sourceFile": "PCI Pal.png",
+    "review": false
   },
   {
     "name": "Peacey Systems",
@@ -3132,7 +3942,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Peacey Systems.png"
+    "sourceFile": "Peacey Systems.png",
+    "review": true
   },
   {
     "name": "PhySaaS",
@@ -3143,7 +3954,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "PhySaaS.png"
+    "sourceFile": "PhySaaS.png",
+    "review": true
   },
   {
     "name": "PiKNik",
@@ -3154,7 +3966,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "PiKNik.png"
+    "sourceFile": "PiKNik.png",
+    "review": true
   },
   {
     "name": "Pilot Fiber",
@@ -3162,10 +3975,13 @@
     "logo": "/images/providers/pilot-fiber.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Pilot Fiber.png"
+    "sourceFile": "Pilot Fiber.png",
+    "review": false
   },
   {
     "name": "PolyAI",
@@ -3173,10 +3989,13 @@
     "logo": "/images/providers/polyai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "PolyAI.png"
+    "sourceFile": "PolyAI.png",
+    "review": false
   },
   {
     "name": "Powernet",
@@ -3184,10 +4003,13 @@
     "logo": "/images/providers/powernet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Powernet.png"
+    "sourceFile": "Powernet.png",
+    "review": true
   },
   {
     "name": "Prodoscore",
@@ -3195,10 +4017,13 @@
     "logo": "/images/providers/prodoscore.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Prodoscore.png"
+    "sourceFile": "Prodoscore.png",
+    "review": false
   },
   {
     "name": "Pulse Technologies Inc",
@@ -3209,7 +4034,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Pulse Technologies Inc.png"
+    "sourceFile": "Pulse Technologies Inc.png",
+    "review": true
   },
   {
     "name": "Pure IP",
@@ -3217,10 +4043,13 @@
     "logo": "/images/providers/pure-ip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Pure IP.png"
+    "sourceFile": "Pure IP.png",
+    "review": false
   },
   {
     "name": "Qeagle",
@@ -3231,7 +4060,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Qeagle.png"
+    "sourceFile": "Qeagle.png",
+    "review": true
   },
   {
     "name": "Qoolize",
@@ -3242,7 +4072,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Qoolize.png"
+    "sourceFile": "Qoolize.png",
+    "review": true
   },
   {
     "name": "Quiq",
@@ -3250,10 +4081,13 @@
     "logo": "/images/providers/quiq.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Quiq.png"
+    "sourceFile": "Quiq.png",
+    "review": false
   },
   {
     "name": "Rackspace Technology",
@@ -3261,10 +4095,13 @@
     "logo": "/images/providers/rackspace-technology.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Rackspace Technology.png"
+    "sourceFile": "Rackspace Technology.png",
+    "review": false
   },
   {
     "name": "RapidScale",
@@ -3272,10 +4109,13 @@
     "logo": "/images/providers/rapidscale.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "RapidScale.png"
+    "sourceFile": "RapidScale.png",
+    "review": false
   },
   {
     "name": "Ready Wireless",
@@ -3283,10 +4123,13 @@
     "logo": "/images/providers/ready-wireless.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ready Wireless.png"
+    "sourceFile": "Ready Wireless.png",
+    "review": false
   },
   {
     "name": "Reelay",
@@ -3297,7 +4140,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Reelay.png"
+    "sourceFile": "Reelay.png",
+    "review": true
   },
   {
     "name": "Regal.ai",
@@ -3305,10 +4149,13 @@
     "logo": "/images/providers/regal-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Regalai.png"
+    "sourceFile": "Regalai.png",
+    "review": false
   },
   {
     "name": "Remend",
@@ -3319,7 +4166,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Remend.png"
+    "sourceFile": "Remend.png",
+    "review": true
   },
   {
     "name": "Replicant",
@@ -3327,10 +4175,13 @@
     "logo": "/images/providers/replicant.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Replicant.png"
+    "sourceFile": "Replicant.png",
+    "review": false
   },
   {
     "name": "Resolve Tech Solutions",
@@ -3341,7 +4192,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Resolve Tech Solutions.png"
+    "sourceFile": "Resolve Tech Solutions.png",
+    "review": true
   },
   {
     "name": "Retarus",
@@ -3349,10 +4201,13 @@
     "logo": "/images/providers/retarus.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Retarus.png"
+    "sourceFile": "Retarus.png",
+    "review": true
   },
   {
     "name": "RingCentral",
@@ -3360,10 +4215,14 @@
     "logo": "/images/providers/ringcentral.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "RingCentral.png"
+    "sourceFile": "RingCentral.png",
+    "review": false
   },
   {
     "name": "Rise Internet",
@@ -3371,10 +4230,13 @@
     "logo": "/images/providers/rise-internet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Rise Internet.png"
+    "sourceFile": "Rise Internet.png",
+    "review": false
   },
   {
     "name": "Risk Cognizance",
@@ -3382,10 +4244,13 @@
     "logo": "/images/providers/risk-cognizance.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Risk Cognizance.png"
+    "sourceFile": "Risk Cognizance.png",
+    "review": false
   },
   {
     "name": "Rogers Communications",
@@ -3393,10 +4258,14 @@
     "logo": "/images/providers/rogers-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Rogers Communications.png"
+    "sourceFile": "Rogers Communications.png",
+    "review": false
   },
   {
     "name": "RSI",
@@ -3407,7 +4276,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "RSI.png"
+    "sourceFile": "RSI.png",
+    "review": true
   },
   {
     "name": "Ruby",
@@ -3415,10 +4285,13 @@
     "logo": "/images/providers/ruby.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ruby.png"
+    "sourceFile": "Ruby.png",
+    "review": false
   },
   {
     "name": "S-NET Communications",
@@ -3426,10 +4299,14 @@
     "logo": "/images/providers/s-net-communications.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "S-NET Communications.png"
+    "sourceFile": "S-NET Communications.png",
+    "review": false
   },
   {
     "name": "Sanas",
@@ -3437,10 +4314,13 @@
     "logo": "/images/providers/sanas.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sanas.png"
+    "sourceFile": "Sanas.png",
+    "review": false
   },
   {
     "name": "Sangoma",
@@ -3448,10 +4328,13 @@
     "logo": "/images/providers/sangoma.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sangoma.png"
+    "sourceFile": "Sangoma.png",
+    "review": false
   },
   {
     "name": "Scale Computing",
@@ -3459,10 +4342,13 @@
     "logo": "/images/providers/scale-computing.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Scale Computing.png"
+    "sourceFile": "Scale Computing.png",
+    "review": false
   },
   {
     "name": "SCB Global",
@@ -3473,7 +4359,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "SCB Global.png"
+    "sourceFile": "SCB Global.png",
+    "review": true
   },
   {
     "name": "Secuvy",
@@ -3481,10 +4368,13 @@
     "logo": "/images/providers/secuvy.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Secuvy.png"
+    "sourceFile": "Secuvy.png",
+    "review": false
   },
   {
     "name": "Segra",
@@ -3492,10 +4382,13 @@
     "logo": "/images/providers/segra.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Segra.png"
+    "sourceFile": "Segra.png",
+    "review": false
   },
   {
     "name": "Semper Sec, LLC",
@@ -3503,10 +4396,13 @@
     "logo": "/images/providers/semper-sec-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Semper Sec, LLC.png"
+    "sourceFile": "Semper Sec, LLC.png",
+    "review": false
   },
   {
     "name": "Semtech",
@@ -3514,10 +4410,13 @@
     "logo": "/images/providers/semtech.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Semtech.png"
+    "sourceFile": "Semtech.png",
+    "review": false
   },
   {
     "name": "Sharpen",
@@ -3525,10 +4424,13 @@
     "logo": "/images/providers/sharpen.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sharpen.png"
+    "sourceFile": "Sharpen.png",
+    "review": false
   },
   {
     "name": "ShyftOff",
@@ -3536,10 +4438,13 @@
     "logo": "/images/providers/shyftoff.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ShyftOff.png"
+    "sourceFile": "ShyftOff.png",
+    "review": false
   },
   {
     "name": "SilverSky",
@@ -3547,10 +4452,13 @@
     "logo": "/images/providers/silversky.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SilverSky.png"
+    "sourceFile": "SilverSky.png",
+    "review": false
   },
   {
     "name": "SimpleTek",
@@ -3561,7 +4469,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "SimpleTek.png"
+    "sourceFile": "SimpleTek.png",
+    "review": true
   },
   {
     "name": "Simplicity VoIP",
@@ -3569,10 +4478,13 @@
     "logo": "/images/providers/simplicity-voip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Simplicity VoIP.png"
+    "sourceFile": "Simplicity VoIP.png",
+    "review": false
   },
   {
     "name": "SimpliMeta",
@@ -3583,7 +4495,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "SimpliMeta.png"
+    "sourceFile": "SimpliMeta.png",
+    "review": true
   },
   {
     "name": "Sinch",
@@ -3591,10 +4504,13 @@
     "logo": "/images/providers/sinch.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sinch.png"
+    "sourceFile": "Sinch.png",
+    "review": false
   },
   {
     "name": "SIPPIO",
@@ -3602,10 +4518,13 @@
     "logo": "/images/providers/sippio.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SIPPIO.png"
+    "sourceFile": "SIPPIO.png",
+    "review": false
   },
   {
     "name": "Skipio powered by RapidTalk AI",
@@ -3613,10 +4532,13 @@
     "logo": "/images/providers/skipio-powered-by-rapidtalk-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Skipio powered by RapidTalk AI.png"
+    "sourceFile": "Skipio powered by RapidTalk AI.png",
+    "review": false
   },
   {
     "name": "Sky Data Vault",
@@ -3624,10 +4546,13 @@
     "logo": "/images/providers/sky-data-vault.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sky Data Vault.png"
+    "sourceFile": "Sky Data Vault.png",
+    "review": false
   },
   {
     "name": "Smartaira",
@@ -3635,10 +4560,13 @@
     "logo": "/images/providers/smartaira.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Smartaira.png"
+    "sourceFile": "Smartaira.png",
+    "review": false
   },
   {
     "name": "Snowfly",
@@ -3646,10 +4574,13 @@
     "logo": "/images/providers/snowfly.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Snowfly.png"
+    "sourceFile": "Snowfly.png",
+    "review": false
   },
   {
     "name": "SoftwareOne - Crayon",
@@ -3657,10 +4588,13 @@
     "logo": "/images/providers/softwareone-crayon.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SoftwareOne - Crayon.png"
+    "sourceFile": "SoftwareOne - Crayon.png",
+    "review": false
   },
   {
     "name": "SoundHound AI Amelia",
@@ -3668,10 +4602,13 @@
     "logo": "/images/providers/soundhound-ai-amelia.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SoundHound AI Amelia.png"
+    "sourceFile": "SoundHound AI Amelia.png",
+    "review": false
   },
   {
     "name": "SourceRock",
@@ -3682,7 +4619,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "SourceRock.png"
+    "sourceFile": "SourceRock.png",
+    "review": true
   },
   {
     "name": "Speakap",
@@ -3690,10 +4628,13 @@
     "logo": "/images/providers/speakap.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Speakap.png"
+    "sourceFile": "Speakap.png",
+    "review": true
   },
   {
     "name": "Spectrotel",
@@ -3701,10 +4642,14 @@
     "logo": "/images/providers/spectrotel.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Spectrotel.png"
+    "sourceFile": "Spectrotel.png",
+    "review": false
   },
   {
     "name": "Spectrum Community Solutions",
@@ -3712,10 +4657,13 @@
     "logo": "/images/providers/spectrum-community-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Spectrum Community Solutions.png"
+    "sourceFile": "Spectrum Community Solutions.png",
+    "review": false
   },
   {
     "name": "Spectrum VoIP",
@@ -3723,10 +4671,13 @@
     "logo": "/images/providers/spectrum-voip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Spectrum VoIP.png"
+    "sourceFile": "Spectrum VoIP.png",
+    "review": false
   },
   {
     "name": "Spectrum",
@@ -3734,10 +4685,13 @@
     "logo": "/images/providers/spectrum.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Spectrum.png"
+    "sourceFile": "Spectrum.png",
+    "review": false
   },
   {
     "name": "SpiceX",
@@ -3748,7 +4702,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "SpiceX.png"
+    "sourceFile": "SpiceX.png",
+    "review": true
   },
   {
     "name": "Spireon Inc",
@@ -3756,10 +4711,13 @@
     "logo": "/images/providers/spireon-inc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Spireon Inc.png"
+    "sourceFile": "Spireon Inc.png",
+    "review": false
   },
   {
     "name": "Splice Technologies",
@@ -3770,7 +4728,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Splice Technologies.png"
+    "sourceFile": "Splice Technologies.png",
+    "review": true
   },
   {
     "name": "Sprinklr",
@@ -3778,10 +4737,13 @@
     "logo": "/images/providers/sprinklr.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Sprinklr.png"
+    "sourceFile": "Sprinklr.png",
+    "review": false
   },
   {
     "name": "Starken Technologies",
@@ -3792,7 +4754,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Starken Technologies.png"
+    "sourceFile": "Starken Technologies.png",
+    "review": true
   },
   {
     "name": "Steadfast",
@@ -3800,10 +4763,13 @@
     "logo": "/images/providers/steadfast.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Steadfast.png"
+    "sourceFile": "Steadfast.png",
+    "review": false
   },
   {
     "name": "SteelDome",
@@ -3811,10 +4777,13 @@
     "logo": "/images/providers/steeldome.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SteelDome.png"
+    "sourceFile": "SteelDome.png",
+    "review": false
   },
   {
     "name": "Stellar Technologies",
@@ -3825,7 +4794,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Stellar Technologies.png"
+    "sourceFile": "Stellar Technologies.png",
+    "review": true
   },
   {
     "name": "Stickley on Security",
@@ -3833,10 +4803,13 @@
     "logo": "/images/providers/stickley-on-security.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Stickley on Security.png"
+    "sourceFile": "Stickley on Security.png",
+    "review": false
   },
   {
     "name": "Storj",
@@ -3844,10 +4817,13 @@
     "logo": "/images/providers/storj.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Storj.png"
+    "sourceFile": "Storj.png",
+    "review": false
   },
   {
     "name": "Strata Networks",
@@ -3855,10 +4831,13 @@
     "logo": "/images/providers/strata-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Strata Networks.png"
+    "sourceFile": "Strata Networks.png",
+    "review": false
   },
   {
     "name": "Strata Pointe Technologies",
@@ -3869,7 +4848,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Strata Pointe Technologies.png"
+    "sourceFile": "Strata Pointe Technologies.png",
+    "review": true
   },
   {
     "name": "SuccessKPI",
@@ -3877,10 +4857,13 @@
     "logo": "/images/providers/successkpi.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "SuccessKPI.png"
+    "sourceFile": "SuccessKPI.png",
+    "review": false
   },
   {
     "name": "Summit Broadband",
@@ -3888,10 +4871,13 @@
     "logo": "/images/providers/summit-broadband.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Summit Broadband.png"
+    "sourceFile": "Summit Broadband.png",
+    "review": false
   },
   {
     "name": "Summit Hosting",
@@ -3899,10 +4885,13 @@
     "logo": "/images/providers/summit-hosting.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Summit Hosting.png"
+    "sourceFile": "Summit Hosting.png",
+    "review": false
   },
   {
     "name": "Switch",
@@ -3910,10 +4899,13 @@
     "logo": "/images/providers/switch.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Switch.png"
+    "sourceFile": "Switch.png",
+    "review": false
   },
   {
     "name": "Synoptek",
@@ -3921,10 +4913,13 @@
     "logo": "/images/providers/synoptek.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Synoptek.png"
+    "sourceFile": "Synoptek.png",
+    "review": false
   },
   {
     "name": "Syringa Networks, LLC",
@@ -3932,10 +4927,13 @@
     "logo": "/images/providers/syringa-networks-llc.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Syringa Networks, LLC.png"
+    "sourceFile": "Syringa Networks, LLC.png",
+    "review": false
   },
   {
     "name": "T-Mobile",
@@ -3943,10 +4941,13 @@
     "logo": "/images/providers/t-mobile.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "T-Mobile.png"
+    "sourceFile": "T-Mobile.png",
+    "review": false
   },
   {
     "name": "Talkdesk",
@@ -3954,10 +4955,13 @@
     "logo": "/images/providers/talkdesk.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Talkdesk.png"
+    "sourceFile": "Talkdesk.png",
+    "review": false
   },
   {
     "name": "Tangoe",
@@ -3965,10 +4969,14 @@
     "logo": "/images/providers/tangoe.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Tangoe.png"
+    "sourceFile": "Tangoe.png",
+    "review": false
   },
   {
     "name": "TCN",
@@ -3976,10 +4984,13 @@
     "logo": "/images/providers/tcn.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "TCN.png"
+    "sourceFile": "TCN.png",
+    "review": false
   },
   {
     "name": "TCS Professional Services LLC",
@@ -3990,7 +5001,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "TCS Professional Services LLC.png"
+    "sourceFile": "TCS Professional Services LLC.png",
+    "review": true
   },
   {
     "name": "TecEx",
@@ -4001,7 +5013,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "TecEx.png"
+    "sourceFile": "TecEx.png",
+    "review": true
   },
   {
     "name": "Techmate",
@@ -4012,7 +5025,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Techmate.png"
+    "sourceFile": "Techmate.png",
+    "review": true
   },
   {
     "name": "Telefónica Global Solutions",
@@ -4020,10 +5034,13 @@
     "logo": "/images/providers/telefonica-global-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Telefónica Global Solutions.png"
+    "sourceFile": "Telefónica Global Solutions.png",
+    "review": false
   },
   {
     "name": "Telesystem",
@@ -4031,10 +5048,14 @@
     "logo": "/images/providers/telesystem.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Telesystem.png"
+    "sourceFile": "Telesystem.png",
+    "review": false
   },
   {
     "name": "TeligentIP",
@@ -4042,10 +5063,13 @@
     "logo": "/images/providers/teligentip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "TeligentIP.png"
+    "sourceFile": "TeligentIP.png",
+    "review": false
   },
   {
     "name": "Telnyx",
@@ -4053,10 +5077,13 @@
     "logo": "/images/providers/telnyx.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Telnyx.png"
+    "sourceFile": "Telnyx.png",
+    "review": false
   },
   {
     "name": "TelSynergy",
@@ -4067,7 +5094,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "TelSynergy.png"
+    "sourceFile": "TelSynergy.png",
+    "review": true
   },
   {
     "name": "TeraGo",
@@ -4075,10 +5103,13 @@
     "logo": "/images/providers/terago.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "TeraGo.png"
+    "sourceFile": "TeraGo.png",
+    "review": false
   },
   {
     "name": "TeraNova",
@@ -4089,7 +5120,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "TeraNova.png"
+    "sourceFile": "TeraNova.png",
+    "review": true
   },
   {
     "name": "Ternio",
@@ -4100,7 +5132,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Ternio.png"
+    "sourceFile": "Ternio.png",
+    "review": true
   },
   {
     "name": "Thought Horizon",
@@ -4111,7 +5144,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Thought Horizon.png"
+    "sourceFile": "Thought Horizon.png",
+    "review": true
   },
   {
     "name": "Thrive Networks",
@@ -4119,10 +5153,14 @@
     "logo": "/images/providers/thrive-networks.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Thrive Networks.png"
+    "sourceFile": "Thrive Networks.png",
+    "review": false
   },
   {
     "name": "Thryv",
@@ -4130,10 +5168,13 @@
     "logo": "/images/providers/thryv.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Thryv.png"
+    "sourceFile": "Thryv.png",
+    "review": false
   },
   {
     "name": "TierPoint",
@@ -4141,10 +5182,13 @@
     "logo": "/images/providers/tierpoint.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "TierPoint.png"
+    "sourceFile": "TierPoint.png",
+    "review": false
   },
   {
     "name": "TouchTone",
@@ -4152,10 +5196,13 @@
     "logo": "/images/providers/touchtone.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "TouchTone.png"
+    "sourceFile": "TouchTone.png",
+    "review": false
   },
   {
     "name": "Transaction Network Services",
@@ -4163,10 +5210,13 @@
     "logo": "/images/providers/transaction-network-services.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Transaction Network Services.png"
+    "sourceFile": "Transaction Network Services.png",
+    "review": false
   },
   {
     "name": "Trinsio",
@@ -4177,7 +5227,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Trinsio.png"
+    "sourceFile": "Trinsio.png",
+    "review": true
   },
   {
     "name": "UJET",
@@ -4185,10 +5236,13 @@
     "logo": "/images/providers/ujet.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ujetcx.png"
+    "sourceFile": "ujetcx.png",
+    "review": false
   },
   {
     "name": "Unisys",
@@ -4196,10 +5250,13 @@
     "logo": "/images/providers/unisys.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Unisys.png"
+    "sourceFile": "Unisys.png",
+    "review": false
   },
   {
     "name": "Uniti Wholesale",
@@ -4207,10 +5264,13 @@
     "logo": "/images/providers/uniti-wholesale.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Uniti Wholesale.png"
+    "sourceFile": "Uniti Wholesale.png",
+    "review": false
   },
   {
     "name": "Uniti",
@@ -4218,10 +5278,13 @@
     "logo": "/images/providers/uniti.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Uniti.png"
+    "sourceFile": "Uniti.png",
+    "review": false
   },
   {
     "name": "UniVoIP",
@@ -4229,10 +5292,13 @@
     "logo": "/images/providers/univoip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "UniVoIP.png"
+    "sourceFile": "UniVoIP.png",
+    "review": false
   },
   {
     "name": "UpCurve Cloud",
@@ -4240,10 +5306,13 @@
     "logo": "/images/providers/upcurve-cloud.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "UpCurve Cloud.png"
+    "sourceFile": "UpCurve Cloud.png",
+    "review": false
   },
   {
     "name": "US Signal",
@@ -4251,10 +5320,13 @@
     "logo": "/images/providers/us-signal.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "US Signal.png"
+    "sourceFile": "US Signal.png",
+    "review": false
   },
   {
     "name": "Utah Broadband",
@@ -4262,10 +5334,13 @@
     "logo": "/images/providers/utah-broadband.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Utah Broadband.png"
+    "sourceFile": "Utah Broadband.png",
+    "review": false
   },
   {
     "name": "ValorC3 Data Centers",
@@ -4273,10 +5348,13 @@
     "logo": "/images/providers/valorc3-data-centers.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ValorC3 Data Centers.png"
+    "sourceFile": "ValorC3 Data Centers.png",
+    "review": false
   },
   {
     "name": "vCom Solutions",
@@ -4284,10 +5362,13 @@
     "logo": "/images/providers/vcom-solutions.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Expense management and other"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "vCom Solutions.png"
+    "sourceFile": "vCom Solutions.png",
+    "review": false
   },
   {
     "name": "Verint",
@@ -4295,10 +5376,13 @@
     "logo": "/images/providers/verint.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Verint.png"
+    "sourceFile": "Verint.png",
+    "review": false
   },
   {
     "name": "Vertek",
@@ -4309,7 +5393,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Vertek.png"
+    "sourceFile": "Vertek.png",
+    "review": true
   },
   {
     "name": "Verve",
@@ -4320,7 +5405,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Verve.png"
+    "sourceFile": "Verve.png",
+    "review": true
   },
   {
     "name": "Viasat",
@@ -4328,10 +5414,13 @@
     "logo": "/images/providers/viasat.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Viasat.png"
+    "sourceFile": "Viasat.png",
+    "review": false
   },
   {
     "name": "Vigilant",
@@ -4339,10 +5428,13 @@
     "logo": "/images/providers/vigilant.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Vigilant.png"
+    "sourceFile": "Vigilant.png",
+    "review": false
   },
   {
     "name": "VocalIP",
@@ -4350,10 +5442,13 @@
     "logo": "/images/providers/vocalip.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "VocalIP.png"
+    "sourceFile": "VocalIP.png",
+    "review": false
   },
   {
     "name": "Vodafone Business",
@@ -4361,10 +5456,14 @@
     "logo": "/images/providers/vodafone-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Vodafone Business.png"
+    "sourceFile": "Vodafone Business.png",
+    "review": false
   },
   {
     "name": "Volico - Sling Broadband - FasterIO",
@@ -4372,10 +5471,14 @@
     "logo": "/images/providers/volico-sling-broadband-fasterio.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services",
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Volico - Sling Broadband - FasterIO.png"
+    "sourceFile": "Volico - Sling Broadband - FasterIO.png",
+    "review": false
   },
   {
     "name": "Vonage",
@@ -4383,10 +5486,14 @@
     "logo": "/images/providers/vonage.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Vonage.png"
+    "sourceFile": "Vonage.png",
+    "review": false
   },
   {
     "name": "Vyve Broadband",
@@ -4394,10 +5501,13 @@
     "logo": "/images/providers/vyve-broadband.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Vyve Broadband.png"
+    "sourceFile": "Vyve Broadband.png",
+    "review": false
   },
   {
     "name": "Warner Telecomm",
@@ -4408,7 +5518,8 @@
     "categories": [],
     "featured": false,
     "include": true,
-    "sourceFile": "Warner Telecomm.png"
+    "sourceFile": "Warner Telecomm.png",
+    "review": true
   },
   {
     "name": "Weave",
@@ -4416,10 +5527,13 @@
     "logo": "/images/providers/weave.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Weave.png"
+    "sourceFile": "Weave.png",
+    "review": false
   },
   {
     "name": "WiLine",
@@ -4427,10 +5541,13 @@
     "logo": "/images/providers/wiline.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "WiLine.png"
+    "sourceFile": "WiLine.png",
+    "review": false
   },
   {
     "name": "Wireless Watchdogs",
@@ -4438,10 +5555,13 @@
     "logo": "/images/providers/wireless-watchdogs.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Mobility"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Wireless Watchdogs.png"
+    "sourceFile": "Wireless Watchdogs.png",
+    "review": false
   },
   {
     "name": "WOW Business",
@@ -4449,10 +5569,13 @@
     "logo": "/images/providers/wow-business.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "WOW Business.png"
+    "sourceFile": "WOW Business.png",
+    "review": false
   },
   {
     "name": "Xcitium Cybersecurity",
@@ -4460,10 +5583,13 @@
     "logo": "/images/providers/xcitium-cybersecurity.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cybersecurity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Xcitium Cybersecurity.png"
+    "sourceFile": "Xcitium Cybersecurity.png",
+    "review": false
   },
   {
     "name": "Xebo.ai",
@@ -4471,10 +5597,13 @@
     "logo": "/images/providers/xebo-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Xeboai.png"
+    "sourceFile": "Xeboai.png",
+    "review": false
   },
   {
     "name": "XTIUM",
@@ -4482,10 +5611,13 @@
     "logo": "/images/providers/xtium.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Cloud and managed services"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "XTIUM.png"
+    "sourceFile": "XTIUM.png",
+    "review": false
   },
   {
     "name": "Yellow.ai",
@@ -4493,10 +5625,13 @@
     "logo": "/images/providers/yellow-ai.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Yellowai.png"
+    "sourceFile": "Yellowai.png",
+    "review": false
   },
   {
     "name": "YourSix",
@@ -4504,10 +5639,13 @@
     "logo": "/images/providers/yoursix.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "IoT and physical security"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "YourSix.png"
+    "sourceFile": "YourSix.png",
+    "review": false
   },
   {
     "name": "Zayo",
@@ -4515,10 +5653,13 @@
     "logo": "/images/providers/zayo.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Zayo.png"
+    "sourceFile": "Zayo.png",
+    "review": false
   },
   {
     "name": "Zenarate",
@@ -4526,10 +5667,13 @@
     "logo": "/images/providers/zenarate.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Zenarate.png"
+    "sourceFile": "Zenarate.png",
+    "review": false
   },
   {
     "name": "Zenlayer",
@@ -4537,10 +5681,13 @@
     "logo": "/images/providers/zenlayer.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Zenlayer.png"
+    "sourceFile": "Zenlayer.png",
+    "review": false
   },
   {
     "name": "ZeroOutages",
@@ -4548,10 +5695,13 @@
     "logo": "/images/providers/zerooutages.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "ZeroOutages.png"
+    "sourceFile": "ZeroOutages.png",
+    "review": false
   },
   {
     "name": "Ziply",
@@ -4559,10 +5709,13 @@
     "logo": "/images/providers/ziply.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Networking and connectivity"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Ziply.png"
+    "sourceFile": "Ziply.png",
+    "review": false
   },
   {
     "name": "Zoom",
@@ -4570,10 +5723,14 @@
     "logo": "/images/providers/zoom.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Zoom.png"
+    "sourceFile": "Zoom.png",
+    "review": false
   },
   {
     "name": "Zultys",
@@ -4581,9 +5738,12 @@
     "logo": "/images/providers/zultys.webp",
     "width": 320,
     "height": 160,
-    "categories": [],
+    "categories": [
+      "Unified communications"
+    ],
     "featured": false,
     "include": true,
-    "sourceFile": "Zultys.png"
+    "sourceFile": "Zultys.png",
+    "review": false
   }
 ]
