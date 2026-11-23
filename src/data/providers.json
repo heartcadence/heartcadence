@@ -1,0 +1,5749 @@
+[
+  {
+    "name": "11-11 Systems Inc",
+    "slug": "11-11-systems-inc",
+    "logo": "/images/providers/11-11-systems-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "11-11 Systems Inc.png",
+    "review": false
+  },
+  {
+    "name": "123NET",
+    "slug": "123net",
+    "logo": "/images/providers/123net.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "123NET.png",
+    "review": false
+  },
+  {
+    "name": "1440",
+    "slug": "1440",
+    "logo": "/images/providers/1440.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "1440.png",
+    "review": true
+  },
+  {
+    "name": "360 SOC",
+    "slug": "360-soc",
+    "logo": "/images/providers/360-soc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "360 SOC.png",
+    "review": false
+  },
+  {
+    "name": "365 Data Centers",
+    "slug": "365-data-centers",
+    "logo": "/images/providers/365-data-centers.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "365 Data Centers.png",
+    "review": false
+  },
+  {
+    "name": "4Voice",
+    "slug": "4voice",
+    "logo": "/images/providers/4voice.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "4Voice.png",
+    "review": false
+  },
+  {
+    "name": "8x8",
+    "slug": "8x8",
+    "logo": "/images/providers/8x8.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "8x8.png",
+    "review": false
+  },
+  {
+    "name": "Abundant IoT",
+    "slug": "abundant-iot",
+    "logo": "/images/providers/abundant-iot.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Abundant IoT.png",
+    "review": false
+  },
+  {
+    "name": "ACC Business",
+    "slug": "acc-business",
+    "logo": "/images/providers/acc-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ACC Business.png",
+    "review": false
+  },
+  {
+    "name": "ACD Direct",
+    "slug": "acd-direct",
+    "logo": "/images/providers/acd-direct.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ACD Direct.png",
+    "review": false
+  },
+  {
+    "name": "Acrisure Cyber Services",
+    "slug": "acrisure-cyber-services",
+    "logo": "/images/providers/acrisure-cyber-services.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Acrisure Cyber Services.png",
+    "review": false
+  },
+  {
+    "name": "Ada",
+    "slug": "ada",
+    "logo": "/images/providers/ada.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ada.png",
+    "review": false
+  },
+  {
+    "name": "Advantix",
+    "slug": "advantix",
+    "logo": "/images/providers/advantix.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility",
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Advantix.png",
+    "review": true
+  },
+  {
+    "name": "Affirma",
+    "slug": "affirma",
+    "logo": "/images/providers/affirma.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Affirma.png",
+    "review": true
+  },
+  {
+    "name": "AgileBlue",
+    "slug": "agileblue",
+    "logo": "/images/providers/agileblue.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "AgileBlue.png",
+    "review": false
+  },
+  {
+    "name": "Aircall",
+    "slug": "aircall",
+    "logo": "/images/providers/aircall.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Aircall.png",
+    "review": false
+  },
+  {
+    "name": "AireSpring",
+    "slug": "airespring",
+    "logo": "/images/providers/airespring.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "AireSpring.png",
+    "review": false
+  },
+  {
+    "name": "Akamai Technologies, Inc",
+    "slug": "akamai-technologies-inc",
+    "logo": "/images/providers/akamai-technologies-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Akamai Technologies, Inc.png",
+    "review": false
+  },
+  {
+    "name": "Alkira",
+    "slug": "alkira",
+    "logo": "/images/providers/alkira.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Alkira.png",
+    "review": false
+  },
+  {
+    "name": "Allgress",
+    "slug": "allgress",
+    "logo": "/images/providers/allgress.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Allgress.png",
+    "review": false
+  },
+  {
+    "name": "Allied Telecom Group, LLC",
+    "slug": "allied-telecom-group-llc",
+    "logo": "/images/providers/allied-telecom-group-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Allied Telecom Group, LLC.png",
+    "review": true
+  },
+  {
+    "name": "ALLO Fiber",
+    "slug": "allo-fiber",
+    "logo": "/images/providers/allo-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ALLO Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Altafiber",
+    "slug": "altafiber",
+    "logo": "/images/providers/altafiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Altafiber.png",
+    "review": false
+  },
+  {
+    "name": "Alvaria",
+    "slug": "alvaria",
+    "logo": "/images/providers/alvaria.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Alvaria.png",
+    "review": false
+  },
+  {
+    "name": "AmericanEagle Managed Cloud Services",
+    "slug": "americaneagle-managed-cloud-services",
+    "logo": "/images/providers/americaneagle-managed-cloud-services.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "AmericanEagle Managed Cloud Services.png",
+    "review": false
+  },
+  {
+    "name": "AmplifAI",
+    "slug": "amplifai",
+    "logo": "/images/providers/amplifai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "AmplifAI.png",
+    "review": false
+  },
+  {
+    "name": "Ancero",
+    "slug": "ancero",
+    "logo": "/images/providers/ancero.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ancero.png",
+    "review": true
+  },
+  {
+    "name": "Answer Hero",
+    "slug": "answer-hero",
+    "logo": "/images/providers/answer-hero.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Answer Hero.png",
+    "review": false
+  },
+  {
+    "name": "APIO",
+    "slug": "apio",
+    "logo": "/images/providers/apio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "APIO.png",
+    "review": true
+  },
+  {
+    "name": "Appgate Cybersecurity",
+    "slug": "appgate-cybersecurity",
+    "logo": "/images/providers/appgate-cybersecurity.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Appgate Cybersecurity.png",
+    "review": false
+  },
+  {
+    "name": "Aptum Managed Services (Canada) Inc",
+    "slug": "aptum-managed-services-canada-inc",
+    "logo": "/images/providers/aptum-managed-services-canada-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Aptum Managed Services (Canada) Inc.png",
+    "review": false
+  },
+  {
+    "name": "APX Net",
+    "slug": "apx-net",
+    "logo": "/images/providers/apx-net.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "APX Net.png",
+    "review": false
+  },
+  {
+    "name": "Arelion",
+    "slug": "arelion",
+    "logo": "/images/providers/arelion.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Arelion.png",
+    "review": false
+  },
+  {
+    "name": "Ariento Inc",
+    "slug": "ariento-inc",
+    "logo": "/images/providers/ariento-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ariento Inc.png",
+    "review": false
+  },
+  {
+    "name": "Aryaka",
+    "slug": "aryaka",
+    "logo": "/images/providers/aryaka.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Aryaka.png",
+    "review": false
+  },
+  {
+    "name": "Ascent Business Partners",
+    "slug": "ascent-business-partners",
+    "logo": "/images/providers/ascent-business-partners.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ascent Business Partners.png",
+    "review": true
+  },
+  {
+    "name": "Assured Data Protection",
+    "slug": "assured-data-protection",
+    "logo": "/images/providers/assured-data-protection.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Assured Data Protection.png",
+    "review": false
+  },
+  {
+    "name": "Astound Business Solutions",
+    "slug": "astound-business-solutions",
+    "logo": "/images/providers/astound-business-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Astound Business Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Atlas",
+    "slug": "atlas",
+    "logo": "/images/providers/atlas.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Atlas.png",
+    "review": true
+  },
+  {
+    "name": "AT&T Wireless",
+    "slug": "at-and-t-wireless",
+    "logo": "/images/providers/at-and-t-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ATT Wireless.png",
+    "review": false
+  },
+  {
+    "name": "Aura Wireless",
+    "slug": "aura-wireless",
+    "logo": "/images/providers/aura-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Aura Wireless.png",
+    "review": true
+  },
+  {
+    "name": "Authenticx",
+    "slug": "authenticx",
+    "logo": "/images/providers/authenticx.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Authenticx.png",
+    "review": false
+  },
+  {
+    "name": "Balto",
+    "slug": "balto",
+    "logo": "/images/providers/balto.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Balto.png",
+    "review": false
+  },
+  {
+    "name": "BCN Telecom Inc",
+    "slug": "bcn-telecom-inc",
+    "logo": "/images/providers/bcn-telecom-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BCN Telecom Inc.png",
+    "review": false
+  },
+  {
+    "name": "Beanfield MetroConnect",
+    "slug": "beanfield-metroconnect",
+    "logo": "/images/providers/beanfield-metroconnect.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Beanfield MetroConnect.png",
+    "review": false
+  },
+  {
+    "name": "BeyondReach",
+    "slug": "beyondreach",
+    "logo": "/images/providers/beyondreach.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BeyondReach.png",
+    "review": true
+  },
+  {
+    "name": "BH IoT",
+    "slug": "bh-iot",
+    "logo": "/images/providers/bh-iot.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BH IoT.png",
+    "review": false
+  },
+  {
+    "name": "Big Fiber",
+    "slug": "big-fiber",
+    "logo": "/images/providers/big-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Big Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Bigleaf",
+    "slug": "bigleaf",
+    "logo": "/images/providers/bigleaf.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Bigleaf.png",
+    "review": false
+  },
+  {
+    "name": "Blitzz Inc",
+    "slug": "blitzz-inc",
+    "logo": "/images/providers/blitzz-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Blitzz Inc.png",
+    "review": false
+  },
+  {
+    "name": "Blue Mantis",
+    "slug": "blue-mantis",
+    "logo": "/images/providers/blue-mantis.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Blue Mantis.png",
+    "review": false
+  },
+  {
+    "name": "Blue Stream Fiber",
+    "slug": "blue-stream-fiber",
+    "logo": "/images/providers/blue-stream-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Blue Stream Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Bluebird Fiber",
+    "slug": "bluebird-fiber",
+    "logo": "/images/providers/bluebird-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Bluebird Fiber.png",
+    "review": false
+  },
+  {
+    "name": "BlueLine Telecom",
+    "slug": "blueline-telecom",
+    "logo": "/images/providers/blueline-telecom.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BlueLine Telecom.png",
+    "review": true
+  },
+  {
+    "name": "boost.ai",
+    "slug": "boost-ai",
+    "logo": "/images/providers/boost-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "boostai.png",
+    "review": false
+  },
+  {
+    "name": "Breezeline",
+    "slug": "breezeline",
+    "logo": "/images/providers/breezeline.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Breezeline.png",
+    "review": false
+  },
+  {
+    "name": "BridgeConnex",
+    "slug": "bridgeconnex",
+    "logo": "/images/providers/bridgeconnex.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BridgeConnex.png",
+    "review": true
+  },
+  {
+    "name": "BridgePointeCX",
+    "slug": "bridgepointecx",
+    "logo": "/images/providers/bridgepointecx.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "BridgePointeCX.png",
+    "review": false
+  },
+  {
+    "name": "Brightfin",
+    "slug": "brightfin",
+    "logo": "/images/providers/brightfin.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Brightfin.png",
+    "review": false
+  },
+  {
+    "name": "Brightspeed",
+    "slug": "brightspeed",
+    "logo": "/images/providers/brightspeed.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Brightspeed.png",
+    "review": false
+  },
+  {
+    "name": "Broadvoice",
+    "slug": "broadvoice",
+    "logo": "/images/providers/broadvoice.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Broadvoice.png",
+    "review": false
+  },
+  {
+    "name": "Bucher + Suter",
+    "slug": "bucher-and-suter",
+    "logo": "/images/providers/bucher-and-suter.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Bucher + Suter.png",
+    "review": false
+  },
+  {
+    "name": "C Spire",
+    "slug": "c-spire",
+    "logo": "/images/providers/c-spire.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "C Spire.png",
+    "review": false
+  },
+  {
+    "name": "C3 Integrated Solutions LLC",
+    "slug": "c3-integrated-solutions-llc",
+    "logo": "/images/providers/c3-integrated-solutions-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "C3 Integrated Solutions LLC.png",
+    "review": false
+  },
+  {
+    "name": "Calero",
+    "slug": "calero",
+    "logo": "/images/providers/calero.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Calero.png",
+    "review": false
+  },
+  {
+    "name": "Call Center Power",
+    "slug": "call-center-power",
+    "logo": "/images/providers/call-center-power.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Call Center Power.png",
+    "review": false
+  },
+  {
+    "name": "Caller ID Reputation",
+    "slug": "caller-id-reputation",
+    "logo": "/images/providers/caller-id-reputation.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Caller ID Reputation.png",
+    "review": false
+  },
+  {
+    "name": "CallMiner Inc",
+    "slug": "callminer-inc",
+    "logo": "/images/providers/callminer-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CallMiner Inc.png",
+    "review": false
+  },
+  {
+    "name": "CallTower",
+    "slug": "calltower",
+    "logo": "/images/providers/calltower.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CallTower.png",
+    "review": false
+  },
+  {
+    "name": "Capacity",
+    "slug": "capacity",
+    "logo": "/images/providers/capacity.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Capacity.png",
+    "review": false
+  },
+  {
+    "name": "Carahsoft",
+    "slug": "carahsoft",
+    "logo": "/images/providers/carahsoft.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Carahsoft.png",
+    "review": true
+  },
+  {
+    "name": "Cato Networks",
+    "slug": "cato-networks",
+    "logo": "/images/providers/cato-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cato Networks.png",
+    "review": false
+  },
+  {
+    "name": "CBTS",
+    "slug": "cbts",
+    "logo": "/images/providers/cbts.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CBTS.png",
+    "review": false
+  },
+  {
+    "name": "CCNA",
+    "slug": "ccna",
+    "logo": "/images/providers/ccna.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CCNA.png",
+    "review": true
+  },
+  {
+    "name": "Centersquare",
+    "slug": "centersquare",
+    "logo": "/images/providers/centersquare.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Centersquare.png",
+    "review": false
+  },
+  {
+    "name": "CentraCom",
+    "slug": "centracom",
+    "logo": "/images/providers/centracom.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CentraCom.png",
+    "review": false
+  },
+  {
+    "name": "China Mobile International",
+    "slug": "china-mobile-international",
+    "logo": "/images/providers/china-mobile-international.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "China Mobile International.png",
+    "review": false
+  },
+  {
+    "name": "Cielo Vision",
+    "slug": "cielo-vision",
+    "logo": "/images/providers/cielo-vision.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cielo Vision.png",
+    "review": true
+  },
+  {
+    "name": "Cipher",
+    "slug": "cipher",
+    "logo": "/images/providers/cipher.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cipher.png",
+    "review": false
+  },
+  {
+    "name": "Cirion",
+    "slug": "cirion",
+    "logo": "/images/providers/cirion.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cirion.png",
+    "review": false
+  },
+  {
+    "name": "Cisco",
+    "slug": "cisco",
+    "logo": "/images/providers/cisco.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cisco.png",
+    "review": false
+  },
+  {
+    "name": "Claro",
+    "slug": "claro",
+    "logo": "/images/providers/claro.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Claro.png",
+    "review": false
+  },
+  {
+    "name": "Cleaner Air Solutions",
+    "slug": "cleaner-air-solutions",
+    "logo": "/images/providers/cleaner-air-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cleaner Air Solutions.png",
+    "review": true
+  },
+  {
+    "name": "Clear Software",
+    "slug": "clear-software",
+    "logo": "/images/providers/clear-software.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Clear Software.png",
+    "review": true
+  },
+  {
+    "name": "ClearView",
+    "slug": "clearview",
+    "logo": "/images/providers/clearview.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ClearView.png",
+    "review": true
+  },
+  {
+    "name": "Cloud Tech Guru",
+    "slug": "cloud-tech-guru",
+    "logo": "/images/providers/cloud-tech-guru.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cloud Tech Guru.png",
+    "review": true
+  },
+  {
+    "name": "CloudAdmin.io",
+    "slug": "cloudadmin-io",
+    "logo": "/images/providers/cloudadmin-io.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CloudAdminio.png",
+    "review": true
+  },
+  {
+    "name": "CloudFirst",
+    "slug": "cloudfirst",
+    "logo": "/images/providers/cloudfirst.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CloudFirst.png",
+    "review": false
+  },
+  {
+    "name": "Cloudli Communications Inc",
+    "slug": "cloudli-communications-inc",
+    "logo": "/images/providers/cloudli-communications-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cloudli Communications Inc.png",
+    "review": false
+  },
+  {
+    "name": "CloudPlus",
+    "slug": "cloudplus",
+    "logo": "/images/providers/cloudplus.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CloudPlus.png",
+    "review": true
+  },
+  {
+    "name": "Coeo Solutions",
+    "slug": "coeo-solutions",
+    "logo": "/images/providers/coeo-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Coeo Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Cologix",
+    "slug": "cologix",
+    "logo": "/images/providers/cologix.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cologix.png",
+    "review": false
+  },
+  {
+    "name": "Comcast Business",
+    "slug": "comcast-business",
+    "logo": "/images/providers/comcast-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Comcast Business.png",
+    "review": false
+  },
+  {
+    "name": "Comm-Core",
+    "slug": "comm-core",
+    "logo": "/images/providers/comm-core.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Comm-Core.png",
+    "review": true
+  },
+  {
+    "name": "CommandLink",
+    "slug": "commandlink",
+    "logo": "/images/providers/commandlink.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CommandLink.png",
+    "review": false
+  },
+  {
+    "name": "CommunityWFM",
+    "slug": "communitywfm",
+    "logo": "/images/providers/communitywfm.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CommunityWFM.png",
+    "review": false
+  },
+  {
+    "name": "Condado",
+    "slug": "condado",
+    "logo": "/images/providers/condado.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Condado.png",
+    "review": true
+  },
+  {
+    "name": "Content Guru",
+    "slug": "content-guru",
+    "logo": "/images/providers/content-guru.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Content Guru.png",
+    "review": false
+  },
+  {
+    "name": "Continuant",
+    "slug": "continuant",
+    "logo": "/images/providers/continuant.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Continuant.png",
+    "review": false
+  },
+  {
+    "name": "Convergia",
+    "slug": "convergia",
+    "logo": "/images/providers/convergia.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Convergia.png",
+    "review": false
+  },
+  {
+    "name": "CoreSite",
+    "slug": "coresite",
+    "logo": "/images/providers/coresite.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CoreSite.png",
+    "review": false
+  },
+  {
+    "name": "Corporate IT Solutions, Inc (CIS)",
+    "slug": "corporate-it-solutions-inc-cis",
+    "logo": "/images/providers/corporate-it-solutions-inc-cis.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Corporate IT Solutions, Inc (CIS).png",
+    "review": true
+  },
+  {
+    "name": "Cox Communications",
+    "slug": "cox-communications",
+    "logo": "/images/providers/cox-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cox Communications.png",
+    "review": false
+  },
+  {
+    "name": "Crexendo",
+    "slug": "crexendo",
+    "logo": "/images/providers/crexendo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Crexendo.png",
+    "review": false
+  },
+  {
+    "name": "Crown Castle",
+    "slug": "crown-castle",
+    "logo": "/images/providers/crown-castle.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Crown Castle.png",
+    "review": false
+  },
+  {
+    "name": "CSPI Tech",
+    "slug": "cspi-tech",
+    "logo": "/images/providers/cspi-tech.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CSPI Tech.png",
+    "review": false
+  },
+  {
+    "name": "Customer Dynamics",
+    "slug": "customer-dynamics",
+    "logo": "/images/providers/customer-dynamics.webp",
+    "width": 180,
+    "height": 60,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Customer Dynamics.png",
+    "review": false
+  },
+  {
+    "name": "CX Advanced Solutions LLC",
+    "slug": "cx-advanced-solutions-llc",
+    "logo": "/images/providers/cx-advanced-solutions-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CX Advanced Solutions LLC.png",
+    "review": false
+  },
+  {
+    "name": "Cyber Defense Group",
+    "slug": "cyber-defense-group",
+    "logo": "/images/providers/cyber-defense-group.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cyber Defense Group.png",
+    "review": false
+  },
+  {
+    "name": "Cyber Sainik",
+    "slug": "cyber-sainik",
+    "logo": "/images/providers/cyber-sainik.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cyber Sainik.png",
+    "review": false
+  },
+  {
+    "name": "CyberCompass",
+    "slug": "cybercompass",
+    "logo": "/images/providers/cybercompass.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CyberCompass.png",
+    "review": false
+  },
+  {
+    "name": "CyberMaxx",
+    "slug": "cybermaxx",
+    "logo": "/images/providers/cybermaxx.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CyberMaxx.png",
+    "review": false
+  },
+  {
+    "name": "CyberReef Solutions",
+    "slug": "cyberreef-solutions",
+    "logo": "/images/providers/cyberreef-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "CyberReef Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Cyrisma",
+    "slug": "cyrisma",
+    "logo": "/images/providers/cyrisma.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Cyrisma.png",
+    "review": false
+  },
+  {
+    "name": "DartPoints",
+    "slug": "dartpoints",
+    "logo": "/images/providers/dartpoints.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "DartPoints.png",
+    "review": false
+  },
+  {
+    "name": "Data2Go Wireless",
+    "slug": "data2go-wireless",
+    "logo": "/images/providers/data2go-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Data2Go Wireless.png",
+    "review": true
+  },
+  {
+    "name": "DataBank",
+    "slug": "databank",
+    "logo": "/images/providers/databank.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "DataBank.png",
+    "review": false
+  },
+  {
+    "name": "Databarracks",
+    "slug": "databarracks",
+    "logo": "/images/providers/databarracks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Databarracks.png",
+    "review": false
+  },
+  {
+    "name": "Dataprise",
+    "slug": "dataprise",
+    "logo": "/images/providers/dataprise.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Dataprise.png",
+    "review": false
+  },
+  {
+    "name": "Datavalet",
+    "slug": "datavalet",
+    "logo": "/images/providers/datavalet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Datavalet.png",
+    "review": false
+  },
+  {
+    "name": "DC Blox",
+    "slug": "dc-blox",
+    "logo": "/images/providers/dc-blox.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "DC Blox.png",
+    "review": false
+  },
+  {
+    "name": "DHD LP",
+    "slug": "dhd-lp",
+    "logo": "/images/providers/dhd-lp.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "DHD LP.png",
+    "review": true
+  },
+  {
+    "name": "Dialpad",
+    "slug": "dialpad",
+    "logo": "/images/providers/dialpad.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Dialpad.png",
+    "review": false
+  },
+  {
+    "name": "Digital Fortress",
+    "slug": "digital-fortress",
+    "logo": "/images/providers/digital-fortress.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Digital Fortress.png",
+    "review": false
+  },
+  {
+    "name": "Digital Realty",
+    "slug": "digital-realty",
+    "logo": "/images/providers/digital-realty.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Digital Realty.png",
+    "review": false
+  },
+  {
+    "name": "DIRECTV",
+    "slug": "directv",
+    "logo": "/images/providers/directv.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "DIRECTV.png",
+    "review": false
+  },
+  {
+    "name": "Dizzion",
+    "slug": "dizzion",
+    "logo": "/images/providers/dizzion.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Dizzion.png",
+    "review": false
+  },
+  {
+    "name": "Dobson Fiber",
+    "slug": "dobson-fiber",
+    "logo": "/images/providers/dobson-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Dobson Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Drata",
+    "slug": "drata",
+    "logo": "/images/providers/drata.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Drata.png",
+    "review": false
+  },
+  {
+    "name": "Dynalink",
+    "slug": "dynalink",
+    "logo": "/images/providers/dynalink.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Dynalink.png",
+    "review": true
+  },
+  {
+    "name": "Earthlink Business",
+    "slug": "earthlink-business",
+    "logo": "/images/providers/earthlink-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Earthlink Business.png",
+    "review": false
+  },
+  {
+    "name": "Echelon Risk + Cyber",
+    "slug": "echelon-risk-and-cyber",
+    "logo": "/images/providers/echelon-risk-and-cyber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Echelon Risk + Cyber.png",
+    "review": false
+  },
+  {
+    "name": "ECI",
+    "slug": "eci",
+    "logo": "/images/providers/eci.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ECI.png",
+    "review": false
+  },
+  {
+    "name": "Effectual",
+    "slug": "effectual",
+    "logo": "/images/providers/effectual.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Effectual.png",
+    "review": false
+  },
+  {
+    "name": "Effortless Office",
+    "slug": "effortless-office",
+    "logo": "/images/providers/effortless-office.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Effortless Office.png",
+    "review": true
+  },
+  {
+    "name": "EliteCX.ai",
+    "slug": "elitecx-ai",
+    "logo": "/images/providers/elitecx-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "EliteCXai.png",
+    "review": false
+  },
+  {
+    "name": "EnTelegent Solutions",
+    "slug": "entelegent-solutions",
+    "logo": "/images/providers/entelegent-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "EnTelegent Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Enzu",
+    "slug": "enzu",
+    "logo": "/images/providers/enzu.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Enzu.png",
+    "review": false
+  },
+  {
+    "name": "EPIC iO",
+    "slug": "epic-io",
+    "logo": "/images/providers/epic-io.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "EPIC iO.png",
+    "review": false
+  },
+  {
+    "name": "Equinix",
+    "slug": "equinix",
+    "logo": "/images/providers/equinix.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Equinix.png",
+    "review": false
+  },
+  {
+    "name": "eSentire",
+    "slug": "esentire",
+    "logo": "/images/providers/esentire.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "eSentire.png",
+    "review": false
+  },
+  {
+    "name": "Eseye",
+    "slug": "eseye",
+    "logo": "/images/providers/eseye.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Eseye.png",
+    "review": false
+  },
+  {
+    "name": "eStruxture",
+    "slug": "estruxture",
+    "logo": "/images/providers/estruxture.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "eStruxture.png",
+    "review": false
+  },
+  {
+    "name": "eSureAI",
+    "slug": "esureai",
+    "logo": "/images/providers/esureai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "eSureAI.png",
+    "review": true
+  },
+  {
+    "name": "Eventus",
+    "slug": "eventus",
+    "logo": "/images/providers/eventus.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Eventus.png",
+    "review": true
+  },
+  {
+    "name": "Everbridge",
+    "slug": "everbridge",
+    "logo": "/images/providers/everbridge.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Everbridge.png",
+    "review": true
+  },
+  {
+    "name": "EverFast Fiber",
+    "slug": "everfast-fiber",
+    "logo": "/images/providers/everfast-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "EverFast Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Expedient",
+    "slug": "expedient",
+    "logo": "/images/providers/expedient.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Expedient.png",
+    "review": false
+  },
+  {
+    "name": "Expereo",
+    "slug": "expereo",
+    "logo": "/images/providers/expereo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Expereo.png",
+    "review": false
+  },
+  {
+    "name": "Eze Technologies Inc",
+    "slug": "eze-technologies-inc",
+    "logo": "/images/providers/eze-technologies-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Eze Technologies Inc.png",
+    "review": true
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "logo": "/images/providers/fastly.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Fastly.png",
+    "review": false
+  },
+  {
+    "name": "Fatbeam",
+    "slug": "fatbeam",
+    "logo": "/images/providers/fatbeam.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Fatbeam.png",
+    "review": false
+  },
+  {
+    "name": "Fatpipe Networks",
+    "slug": "fatpipe-networks",
+    "logo": "/images/providers/fatpipe-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Fatpipe Networks.png",
+    "review": false
+  },
+  {
+    "name": "Faxpipe",
+    "slug": "faxpipe",
+    "logo": "/images/providers/faxpipe.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Faxpipe.png",
+    "review": false
+  },
+  {
+    "name": "FiberLight",
+    "slug": "fiberlight",
+    "logo": "/images/providers/fiberlight.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "FiberLight.png",
+    "review": false
+  },
+  {
+    "name": "Field Effect",
+    "slug": "field-effect",
+    "logo": "/images/providers/field-effect.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Field Effect.png",
+    "review": false
+  },
+  {
+    "name": "FirstComm",
+    "slug": "firstcomm",
+    "logo": "/images/providers/firstcomm.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "FirstComm.png",
+    "review": false
+  },
+  {
+    "name": "FirstDigital",
+    "slug": "firstdigital",
+    "logo": "/images/providers/firstdigital.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "FirstDigital.png",
+    "review": false
+  },
+  {
+    "name": "FirstLight Fiber Inc",
+    "slug": "firstlight-fiber-inc",
+    "logo": "/images/providers/firstlight-fiber-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "FirstLight Fiber Inc.png",
+    "review": false
+  },
+  {
+    "name": "Five9",
+    "slug": "five9",
+    "logo": "/images/providers/five9.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Five9.png",
+    "review": false
+  },
+  {
+    "name": "Flexential",
+    "slug": "flexential",
+    "logo": "/images/providers/flexential.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Flexential.png",
+    "review": false
+  },
+  {
+    "name": "For2Fi",
+    "slug": "for2fi",
+    "logo": "/images/providers/for2fi.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "For2Fi.png",
+    "review": true
+  },
+  {
+    "name": "Foresite",
+    "slug": "foresite",
+    "logo": "/images/providers/foresite.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Foresite.png",
+    "review": false
+  },
+  {
+    "name": "Fortis",
+    "slug": "fortis",
+    "logo": "/images/providers/fortis.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Fortis.png",
+    "review": true
+  },
+  {
+    "name": "FreeConferenceCall.com",
+    "slug": "freeconferencecall-com",
+    "logo": "/images/providers/freeconferencecall-com.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "FreeConferenceCallcom.png",
+    "review": false
+  },
+  {
+    "name": "Front",
+    "slug": "front",
+    "logo": "/images/providers/front.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Front.png",
+    "review": false
+  },
+  {
+    "name": "Frontier",
+    "slug": "frontier",
+    "logo": "/images/providers/frontier.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Frontier.png",
+    "review": false
+  },
+  {
+    "name": "Frontline Group",
+    "slug": "frontline-group",
+    "logo": "/images/providers/frontline-group.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Frontline Group.png",
+    "review": true
+  },
+  {
+    "name": "Fusion Connect",
+    "slug": "fusion-connect",
+    "logo": "/images/providers/fusion-connect.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Fusion Connect.png",
+    "review": false
+  },
+  {
+    "name": "Genesys",
+    "slug": "genesys",
+    "logo": "/images/providers/genesys.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Genesys.png",
+    "review": false
+  },
+  {
+    "name": "GeoLinks",
+    "slug": "geolinks",
+    "logo": "/images/providers/geolinks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "GeoLinks.png",
+    "review": false
+  },
+  {
+    "name": "GHA Technologies",
+    "slug": "gha-technologies",
+    "logo": "/images/providers/gha-technologies.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "GHA Technologies.png",
+    "review": true
+  },
+  {
+    "name": "Giltech",
+    "slug": "giltech",
+    "logo": "/images/providers/giltech.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Giltech.png",
+    "review": true
+  },
+  {
+    "name": "Glia",
+    "slug": "glia",
+    "logo": "/images/providers/glia.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Glia.png",
+    "review": false
+  },
+  {
+    "name": "Glo Fiber",
+    "slug": "glo-fiber",
+    "logo": "/images/providers/glo-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Glo Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Globalgig",
+    "slug": "globalgig",
+    "logo": "/images/providers/globalgig.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Globalgig.png",
+    "review": false
+  },
+  {
+    "name": "GoExceed",
+    "slug": "goexceed",
+    "logo": "/images/providers/goexceed.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "GoExceed.png",
+    "review": true
+  },
+  {
+    "name": "Granite",
+    "slug": "granite",
+    "logo": "/images/providers/granite.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Granite.png",
+    "review": false
+  },
+  {
+    "name": "Graphene Networks Inc",
+    "slug": "graphene-networks-inc",
+    "logo": "/images/providers/graphene-networks-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Graphene Networks Inc.png",
+    "review": true
+  },
+  {
+    "name": "Graphiant",
+    "slug": "graphiant",
+    "logo": "/images/providers/graphiant.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Graphiant.png",
+    "review": false
+  },
+  {
+    "name": "Halo Global",
+    "slug": "halo-global",
+    "logo": "/images/providers/halo-global.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Halo Global.png",
+    "review": true
+  },
+  {
+    "name": "HGC Global Communications",
+    "slug": "hgc-global-communications",
+    "logo": "/images/providers/hgc-global-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "HGC Global Communications.png",
+    "review": false
+  },
+  {
+    "name": "Hiya",
+    "slug": "hiya",
+    "logo": "/images/providers/hiya.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Hiya.png",
+    "review": false
+  },
+  {
+    "name": "Hootsuite",
+    "slug": "hootsuite",
+    "logo": "/images/providers/hootsuite.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Hootsuite.png",
+    "review": false
+  },
+  {
+    "name": "Humach",
+    "slug": "humach",
+    "logo": "/images/providers/humach.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Humach.png",
+    "review": false
+  },
+  {
+    "name": "IceBlue",
+    "slug": "iceblue",
+    "logo": "/images/providers/iceblue.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "IceBlue.png",
+    "review": true
+  },
+  {
+    "name": "Industrial Networking Solutions",
+    "slug": "industrial-networking-solutions",
+    "logo": "/images/providers/industrial-networking-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Industrial Networking Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Infinite Wireless",
+    "slug": "infinite-wireless",
+    "logo": "/images/providers/infinite-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Infinite Wireless.png",
+    "review": true
+  },
+  {
+    "name": "InflowCX",
+    "slug": "inflowcx",
+    "logo": "/images/providers/inflowcx.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "InflowCX.png",
+    "review": false
+  },
+  {
+    "name": "Infobip",
+    "slug": "infobip",
+    "logo": "/images/providers/infobip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Infobip.png",
+    "review": false
+  },
+  {
+    "name": "IntelePeer",
+    "slug": "intelepeer",
+    "logo": "/images/providers/intelepeer.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "IntelePeer.png",
+    "review": false
+  },
+  {
+    "name": "Intelligent Technical Solutions",
+    "slug": "intelligent-technical-solutions",
+    "logo": "/images/providers/intelligent-technical-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Intelligent Technical Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Intermedia",
+    "slug": "intermedia",
+    "logo": "/images/providers/intermedia.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Intermedia.png",
+    "review": false
+  },
+  {
+    "name": "Intrado",
+    "slug": "intrado",
+    "logo": "/images/providers/intrado.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Intrado.png",
+    "review": true
+  },
+  {
+    "name": "Intraedge",
+    "slug": "intraedge",
+    "logo": "/images/providers/intraedge.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Intraedge.png",
+    "review": true
+  },
+  {
+    "name": "IPFone",
+    "slug": "ipfone",
+    "logo": "/images/providers/ipfone.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "IPFone.png",
+    "review": false
+  },
+  {
+    "name": "IPv4 Depot",
+    "slug": "ipv4-depot",
+    "logo": "/images/providers/ipv4-depot.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "IPv4 Depot.png",
+    "review": false
+  },
+  {
+    "name": "Iron Mountain Data Centers",
+    "slug": "iron-mountain-data-centers",
+    "logo": "/images/providers/iron-mountain-data-centers.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Iron Mountain Data Centers.png",
+    "review": false
+  },
+  {
+    "name": "iTel Networks",
+    "slug": "itel-networks",
+    "logo": "/images/providers/itel-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "iTel Networks.png",
+    "review": false
+  },
+  {
+    "name": "Ivinex",
+    "slug": "ivinex",
+    "logo": "/images/providers/ivinex.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ivinex.png",
+    "review": true
+  },
+  {
+    "name": "Juvo",
+    "slug": "juvo",
+    "logo": "/images/providers/juvo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Juvo.png",
+    "review": true
+  },
+  {
+    "name": "Keystone Solutions",
+    "slug": "keystone-solutions",
+    "logo": "/images/providers/keystone-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Keystone Solutions.png",
+    "review": true
+  },
+  {
+    "name": "KORE Wireless",
+    "slug": "kore-wireless",
+    "logo": "/images/providers/kore-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "KORE Wireless.png",
+    "review": false
+  },
+  {
+    "name": "Kore.ai",
+    "slug": "kore-ai",
+    "logo": "/images/providers/kore-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Koreai.png",
+    "review": false
+  },
+  {
+    "name": "Krisp Technology Inc",
+    "slug": "krisp-technology-inc",
+    "logo": "/images/providers/krisp-technology-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Krisp Technology Inc.png",
+    "review": false
+  },
+  {
+    "name": "Krista Software",
+    "slug": "krista-software",
+    "logo": "/images/providers/krista-software.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Krista Software.png",
+    "review": true
+  },
+  {
+    "name": "KsFiberNet",
+    "slug": "ksfibernet",
+    "logo": "/images/providers/ksfibernet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "KsFiberNet.png",
+    "review": false
+  },
+  {
+    "name": "Kustomer",
+    "slug": "kustomer",
+    "logo": "/images/providers/kustomer.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Kustomer.png",
+    "review": false
+  },
+  {
+    "name": "Laivly",
+    "slug": "laivly",
+    "logo": "/images/providers/laivly.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Laivly.png",
+    "review": false
+  },
+  {
+    "name": "Level AI",
+    "slug": "level-ai",
+    "logo": "/images/providers/level-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Level AI.png",
+    "review": false
+  },
+  {
+    "name": "Level365",
+    "slug": "level365",
+    "logo": "/images/providers/level365.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Level365.png",
+    "review": false
+  },
+  {
+    "name": "LevelBlue",
+    "slug": "levelblue",
+    "logo": "/images/providers/levelblue.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "LevelBlue.png",
+    "review": false
+  },
+  {
+    "name": "Lightedge",
+    "slug": "lightedge",
+    "logo": "/images/providers/lightedge.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Lightedge.png",
+    "review": false
+  },
+  {
+    "name": "Lightpath",
+    "slug": "lightpath",
+    "logo": "/images/providers/lightpath.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Lightpath.png",
+    "review": false
+  },
+  {
+    "name": "Liminal AI",
+    "slug": "liminal-ai",
+    "logo": "/images/providers/liminal-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Liminal AI.png",
+    "review": true
+  },
+  {
+    "name": "Linc",
+    "slug": "linc",
+    "logo": "/images/providers/linc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Linc.png",
+    "review": false
+  },
+  {
+    "name": "Lingo",
+    "slug": "lingo",
+    "logo": "/images/providers/lingo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Lingo.png",
+    "review": false
+  },
+  {
+    "name": "LinkLive.ai",
+    "slug": "linklive-ai",
+    "logo": "/images/providers/linklive-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "LinkLiveai.png",
+    "review": false
+  },
+  {
+    "name": "Liveops",
+    "slug": "liveops",
+    "logo": "/images/providers/liveops.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Liveops.png",
+    "review": false
+  },
+  {
+    "name": "Livepro",
+    "slug": "livepro",
+    "logo": "/images/providers/livepro.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Livepro.png",
+    "review": false
+  },
+  {
+    "name": "Logically",
+    "slug": "logically",
+    "logo": "/images/providers/logically.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity",
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Logically.png",
+    "review": false
+  },
+  {
+    "name": "Logix",
+    "slug": "logix",
+    "logo": "/images/providers/logix.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Logix.png",
+    "review": false
+  },
+  {
+    "name": "Lumen",
+    "slug": "lumen",
+    "logo": "/images/providers/lumen.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Lumen.png",
+    "review": false
+  },
+  {
+    "name": "Lunavi",
+    "slug": "lunavi",
+    "logo": "/images/providers/lunavi.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Lunavi.png",
+    "review": false
+  },
+  {
+    "name": "Magna5",
+    "slug": "magna5",
+    "logo": "/images/providers/magna5.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Magna5.png",
+    "review": false
+  },
+  {
+    "name": "Managed Solution",
+    "slug": "managed-solution",
+    "logo": "/images/providers/managed-solution.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Managed Solution.png",
+    "review": false
+  },
+  {
+    "name": "Massive Networks",
+    "slug": "massive-networks",
+    "logo": "/images/providers/massive-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Massive Networks.png",
+    "review": false
+  },
+  {
+    "name": "MassiveIT",
+    "slug": "massiveit",
+    "logo": "/images/providers/massiveit.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MassiveIT.png",
+    "review": true
+  },
+  {
+    "name": "Maxxsure",
+    "slug": "maxxsure",
+    "logo": "/images/providers/maxxsure.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Maxxsure.png",
+    "review": false
+  },
+  {
+    "name": "MediaCom",
+    "slug": "mediacom",
+    "logo": "/images/providers/mediacom.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MediaCom.png",
+    "review": false
+  },
+  {
+    "name": "Megaport",
+    "slug": "megaport",
+    "logo": "/images/providers/megaport.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Megaport.png",
+    "review": false
+  },
+  {
+    "name": "Mereo Fiber",
+    "slug": "mereo-fiber",
+    "logo": "/images/providers/mereo-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Mereo Fiber.png",
+    "review": false
+  },
+  {
+    "name": "Meter Inc",
+    "slug": "meter-inc",
+    "logo": "/images/providers/meter-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Meter Inc.png",
+    "review": false
+  },
+  {
+    "name": "Metro Wireless",
+    "slug": "metro-wireless",
+    "logo": "/images/providers/metro-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Metro Wireless.png",
+    "review": true
+  },
+  {
+    "name": "Metrobloks",
+    "slug": "metrobloks",
+    "logo": "/images/providers/metrobloks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Metrobloks.png",
+    "review": false
+  },
+  {
+    "name": "Metronet",
+    "slug": "metronet",
+    "logo": "/images/providers/metronet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Metronet.png",
+    "review": false
+  },
+  {
+    "name": "MetTel",
+    "slug": "mettel",
+    "logo": "/images/providers/mettel.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MetTel.png",
+    "review": false
+  },
+  {
+    "name": "MHO Networks",
+    "slug": "mho-networks",
+    "logo": "/images/providers/mho-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MHO Networks.png",
+    "review": false
+  },
+  {
+    "name": "Microspace",
+    "slug": "microspace",
+    "logo": "/images/providers/microspace.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Microspace.png",
+    "review": true
+  },
+  {
+    "name": "Mobile Mentor",
+    "slug": "mobile-mentor",
+    "logo": "/images/providers/mobile-mentor.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Mobile Mentor.png",
+    "review": false
+  },
+  {
+    "name": "MobilSense",
+    "slug": "mobilsense",
+    "logo": "/images/providers/mobilsense.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MobilSense.png",
+    "review": false
+  },
+  {
+    "name": "Momentum",
+    "slug": "momentum",
+    "logo": "/images/providers/momentum.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Momentum.png",
+    "review": false
+  },
+  {
+    "name": "Mosaic Networks",
+    "slug": "mosaic-networks",
+    "logo": "/images/providers/mosaic-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Mosaic Networks.png",
+    "review": true
+  },
+  {
+    "name": "Movylo",
+    "slug": "movylo",
+    "logo": "/images/providers/movylo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Movylo.png",
+    "review": true
+  },
+  {
+    "name": "MultiTek",
+    "slug": "multitek",
+    "logo": "/images/providers/multitek.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "MultiTek.png",
+    "review": true
+  },
+  {
+    "name": "Natural Wireless",
+    "slug": "natural-wireless",
+    "logo": "/images/providers/natural-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Natural Wireless.png",
+    "review": true
+  },
+  {
+    "name": "Net2Phone",
+    "slug": "net2phone",
+    "logo": "/images/providers/net2phone.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Net2Phone.png",
+    "review": false
+  },
+  {
+    "name": "Netacea",
+    "slug": "netacea",
+    "logo": "/images/providers/netacea.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Netacea.png",
+    "review": false
+  },
+  {
+    "name": "NetCarrier",
+    "slug": "netcarrier",
+    "logo": "/images/providers/netcarrier.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NetCarrier.png",
+    "review": false
+  },
+  {
+    "name": "Netrality",
+    "slug": "netrality",
+    "logo": "/images/providers/netrality.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Netrality.png",
+    "review": false
+  },
+  {
+    "name": "Netrio",
+    "slug": "netrio",
+    "logo": "/images/providers/netrio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Netrio.png",
+    "review": false
+  },
+  {
+    "name": "Netrix Global",
+    "slug": "netrix-global",
+    "logo": "/images/providers/netrix-global.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Netrix Global.png",
+    "review": false
+  },
+  {
+    "name": "Netwolves",
+    "slug": "netwolves",
+    "logo": "/images/providers/netwolves.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Netwolves.png",
+    "review": false
+  },
+  {
+    "name": "Nexon",
+    "slug": "nexon",
+    "logo": "/images/providers/nexon.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Nexon.png",
+    "review": true
+  },
+  {
+    "name": "Nextiva",
+    "slug": "nextiva",
+    "logo": "/images/providers/nextiva.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Nextiva.png",
+    "review": false
+  },
+  {
+    "name": "NexusTek",
+    "slug": "nexustek",
+    "logo": "/images/providers/nexustek.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NexusTek.png",
+    "review": false
+  },
+  {
+    "name": "ngenious",
+    "slug": "ngenious",
+    "logo": "/images/providers/ngenious.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ngenious.png",
+    "review": true
+  },
+  {
+    "name": "NHC",
+    "slug": "nhc",
+    "logo": "/images/providers/nhc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NHC.png",
+    "review": true
+  },
+  {
+    "name": "NICE",
+    "slug": "nice",
+    "logo": "/images/providers/nice.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NICE.png",
+    "review": false
+  },
+  {
+    "name": "Nord Security",
+    "slug": "nord-security",
+    "logo": "/images/providers/nord-security.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Nord Security.png",
+    "review": false
+  },
+  {
+    "name": "NovelVox",
+    "slug": "novelvox",
+    "logo": "/images/providers/novelvox.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NovelVox.png",
+    "review": false
+  },
+  {
+    "name": "Ntegrated",
+    "slug": "ntegrated",
+    "logo": "/images/providers/ntegrated.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ntegrated.png",
+    "review": true
+  },
+  {
+    "name": "Ntirety",
+    "slug": "ntirety",
+    "logo": "/images/providers/ntirety.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ntirety.png",
+    "review": false
+  },
+  {
+    "name": "Ntiva",
+    "slug": "ntiva",
+    "logo": "/images/providers/ntiva.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ntiva.png",
+    "review": false
+  },
+  {
+    "name": "NTT Cloud Communications",
+    "slug": "ntt-cloud-communications",
+    "logo": "/images/providers/ntt-cloud-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NTT Cloud Communications.png",
+    "review": false
+  },
+  {
+    "name": "NTT Global Data Centers",
+    "slug": "ntt-global-data-centers",
+    "logo": "/images/providers/ntt-global-data-centers.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NTT Global Data Centers.png",
+    "review": false
+  },
+  {
+    "name": "Numeracle, Inc",
+    "slug": "numeracle-inc",
+    "logo": "/images/providers/numeracle-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Numeracle, Inc.png",
+    "review": false
+  },
+  {
+    "name": "NuWave Communications",
+    "slug": "nuwave-communications",
+    "logo": "/images/providers/nuwave-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "NuWave Communications.png",
+    "review": false
+  },
+  {
+    "name": "Oak Innovation Limited",
+    "slug": "oak-innovation-limited",
+    "logo": "/images/providers/oak-innovation-limited.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Oak Innovation Limited.png",
+    "review": true
+  },
+  {
+    "name": "ObserveAI",
+    "slug": "observeai",
+    "logo": "/images/providers/observeai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ObserveAI.png",
+    "review": false
+  },
+  {
+    "name": "OmniNet",
+    "slug": "omninet",
+    "logo": "/images/providers/omninet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "OmniNet.png",
+    "review": true
+  },
+  {
+    "name": "One Source",
+    "slug": "one-source",
+    "logo": "/images/providers/one-source.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "One Source.png",
+    "review": true
+  },
+  {
+    "name": "OneCloud Corporation (OneCloud)",
+    "slug": "onecloud-corporation-onecloud",
+    "logo": "/images/providers/onecloud-corporation-onecloud.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "OneCloud Corporation (OneCloud).png",
+    "review": true
+  },
+  {
+    "name": "Onemind Services",
+    "slug": "onemind-services",
+    "logo": "/images/providers/onemind-services.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Onemind Services.png",
+    "review": true
+  },
+  {
+    "name": "OnSIP (an Ooma Company)",
+    "slug": "onsip-an-ooma-company",
+    "logo": "/images/providers/onsip-an-ooma-company.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "OnSIP (an Ooma Company).png",
+    "review": false
+  },
+  {
+    "name": "Ontinue",
+    "slug": "ontinue",
+    "logo": "/images/providers/ontinue.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ontinue.png",
+    "review": false
+  },
+  {
+    "name": "Ooma",
+    "slug": "ooma",
+    "logo": "/images/providers/ooma.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ooma.png",
+    "review": false
+  },
+  {
+    "name": "Open Systems",
+    "slug": "open-systems",
+    "logo": "/images/providers/open-systems.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Open Systems.png",
+    "review": false
+  },
+  {
+    "name": "Optimum Business",
+    "slug": "optimum-business",
+    "logo": "/images/providers/optimum-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Optimum Business.png",
+    "review": false
+  },
+  {
+    "name": "OTAVA",
+    "slug": "otava",
+    "logo": "/images/providers/otava.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "OTAVA.png",
+    "review": false
+  },
+  {
+    "name": "Outsource Consultants",
+    "slug": "outsource-consultants",
+    "logo": "/images/providers/outsource-consultants.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Outsource Consultants.png",
+    "review": true
+  },
+  {
+    "name": "Parameter Security",
+    "slug": "parameter-security",
+    "logo": "/images/providers/parameter-security.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Parameter Security.png",
+    "review": false
+  },
+  {
+    "name": "Pax8",
+    "slug": "pax8",
+    "logo": "/images/providers/pax8.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Pax8.png",
+    "review": false
+  },
+  {
+    "name": "PCI Pal",
+    "slug": "pci-pal",
+    "logo": "/images/providers/pci-pal.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "PCI Pal.png",
+    "review": false
+  },
+  {
+    "name": "Peacey Systems",
+    "slug": "peacey-systems",
+    "logo": "/images/providers/peacey-systems.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Peacey Systems.png",
+    "review": true
+  },
+  {
+    "name": "PhySaaS",
+    "slug": "physaas",
+    "logo": "/images/providers/physaas.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "PhySaaS.png",
+    "review": true
+  },
+  {
+    "name": "PiKNik",
+    "slug": "piknik",
+    "logo": "/images/providers/piknik.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "PiKNik.png",
+    "review": true
+  },
+  {
+    "name": "Pilot Fiber",
+    "slug": "pilot-fiber",
+    "logo": "/images/providers/pilot-fiber.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Pilot Fiber.png",
+    "review": false
+  },
+  {
+    "name": "PolyAI",
+    "slug": "polyai",
+    "logo": "/images/providers/polyai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "PolyAI.png",
+    "review": false
+  },
+  {
+    "name": "Powernet",
+    "slug": "powernet",
+    "logo": "/images/providers/powernet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Powernet.png",
+    "review": true
+  },
+  {
+    "name": "Prodoscore",
+    "slug": "prodoscore",
+    "logo": "/images/providers/prodoscore.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Prodoscore.png",
+    "review": false
+  },
+  {
+    "name": "Pulse Technologies Inc",
+    "slug": "pulse-technologies-inc",
+    "logo": "/images/providers/pulse-technologies-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Pulse Technologies Inc.png",
+    "review": true
+  },
+  {
+    "name": "Pure IP",
+    "slug": "pure-ip",
+    "logo": "/images/providers/pure-ip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Pure IP.png",
+    "review": false
+  },
+  {
+    "name": "Qeagle",
+    "slug": "qeagle",
+    "logo": "/images/providers/qeagle.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Qeagle.png",
+    "review": true
+  },
+  {
+    "name": "Qoolize",
+    "slug": "qoolize",
+    "logo": "/images/providers/qoolize.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Qoolize.png",
+    "review": true
+  },
+  {
+    "name": "Quiq",
+    "slug": "quiq",
+    "logo": "/images/providers/quiq.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Quiq.png",
+    "review": false
+  },
+  {
+    "name": "Rackspace Technology",
+    "slug": "rackspace-technology",
+    "logo": "/images/providers/rackspace-technology.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Rackspace Technology.png",
+    "review": false
+  },
+  {
+    "name": "RapidScale",
+    "slug": "rapidscale",
+    "logo": "/images/providers/rapidscale.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "RapidScale.png",
+    "review": false
+  },
+  {
+    "name": "Ready Wireless",
+    "slug": "ready-wireless",
+    "logo": "/images/providers/ready-wireless.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ready Wireless.png",
+    "review": false
+  },
+  {
+    "name": "Reelay",
+    "slug": "reelay",
+    "logo": "/images/providers/reelay.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Reelay.png",
+    "review": true
+  },
+  {
+    "name": "Regal.ai",
+    "slug": "regal-ai",
+    "logo": "/images/providers/regal-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Regalai.png",
+    "review": false
+  },
+  {
+    "name": "Remend",
+    "slug": "remend",
+    "logo": "/images/providers/remend.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Remend.png",
+    "review": true
+  },
+  {
+    "name": "Replicant",
+    "slug": "replicant",
+    "logo": "/images/providers/replicant.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Replicant.png",
+    "review": false
+  },
+  {
+    "name": "Resolve Tech Solutions",
+    "slug": "resolve-tech-solutions",
+    "logo": "/images/providers/resolve-tech-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Resolve Tech Solutions.png",
+    "review": true
+  },
+  {
+    "name": "Retarus",
+    "slug": "retarus",
+    "logo": "/images/providers/retarus.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Retarus.png",
+    "review": true
+  },
+  {
+    "name": "RingCentral",
+    "slug": "ringcentral",
+    "logo": "/images/providers/ringcentral.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "RingCentral.png",
+    "review": false
+  },
+  {
+    "name": "Rise Internet",
+    "slug": "rise-internet",
+    "logo": "/images/providers/rise-internet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Rise Internet.png",
+    "review": false
+  },
+  {
+    "name": "Risk Cognizance",
+    "slug": "risk-cognizance",
+    "logo": "/images/providers/risk-cognizance.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Risk Cognizance.png",
+    "review": false
+  },
+  {
+    "name": "Rogers Communications",
+    "slug": "rogers-communications",
+    "logo": "/images/providers/rogers-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Rogers Communications.png",
+    "review": false
+  },
+  {
+    "name": "RSI",
+    "slug": "rsi",
+    "logo": "/images/providers/rsi.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "RSI.png",
+    "review": true
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby",
+    "logo": "/images/providers/ruby.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ruby.png",
+    "review": false
+  },
+  {
+    "name": "S-NET Communications",
+    "slug": "s-net-communications",
+    "logo": "/images/providers/s-net-communications.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "S-NET Communications.png",
+    "review": false
+  },
+  {
+    "name": "Sanas",
+    "slug": "sanas",
+    "logo": "/images/providers/sanas.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sanas.png",
+    "review": false
+  },
+  {
+    "name": "Sangoma",
+    "slug": "sangoma",
+    "logo": "/images/providers/sangoma.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sangoma.png",
+    "review": false
+  },
+  {
+    "name": "Scale Computing",
+    "slug": "scale-computing",
+    "logo": "/images/providers/scale-computing.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Scale Computing.png",
+    "review": false
+  },
+  {
+    "name": "SCB Global",
+    "slug": "scb-global",
+    "logo": "/images/providers/scb-global.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SCB Global.png",
+    "review": true
+  },
+  {
+    "name": "Secuvy",
+    "slug": "secuvy",
+    "logo": "/images/providers/secuvy.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Secuvy.png",
+    "review": false
+  },
+  {
+    "name": "Segra",
+    "slug": "segra",
+    "logo": "/images/providers/segra.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Segra.png",
+    "review": false
+  },
+  {
+    "name": "Semper Sec, LLC",
+    "slug": "semper-sec-llc",
+    "logo": "/images/providers/semper-sec-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Semper Sec, LLC.png",
+    "review": false
+  },
+  {
+    "name": "Semtech",
+    "slug": "semtech",
+    "logo": "/images/providers/semtech.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Semtech.png",
+    "review": false
+  },
+  {
+    "name": "Sharpen",
+    "slug": "sharpen",
+    "logo": "/images/providers/sharpen.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sharpen.png",
+    "review": false
+  },
+  {
+    "name": "ShyftOff",
+    "slug": "shyftoff",
+    "logo": "/images/providers/shyftoff.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ShyftOff.png",
+    "review": false
+  },
+  {
+    "name": "SilverSky",
+    "slug": "silversky",
+    "logo": "/images/providers/silversky.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SilverSky.png",
+    "review": false
+  },
+  {
+    "name": "SimpleTek",
+    "slug": "simpletek",
+    "logo": "/images/providers/simpletek.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SimpleTek.png",
+    "review": true
+  },
+  {
+    "name": "Simplicity VoIP",
+    "slug": "simplicity-voip",
+    "logo": "/images/providers/simplicity-voip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Simplicity VoIP.png",
+    "review": false
+  },
+  {
+    "name": "SimpliMeta",
+    "slug": "simplimeta",
+    "logo": "/images/providers/simplimeta.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SimpliMeta.png",
+    "review": true
+  },
+  {
+    "name": "Sinch",
+    "slug": "sinch",
+    "logo": "/images/providers/sinch.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sinch.png",
+    "review": false
+  },
+  {
+    "name": "SIPPIO",
+    "slug": "sippio",
+    "logo": "/images/providers/sippio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SIPPIO.png",
+    "review": false
+  },
+  {
+    "name": "Skipio powered by RapidTalk AI",
+    "slug": "skipio-powered-by-rapidtalk-ai",
+    "logo": "/images/providers/skipio-powered-by-rapidtalk-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Skipio powered by RapidTalk AI.png",
+    "review": false
+  },
+  {
+    "name": "Sky Data Vault",
+    "slug": "sky-data-vault",
+    "logo": "/images/providers/sky-data-vault.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sky Data Vault.png",
+    "review": false
+  },
+  {
+    "name": "Smartaira",
+    "slug": "smartaira",
+    "logo": "/images/providers/smartaira.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Smartaira.png",
+    "review": false
+  },
+  {
+    "name": "Snowfly",
+    "slug": "snowfly",
+    "logo": "/images/providers/snowfly.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Snowfly.png",
+    "review": false
+  },
+  {
+    "name": "SoftwareOne - Crayon",
+    "slug": "softwareone-crayon",
+    "logo": "/images/providers/softwareone-crayon.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SoftwareOne - Crayon.png",
+    "review": false
+  },
+  {
+    "name": "SoundHound AI Amelia",
+    "slug": "soundhound-ai-amelia",
+    "logo": "/images/providers/soundhound-ai-amelia.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SoundHound AI Amelia.png",
+    "review": false
+  },
+  {
+    "name": "SourceRock",
+    "slug": "sourcerock",
+    "logo": "/images/providers/sourcerock.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SourceRock.png",
+    "review": true
+  },
+  {
+    "name": "Speakap",
+    "slug": "speakap",
+    "logo": "/images/providers/speakap.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Speakap.png",
+    "review": true
+  },
+  {
+    "name": "Spectrotel",
+    "slug": "spectrotel",
+    "logo": "/images/providers/spectrotel.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Spectrotel.png",
+    "review": false
+  },
+  {
+    "name": "Spectrum Community Solutions",
+    "slug": "spectrum-community-solutions",
+    "logo": "/images/providers/spectrum-community-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Spectrum Community Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Spectrum VoIP",
+    "slug": "spectrum-voip",
+    "logo": "/images/providers/spectrum-voip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Spectrum VoIP.png",
+    "review": false
+  },
+  {
+    "name": "Spectrum",
+    "slug": "spectrum",
+    "logo": "/images/providers/spectrum.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Spectrum.png",
+    "review": false
+  },
+  {
+    "name": "SpiceX",
+    "slug": "spicex",
+    "logo": "/images/providers/spicex.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SpiceX.png",
+    "review": true
+  },
+  {
+    "name": "Spireon Inc",
+    "slug": "spireon-inc",
+    "logo": "/images/providers/spireon-inc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Spireon Inc.png",
+    "review": false
+  },
+  {
+    "name": "Splice Technologies",
+    "slug": "splice-technologies",
+    "logo": "/images/providers/splice-technologies.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Splice Technologies.png",
+    "review": true
+  },
+  {
+    "name": "Sprinklr",
+    "slug": "sprinklr",
+    "logo": "/images/providers/sprinklr.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Sprinklr.png",
+    "review": false
+  },
+  {
+    "name": "Starken Technologies",
+    "slug": "starken-technologies",
+    "logo": "/images/providers/starken-technologies.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Starken Technologies.png",
+    "review": true
+  },
+  {
+    "name": "Steadfast",
+    "slug": "steadfast",
+    "logo": "/images/providers/steadfast.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Steadfast.png",
+    "review": false
+  },
+  {
+    "name": "SteelDome",
+    "slug": "steeldome",
+    "logo": "/images/providers/steeldome.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SteelDome.png",
+    "review": false
+  },
+  {
+    "name": "Stellar Technologies",
+    "slug": "stellar-technologies",
+    "logo": "/images/providers/stellar-technologies.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Stellar Technologies.png",
+    "review": true
+  },
+  {
+    "name": "Stickley on Security",
+    "slug": "stickley-on-security",
+    "logo": "/images/providers/stickley-on-security.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Stickley on Security.png",
+    "review": false
+  },
+  {
+    "name": "Storj",
+    "slug": "storj",
+    "logo": "/images/providers/storj.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Storj.png",
+    "review": false
+  },
+  {
+    "name": "Strata Networks",
+    "slug": "strata-networks",
+    "logo": "/images/providers/strata-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Strata Networks.png",
+    "review": false
+  },
+  {
+    "name": "Strata Pointe Technologies",
+    "slug": "strata-pointe-technologies",
+    "logo": "/images/providers/strata-pointe-technologies.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Strata Pointe Technologies.png",
+    "review": true
+  },
+  {
+    "name": "SuccessKPI",
+    "slug": "successkpi",
+    "logo": "/images/providers/successkpi.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "SuccessKPI.png",
+    "review": false
+  },
+  {
+    "name": "Summit Broadband",
+    "slug": "summit-broadband",
+    "logo": "/images/providers/summit-broadband.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Summit Broadband.png",
+    "review": false
+  },
+  {
+    "name": "Summit Hosting",
+    "slug": "summit-hosting",
+    "logo": "/images/providers/summit-hosting.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Summit Hosting.png",
+    "review": false
+  },
+  {
+    "name": "Switch",
+    "slug": "switch",
+    "logo": "/images/providers/switch.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Switch.png",
+    "review": false
+  },
+  {
+    "name": "Synoptek",
+    "slug": "synoptek",
+    "logo": "/images/providers/synoptek.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Synoptek.png",
+    "review": false
+  },
+  {
+    "name": "Syringa Networks, LLC",
+    "slug": "syringa-networks-llc",
+    "logo": "/images/providers/syringa-networks-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Syringa Networks, LLC.png",
+    "review": false
+  },
+  {
+    "name": "T-Mobile",
+    "slug": "t-mobile",
+    "logo": "/images/providers/t-mobile.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "T-Mobile.png",
+    "review": false
+  },
+  {
+    "name": "Talkdesk",
+    "slug": "talkdesk",
+    "logo": "/images/providers/talkdesk.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Talkdesk.png",
+    "review": false
+  },
+  {
+    "name": "Tangoe",
+    "slug": "tangoe",
+    "logo": "/images/providers/tangoe.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Tangoe.png",
+    "review": false
+  },
+  {
+    "name": "TCN",
+    "slug": "tcn",
+    "logo": "/images/providers/tcn.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TCN.png",
+    "review": false
+  },
+  {
+    "name": "TCS Professional Services LLC",
+    "slug": "tcs-professional-services-llc",
+    "logo": "/images/providers/tcs-professional-services-llc.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TCS Professional Services LLC.png",
+    "review": true
+  },
+  {
+    "name": "TecEx",
+    "slug": "tecex",
+    "logo": "/images/providers/tecex.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TecEx.png",
+    "review": true
+  },
+  {
+    "name": "Techmate",
+    "slug": "techmate",
+    "logo": "/images/providers/techmate.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Techmate.png",
+    "review": true
+  },
+  {
+    "name": "Telefónica Global Solutions",
+    "slug": "telefonica-global-solutions",
+    "logo": "/images/providers/telefonica-global-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Telefónica Global Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Telesystem",
+    "slug": "telesystem",
+    "logo": "/images/providers/telesystem.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Telesystem.png",
+    "review": false
+  },
+  {
+    "name": "TeligentIP",
+    "slug": "teligentip",
+    "logo": "/images/providers/teligentip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TeligentIP.png",
+    "review": false
+  },
+  {
+    "name": "Telnyx",
+    "slug": "telnyx",
+    "logo": "/images/providers/telnyx.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Telnyx.png",
+    "review": false
+  },
+  {
+    "name": "TelSynergy",
+    "slug": "telsynergy",
+    "logo": "/images/providers/telsynergy.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TelSynergy.png",
+    "review": true
+  },
+  {
+    "name": "TeraGo",
+    "slug": "terago",
+    "logo": "/images/providers/terago.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TeraGo.png",
+    "review": false
+  },
+  {
+    "name": "TeraNova",
+    "slug": "teranova",
+    "logo": "/images/providers/teranova.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TeraNova.png",
+    "review": true
+  },
+  {
+    "name": "Ternio",
+    "slug": "ternio",
+    "logo": "/images/providers/ternio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ternio.png",
+    "review": true
+  },
+  {
+    "name": "Thought Horizon",
+    "slug": "thought-horizon",
+    "logo": "/images/providers/thought-horizon.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Thought Horizon.png",
+    "review": true
+  },
+  {
+    "name": "Thrive Networks",
+    "slug": "thrive-networks",
+    "logo": "/images/providers/thrive-networks.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Thrive Networks.png",
+    "review": false
+  },
+  {
+    "name": "Thryv",
+    "slug": "thryv",
+    "logo": "/images/providers/thryv.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Thryv.png",
+    "review": false
+  },
+  {
+    "name": "TierPoint",
+    "slug": "tierpoint",
+    "logo": "/images/providers/tierpoint.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TierPoint.png",
+    "review": false
+  },
+  {
+    "name": "TouchTone",
+    "slug": "touchtone",
+    "logo": "/images/providers/touchtone.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "TouchTone.png",
+    "review": false
+  },
+  {
+    "name": "Transaction Network Services",
+    "slug": "transaction-network-services",
+    "logo": "/images/providers/transaction-network-services.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Transaction Network Services.png",
+    "review": false
+  },
+  {
+    "name": "Trinsio",
+    "slug": "trinsio",
+    "logo": "/images/providers/trinsio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Trinsio.png",
+    "review": true
+  },
+  {
+    "name": "UJET",
+    "slug": "ujet",
+    "logo": "/images/providers/ujet.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ujetcx.png",
+    "review": false
+  },
+  {
+    "name": "Unisys",
+    "slug": "unisys",
+    "logo": "/images/providers/unisys.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Unisys.png",
+    "review": false
+  },
+  {
+    "name": "Uniti Wholesale",
+    "slug": "uniti-wholesale",
+    "logo": "/images/providers/uniti-wholesale.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Uniti Wholesale.png",
+    "review": false
+  },
+  {
+    "name": "Uniti",
+    "slug": "uniti",
+    "logo": "/images/providers/uniti.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Uniti.png",
+    "review": false
+  },
+  {
+    "name": "UniVoIP",
+    "slug": "univoip",
+    "logo": "/images/providers/univoip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "UniVoIP.png",
+    "review": false
+  },
+  {
+    "name": "UpCurve Cloud",
+    "slug": "upcurve-cloud",
+    "logo": "/images/providers/upcurve-cloud.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "UpCurve Cloud.png",
+    "review": false
+  },
+  {
+    "name": "US Signal",
+    "slug": "us-signal",
+    "logo": "/images/providers/us-signal.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "US Signal.png",
+    "review": false
+  },
+  {
+    "name": "Utah Broadband",
+    "slug": "utah-broadband",
+    "logo": "/images/providers/utah-broadband.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Utah Broadband.png",
+    "review": false
+  },
+  {
+    "name": "ValorC3 Data Centers",
+    "slug": "valorc3-data-centers",
+    "logo": "/images/providers/valorc3-data-centers.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ValorC3 Data Centers.png",
+    "review": false
+  },
+  {
+    "name": "vCom Solutions",
+    "slug": "vcom-solutions",
+    "logo": "/images/providers/vcom-solutions.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Expense management and other"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "vCom Solutions.png",
+    "review": false
+  },
+  {
+    "name": "Verint",
+    "slug": "verint",
+    "logo": "/images/providers/verint.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Verint.png",
+    "review": false
+  },
+  {
+    "name": "Vertek",
+    "slug": "vertek",
+    "logo": "/images/providers/vertek.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Vertek.png",
+    "review": true
+  },
+  {
+    "name": "Verve",
+    "slug": "verve",
+    "logo": "/images/providers/verve.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Verve.png",
+    "review": true
+  },
+  {
+    "name": "Viasat",
+    "slug": "viasat",
+    "logo": "/images/providers/viasat.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Viasat.png",
+    "review": false
+  },
+  {
+    "name": "Vigilant",
+    "slug": "vigilant",
+    "logo": "/images/providers/vigilant.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Vigilant.png",
+    "review": false
+  },
+  {
+    "name": "VocalIP",
+    "slug": "vocalip",
+    "logo": "/images/providers/vocalip.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "VocalIP.png",
+    "review": false
+  },
+  {
+    "name": "Vodafone Business",
+    "slug": "vodafone-business",
+    "logo": "/images/providers/vodafone-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity",
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Vodafone Business.png",
+    "review": false
+  },
+  {
+    "name": "Volico - Sling Broadband - FasterIO",
+    "slug": "volico-sling-broadband-fasterio",
+    "logo": "/images/providers/volico-sling-broadband-fasterio.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services",
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Volico - Sling Broadband - FasterIO.png",
+    "review": false
+  },
+  {
+    "name": "Vonage",
+    "slug": "vonage",
+    "logo": "/images/providers/vonage.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Vonage.png",
+    "review": false
+  },
+  {
+    "name": "Vyve Broadband",
+    "slug": "vyve-broadband",
+    "logo": "/images/providers/vyve-broadband.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Vyve Broadband.png",
+    "review": false
+  },
+  {
+    "name": "Warner Telecomm",
+    "slug": "warner-telecomm",
+    "logo": "/images/providers/warner-telecomm.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Warner Telecomm.png",
+    "review": true
+  },
+  {
+    "name": "Weave",
+    "slug": "weave",
+    "logo": "/images/providers/weave.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Weave.png",
+    "review": false
+  },
+  {
+    "name": "WiLine",
+    "slug": "wiline",
+    "logo": "/images/providers/wiline.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "WiLine.png",
+    "review": false
+  },
+  {
+    "name": "Wireless Watchdogs",
+    "slug": "wireless-watchdogs",
+    "logo": "/images/providers/wireless-watchdogs.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Mobility"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Wireless Watchdogs.png",
+    "review": false
+  },
+  {
+    "name": "WOW Business",
+    "slug": "wow-business",
+    "logo": "/images/providers/wow-business.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "WOW Business.png",
+    "review": false
+  },
+  {
+    "name": "Xcitium Cybersecurity",
+    "slug": "xcitium-cybersecurity",
+    "logo": "/images/providers/xcitium-cybersecurity.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cybersecurity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Xcitium Cybersecurity.png",
+    "review": false
+  },
+  {
+    "name": "Xebo.ai",
+    "slug": "xebo-ai",
+    "logo": "/images/providers/xebo-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Xeboai.png",
+    "review": false
+  },
+  {
+    "name": "XTIUM",
+    "slug": "xtium",
+    "logo": "/images/providers/xtium.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "XTIUM.png",
+    "review": false
+  },
+  {
+    "name": "Yellow.ai",
+    "slug": "yellow-ai",
+    "logo": "/images/providers/yellow-ai.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Yellowai.png",
+    "review": false
+  },
+  {
+    "name": "YourSix",
+    "slug": "yoursix",
+    "logo": "/images/providers/yoursix.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "IoT and physical security"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "YourSix.png",
+    "review": false
+  },
+  {
+    "name": "Zayo",
+    "slug": "zayo",
+    "logo": "/images/providers/zayo.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Zayo.png",
+    "review": false
+  },
+  {
+    "name": "Zenarate",
+    "slug": "zenarate",
+    "logo": "/images/providers/zenarate.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Zenarate.png",
+    "review": false
+  },
+  {
+    "name": "Zenlayer",
+    "slug": "zenlayer",
+    "logo": "/images/providers/zenlayer.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Zenlayer.png",
+    "review": false
+  },
+  {
+    "name": "ZeroOutages",
+    "slug": "zerooutages",
+    "logo": "/images/providers/zerooutages.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "ZeroOutages.png",
+    "review": false
+  },
+  {
+    "name": "Ziply",
+    "slug": "ziply",
+    "logo": "/images/providers/ziply.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Networking and connectivity"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Ziply.png",
+    "review": false
+  },
+  {
+    "name": "Zoom",
+    "slug": "zoom",
+    "logo": "/images/providers/zoom.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications",
+      "Contact centre and CX"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Zoom.png",
+    "review": false
+  },
+  {
+    "name": "Zultys",
+    "slug": "zultys",
+    "logo": "/images/providers/zultys.webp",
+    "width": 320,
+    "height": 160,
+    "categories": [
+      "Unified communications"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "Zultys.png",
+    "review": false
+  }
+]

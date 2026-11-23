@@ -17,13 +17,13 @@ export const SITE = {
 export const NAV = [
   { href: '/services/', label: 'Services' },
   { href: '/how-we-work/', label: 'How we work' },
-  { href: '/government-buyers/', label: 'For government buyers' },
+  { href: '/government-buyers/', label: 'For Government Buyers' },
   { href: '/about/', label: 'About' },
   { href: '/resources/', label: 'Resources' },
 ];
 
 // UNSPSC commodity codes for the work HCI does (KB-77). Shown on the
-// For government buyers page and the French page. Every code here has been
+// For Government Buyers page and the French page. Every code here has been
 // used on federal contracts in the CanadaBuys contract history.
 // Keep this list in step with the codes in our CanadaBuys supplier profile.
 // fr: our own French wording, not the official GC translation.

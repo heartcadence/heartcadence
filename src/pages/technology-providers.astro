@@ -1,0 +1,140 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { SITE } from '../site';
+import allProviders from '../data/providers.json';
+
+// One row per provider in src/data/providers.json. To hide a logo, set
+// "include": false. To group logos, add names to "categories".
+const providers = allProviders
+  .filter((p) => p.include)
+  .sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+
+const categories = [...new Set(providers.flatMap((p) => p.categories))].sort();
+const count = providers.length;
+const countLabel = `${Math.floor(count / 50) * 50}+`;
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Technology providers Heart Cadence Inc. works with',
+  numberOfItems: count,
+  itemListElement: providers.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: { '@type': 'Organization', name: p.name },
+  })),
+};
+---
+<Base
+  title="Technology providers"
+  description={`Heart Cadence Inc. works with ${countLabel} technology providers across cybersecurity, contact centre, unified communications, cloud, networking, mobility and IoT. We help you choose what fits your business.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+
+  <PageHeader
+    eyebrow="Technology providers"
+    title={`We work with ${countLabel} technology providers`}
+    intro="We are not tied to any one brand. We are loyal to your business. We learn how it runs, compare the options that fit, and set up the one you choose with you."
+  />
+
+  <section class="container-site" aria-labelledby="directory-heading">
+    <h2 id="directory-heading" class="sr-only">Provider directory</h2>
+
+    <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+      <div class="w-full md:max-w-sm">
+        <label for="provider-search" class="block text-sm font-semibold text-heading">Search providers</label>
+        <input
+          id="provider-search"
+          type="search"
+          autocomplete="off"
+          placeholder="For example, Cisco"
+          class="mt-1 w-full min-h-[44px] rounded-[var(--radius-sm)] border border-control-border bg-surface px-3 text-text"
+        />
+      </div>
+      <p class="text-sm text-text-muted" aria-live="polite"><span id="provider-count">{count}</span> providers shown</p>
+    </div>
+
+    {categories.length > 0 && (
+      <div class="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filter by area">
+        <button type="button" class="filter-chip" data-category="" aria-pressed="true">All</button>
+        {categories.map((c) => (
+          <button type="button" class="filter-chip" data-category={c} aria-pressed="false">{c}</button>
+        ))}
+      </div>
+    )}
+
+    <ul id="provider-list" class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+      {providers.map((p) => (
+        <li
+          class="provider-tile rounded-[var(--radius-md)] border border-border p-3"
+          data-name={p.name.toLowerCase()}
+          data-categories={p.categories.join('|')}
+        >
+          <div class="flex h-20 items-center justify-center">
+            <img
+              src={p.logo}
+              alt={`${p.name} logo`}
+              width={p.width}
+              height={p.height}
+              loading="lazy"
+              decoding="async"
+              class="max-h-20 w-auto max-w-full object-contain"
+            />
+          </div>
+          <p class="mt-2 text-center text-sm text-[#1E2329]">{p.name}</p>
+        </li>
+      ))}
+    </ul>
+    <p id="provider-empty" class="mt-6" hidden>No providers match that search. Try a shorter name, or book a call and ask us.</p>
+
+    <p class="mt-8 max-w-2xl text-sm text-text-muted">
+      Logos and brand names belong to their owners. Showing a logo here means we can source and support that provider's services for you. It does not mean the provider endorses {SITE.name}.
+    </p>
+  </section>
+
+  <CtaBand
+    title="Not sure which provider fits?"
+    text="Book a short call. Tell us what you need and we will compare the options with you."
+  />
+</Base>
+
+<style>
+  /* Logos keep their own colours, so tiles stay light in both themes. */
+  .provider-tile { background: #FFFFFF; }
+  .filter-chip { min-height: 44px; padding: 0.5rem 0.875rem; border-radius: var(--radius-sm); border: 1px solid var(--control-border); color: var(--heading); font-size: 0.9375rem; }
+  .filter-chip[aria-pressed='true'] { background: var(--heading); color: var(--bg); border-color: var(--heading); }
+</style>
+
+<script>
+  const input = document.getElementById('provider-search') as HTMLInputElement | null;
+  const tiles = Array.from(document.querySelectorAll<HTMLElement>('#provider-list > li'));
+  const countEl = document.getElementById('provider-count');
+  const empty = document.getElementById('provider-empty');
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.filter-chip'));
+  let category = '';
+
+  function apply() {
+    const q = (input?.value || '').trim().toLowerCase();
+    let shown = 0;
+    for (const t of tiles) {
+      const nameOk = !q || (t.dataset.name || '').includes(q);
+      const catOk = !category || (t.dataset.categories || '').split('|').includes(category);
+      const show = nameOk && catOk;
+      t.hidden = !show;
+      if (show) shown++;
+    }
+    if (countEl) countEl.textContent = String(shown);
+    if (empty) empty.hidden = shown !== 0;
+  }
+
+  input?.addEventListener('input', apply);
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      category = chip.dataset.category || '';
+      for (const c of chips) c.setAttribute('aria-pressed', String(c === chip));
+      apply();
+    });
+  }
+</script>
