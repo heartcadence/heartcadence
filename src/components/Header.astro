@@ -5,7 +5,8 @@ import { NAV } from '../site';
 interface Props { lang?: 'en' | 'fr' }
 const { lang = 'en' } = Astro.props;
 const path = Astro.url.pathname;
-const isCurrent = (href: string) => path === href || path === href.replace(/\/$/, '');
+const isCurrent = (href: string) =>
+  path === href || path === href.replace(/\/$/, '') || (href === '/government/' && path.startsWith('/government-buyers'));
 ---
 <header class="bg-surface border-b border-border">
   <div class="container-site flex items-center justify-between gap-4 py-3">

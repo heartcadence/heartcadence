@@ -17,7 +17,7 @@ export const SITE = {
 export const NAV = [
   { href: '/services/', label: 'Services' },
   { href: '/how-we-work/', label: 'How we work' },
-  { href: '/government-buyers/', label: 'For Government Buyers' },
+  { href: '/government/', label: 'Government' },
   { href: '/about/', label: 'About' },
   { href: '/resources/', label: 'Resources' },
 ];
