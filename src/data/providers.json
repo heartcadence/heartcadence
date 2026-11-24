@@ -3183,6 +3183,20 @@
     "review": false
   },
   {
+    "name": "ManageEngine",
+    "slug": "manageengine",
+    "logo": "/images/providers/manageengine.webp",
+    "width": 760,
+    "height": 134,
+    "categories": [
+      "Cloud and managed services"
+    ],
+    "featured": false,
+    "include": true,
+    "sourceFile": "manageengine-light-black-logo.svg",
+    "review": false
+  },
+  {
     "name": "Massive Networks",
     "slug": "massive-networks",
     "logo": "/images/providers/massive-networks.webp",
