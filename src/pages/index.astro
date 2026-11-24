@@ -1,103 +1,127 @@
 ---
 import Base from '../layouts/Base.astro';
 import CtaBand from '../components/CtaBand.astro';
+import allProviders from '../data/providers.json';
 
-const services = [
+// Logos marked "featured" in src/data/providers.json show in the strip below.
+const featured = allProviders.filter((p) => p.include && p.featured);
+const providerCount = allProviders.filter((p) => p.include).length;
+const countLabel = `${Math.floor(providerCount / 50) * 50}+`;
+
+// Each card links to its Services section for now. Point these at the
+// solution pages once those are written.
+const areas = [
   {
-    href: '/services/#readiness',
-    title: 'Procurement readiness',
-    text: 'We get your registrations, documents and internal processes in order, so you are ready when the right opportunity appears.',
-  },
-  {
-    href: '/services/#bids',
-    title: 'Bid and proposal development',
-    text: 'We help you decide which bids to pursue, then plan, write and review the response with you, start to finish.',
+    href: '/services/#customer-experience',
+    title: 'Customer experience',
+    text: 'We map how your customers reach you and what happens next, then fix the gaps.',
   },
   {
     href: '/services/#technology',
-    title: 'Technology sourcing and setup',
-    text: 'We compare options from our network of technology providers and manage the setup with you, from cybersecurity to cloud and phone systems.',
+    title: 'Phones and contact centre',
+    text: 'Business phone systems (UCaaS), contact centre (CCaaS), call recording and chat. We compare options and set up the one you choose.',
   },
   {
-    href: '/services/#customer-experience',
-    title: 'Customer experience and delivery',
-    text: 'We design how your clients experience your work and help you deliver the contract on time and as promised.',
+    href: '/services/#technology',
+    title: 'Networks and connectivity',
+    text: 'Internet, SD-WAN, managed Wi-Fi and backup connections for every location.',
   },
+  {
+    href: '/services/#technology',
+    title: 'Cybersecurity',
+    text: 'Assessments, managed security, staff training and incident response.',
+  },
+  {
+    href: '/services/#technology',
+    title: 'Cloud and IT management',
+    text: 'Cloud setup and migration, backup and recovery, and helpdesk.',
+  },
+  {
+    href: '/services/#technology',
+    title: 'Mobility and IoT',
+    text: 'Business phones, plans, device management, cameras and sensors.',
+  },
+];
+
+const reasons = [
+  { title: 'Not tied to any one brand', text: 'We are loyal to your business. We recommend what fits, not what one vendor sells.' },
+  { title: 'We do the work with you', text: 'We compare the options, manage the setup and stay your main contact once it is running.' },
+  { title: 'One point of contact', text: 'One team instead of five vendors.' },
+  { title: 'Real experience', text: 'About 20 years in IT, plus deep customer experience expertise.' },
 ];
 
 const steps = [
   { title: 'Fit call', text: 'A short call to understand your business and goals.' },
-  { title: 'Readiness review', text: 'We look at where you stand today and what is missing.' },
-  { title: 'Plan', text: 'A clear plan with tasks, owners and dates.' },
-  { title: 'Do the work', text: 'We build, write and set up alongside your team.' },
+  { title: 'Review', text: 'We look at your current tools, costs and where customers get stuck.' },
+  { title: 'Plan', text: 'A clear recommendation with options, owners and dates.' },
+  { title: 'Set up and support', text: 'We manage the setup with you and stay your point of contact.' },
 ];
 ---
-<Base title="Home">
+<Base
+  title="Home"
+  description="Heart Cadence Inc. helps Canadian businesses choose, set up and run the phone, contact centre, network and security tools their teams and customers rely on."
+>
   <section class="container-site pt-12 pb-12 md:pt-20 md:pb-16">
-    <p class="text-sm font-semibold uppercase tracking-wider text-text-muted mb-4">Government contract readiness and bid support</p>
-    <h1 class="max-w-3xl">Become government-ready, with a team that does the work.</h1>
+    <p class="text-sm font-semibold uppercase tracking-wider text-text-muted mb-4">Technology and customer experience</p>
+    <h1 class="max-w-3xl">The right technology for how your business serves its customers.</h1>
     <p class="mt-5 max-w-2xl text-lg">
-      Heart Cadence Inc. (HCI) helps Canadian businesses become government-ready, submit stronger bids, and deliver public sector contracts with confidence.
+      Heart Cadence Inc. (HCI) helps Canadian businesses choose, set up and run the phone, contact centre, network and security tools their teams and customers rely on. One team, from the first call to go-live.
     </p>
     <div class="mt-8 flex flex-wrap gap-3">
       <a href="/book-a-call/" class="btn-primary">Book a call</a>
-      <a href="/services/" class="btn-secondary">See our services</a>
+      <a href="/technology-providers/" class="btn-secondary">See the providers we work with</a>
     </div>
     <p class="mt-6 text-sm text-text-muted">Based in Brantford, Ontario. Working with businesses across Canada.</p>
   </section>
 
-  <section class="bg-surface border-y border-border">
-    <div class="container-site py-14 grid gap-10 md:grid-cols-2">
-      <div>
-        <h2>Who we help</h2>
-        <p class="mt-4">
-          We work with vendors and subcontractors who want to grow by selling to government. Most of our focus is on IT services and professional services firms.
-        </p>
-        <p class="mt-4">
-          You may be new to public sector work, or you may have bid before without the results you wanted. Either way, we start from where you are.
-        </p>
+  {featured.length > 0 && (
+    <section class="bg-surface border-y border-border" aria-labelledby="providers-heading">
+      <div class="container-site py-12">
+        <h2 id="providers-heading">We work with {countLabel} technology providers</h2>
+        <ul class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
+          {featured.map((p) => (
+            <li class="logo-tile flex h-20 items-center justify-center rounded-[var(--radius-md)] border border-border p-3">
+              <img src={p.logo} alt={`${p.name} logo`} width={p.width} height={p.height} loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain" />
+            </li>
+          ))}
+        </ul>
+        <p class="mt-6"><a href="/technology-providers/" class="font-semibold">See all providers</a></p>
       </div>
-      <div>
-        <h2>What makes us different</h2>
-        <p class="mt-4">
-          Many advisors tell you what to do. We do the work with you. That means writing bid sections, setting up systems, and mapping your client journey, not handing you a report.
-        </p>
-        <p class="mt-4">
-          When a contract needs new technology, we source it through our provider network and set it up with you.
-        </p>
-        <p class="mt-4">
-          Our team brings about 20 years of IT experience and deep customer experience expertise to every engagement.
-        </p>
-      </div>
+    </section>
+  )}
+
+  <section class="container-site py-14">
+    <div class="max-w-3xl">
+      <h2>Who we help</h2>
+      <p class="mt-4">
+        We work with owners, IT leads and customer experience leads at small and mid-sized businesses. You may be outgrowing your phone system, managing too many vendors, or unsure which tools fit. We start from where you are.
+      </p>
     </div>
   </section>
 
-  <section class="container-site py-14">
+  <section class="container-site pb-14">
     <h2>What we do</h2>
-    <ul class="mt-8 grid gap-4 md:grid-cols-2">
-      {services.map((s) => (
+    <ul class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {areas.map((a) => (
         <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6">
-          <h3><a href={s.href} class="text-heading no-underline hover:text-link">{s.title}</a></h3>
-          <p class="mt-2">{s.text}</p>
+          <h3><a href={a.href} class="text-heading no-underline hover:text-link">{a.title}</a></h3>
+          <p class="mt-2">{a.text}</p>
         </li>
       ))}
     </ul>
   </section>
 
-  <section class="bg-surface-alt border-y border-border">
-    <div class="container-site py-14 md:grid md:grid-cols-[1fr_1.4fr] md:gap-12">
-      <h2>Free help is a good start. We go further.</h2>
-      <div class="mt-4 md:mt-0">
-        <p>
-          Procurement Assistance Canada offers free seminars, resources and coaching. We recommend them. Their help explains the process. It does not write your bid or set up your systems.
-        </p>
-        <p class="mt-4">HCI adds hands-on work on top of that:</p>
-        <ul class="mt-3 list-disc pl-5 grid gap-1">
-          <li>Writing and reviewing your bid with you, for a specific opportunity</li>
-          <li>Choosing and setting up the technology a contract needs</li>
-          <li>Designing a client experience that supports strong delivery</li>
-        </ul>
-      </div>
+  <section class="bg-surface border-y border-border">
+    <div class="container-site py-14">
+      <h2>Why HCI</h2>
+      <ul class="mt-8 grid gap-6 md:grid-cols-2">
+        {reasons.map((r) => (
+          <li>
+            <h3 class="text-xl">{r.title}</h3>
+            <p class="mt-2">{r.text}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 
@@ -117,16 +141,39 @@ const steps = [
     </ol>
   </section>
 
-  <section class="container-site">
+  <section class="bg-surface-alt border-y border-border">
+    <div class="container-site py-14 md:flex md:items-center md:justify-between md:gap-10">
+      <div class="max-w-2xl">
+        <h2>Selling to government?</h2>
+        <p class="mt-3">
+          We also help vendors and subcontractors become government-ready and submit stronger bids. We write and review the bid with you, start to finish.
+        </p>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3 md:mt-0 md:shrink-0">
+        <a href="/services/#bids" class="btn-secondary">How we help with government contracts</a>
+        <a href="/government-buyers/" class="btn-secondary">For Government Buyers</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-site mt-14">
     <div class="card-hover rounded-[var(--radius-md)] border border-border p-8">
       <h2>What we don't do</h2>
       <ul class="mt-4 list-disc pl-5 grid gap-2 max-w-2xl">
+        <li>We do not promise results we cannot control.</li>
+        <li>We do not push one vendor's products.</li>
         <li>We do not lobby or contact public officials on your behalf.</li>
-        <li>We do not promise contract wins. No one honestly can.</li>
-        <li>We do not claim insider access or government connections.</li>
       </ul>
     </div>
   </section>
 
-  <CtaBand />
+  <CtaBand
+    title="See if we are a good fit"
+    text="Book a short call. We will ask about your business, your tools and where you want to be. You will leave with clear next steps, whether or not we work together."
+  />
 </Base>
+
+<style>
+  /* Logos keep their own colours, so tiles stay light in both themes. */
+  .logo-tile { background: #FFFFFF; }
+</style>

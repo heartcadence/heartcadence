@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { title, description = SITE.description, lang = 'en' } = Astro.props;
-const fullTitle = Astro.url.pathname === '/' ? `${SITE.name} | Government contract readiness and bid support` : `${title} | ${SITE.name}`;
+const fullTitle = Astro.url.pathname === '/' ? `${SITE.name} | Technology and customer experience for Canadian businesses` : `${title} | ${SITE.name}`;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 ---
 <!doctype html>
