@@ -9,7 +9,12 @@ const people = [
     initials: 'JM',
     role: 'Founder and Principal Consultant',
     photo: '/images/jason-mcewan.webp',
-    bio: 'Jason has about 20 years of experience in IT, with deep expertise in service desk and IT service management (ITSM). He holds active ITIL 4 Foundation, ITIL 4 Specialist: Create, Deliver and Support, and ITIL 4 Strategist: Direct, Plan and Improve certifications. He leads technology, service desk and Government contract work for HCI clients.',
+    certs: [
+      'ITIL 4 Foundation',
+      'ITIL 4 Specialist: Create, Deliver and Support',
+      'ITIL 4 Strategist: Direct, Plan and Improve',
+    ],
+    bio: 'Jason has about 20 years of experience in IT, with deep expertise in service desk and IT service management (ITSM). He leads technology, service desk and Government contract work for HCI clients.',
   },
   {
     name: 'Rory Stennett',
@@ -44,6 +49,14 @@ const people = [
             </div>
           </div>
           <p class="mt-4">{p.bio}</p>
+          {p.certs && (
+            <>
+              <h4 class="mt-4 text-base">Active certifications</h4>
+              <ul class="mt-1 list-disc pl-5 grid gap-1">
+                {p.certs.map((c) => <li>{c}</li>)}
+              </ul>
+            </>
+          )}
         </li>
       ))}
     </ul>
