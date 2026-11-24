@@ -28,6 +28,25 @@ const techServices = [
     providers: pick(['Genesys', 'Five9', 'Talkdesk', 'NICE', 'Sprinklr']),
   },
   {
+    id: 'service-desk',
+    title: 'Service desk and ITSM',
+    lead: 'A service desk your staff and customers can count on, built on proven IT service management (ITSM) practice.',
+    work: [
+      'Review your current support process, tools and ticket volumes',
+      'Design ticket categories, priorities, service levels and escalation paths',
+      'Set up your ITSM platform, including a self-service portal, knowledge base and asset tracking',
+      'Set up incident, problem, change and request processes based on ITIL practices',
+      'Build reports on response times and repeat issues',
+      'Train your service desk team',
+      'Arrange an outsourced help desk if you need extra coverage',
+    ],
+    note: 'We are an authorized ManageEngine reseller.',
+    image: '/images/service-service-desk.webp',
+    result: 'Faster fixes, fewer repeat tickets, and clear numbers on how your support is doing.',
+    area: '',
+    providers: pick(['ManageEngine']),
+  },
+  {
     id: 'phones-contact-centre',
     title: 'Phones and contact centre',
     lead: 'Business phones (UCaaS), contact centre (CCaaS), call recording, chat, text and AI agents.',
@@ -39,7 +58,7 @@ const techServices = [
       'Stay your point of contact',
     ],
     result: 'A phone and contact centre setup that fits how your team works.',
-    image: '/images/service-technology.webp',
+    image: '/images/service-phones-contact-centre.webp',
     area: 'Unified communications',
     providers: pick(['RingCentral', 'Zoom', '8x8', 'Dialpad', 'Nextiva']),
   },
@@ -54,6 +73,7 @@ const techServices = [
       'Managed Wi-Fi',
       'Replacing old copper phone lines',
     ],
+    image: '/images/service-networking.webp',
     result: 'Connections that stay up, with one contact when something goes wrong.',
     area: 'Networking and connectivity',
     providers: pick(['Cisco', 'Lumen', 'Rogers Communications', 'Zayo', 'Cato Networks']),
@@ -70,23 +90,24 @@ const techServices = [
       'Compliance support',
       'Incident response',
     ],
+    image: '/images/service-cybersecurity.webp',
     result: 'A security setup sized for your business, not a big-company price tag.',
     area: 'Cybersecurity',
     providers: pick(['eSentire', 'Field Effect', 'Akamai Technologies, Inc', 'Appgate Cybersecurity', 'Drata']),
   },
   {
     id: 'cloud-it',
-    title: 'Cloud and IT management',
-    lead: 'Cloud, backup and the day-to-day running of your IT.',
+    title: 'Cloud and infrastructure',
+    lead: 'Cloud, data centres, backup and managed IT.',
     work: [
       'Cloud setup and migration',
       'Backup and disaster recovery',
-      'Helpdesk and managed IT',
+      'Data centre and colocation',
+      'Managed IT services',
       'Licence management',
-      'IT service management tools',
     ],
-    note: 'We are an authorized ManageEngine reseller.',
-    result: 'IT that runs in the background, so your team can focus on customers.',
+    image: '/images/service-technology.webp',
+    result: 'Infrastructure that runs in the background, so your team can focus on customers.',
     area: 'Cloud and managed services',
     providers: pick(['Equinix', 'Rackspace Technology', 'Pax8', 'Expedient', 'Digital Realty']),
   },
@@ -101,57 +122,28 @@ const techServices = [
       'Sensors',
       'Mobile and telecom expense management',
     ],
+    image: '/images/service-mobility-iot.webp',
     result: 'Devices that are set up, tracked and paid for in one place.',
     area: 'Mobility',
     providers: pick(['T-Mobile', 'AT&T Wireless', 'KORE Wireless', 'Eseye', 'Semtech']),
   },
 ];
 
-// Part 2: government contract support.
-const govServices = [
-  {
-    id: 'readiness',
-    title: 'Procurement readiness',
-    lead: 'Getting ready before the right opportunity appears, so you are not rushing when it does.',
-    work: [
-      'Review your registrations, such as your Procurement Business Number and supplier profiles',
-      'Gather the documents buyers often ask for, such as insurance, policies and past work summaries',
-      'Find gaps in your processes and fix them',
-      'Set up a simple way to track opportunities that fit your business',
-      'Review your security practices and arrange an assessment if buyers will expect one',
-    ],
-    result: 'A clear picture of where you stand, and the pieces in place to bid with confidence.',
-    image: '/images/service-readiness.webp',
-  },
-  {
-    id: 'bids',
-    title: 'Bid and proposal development',
-    lead: 'Stronger, clearer responses that answer what the buyer actually asked.',
-    work: [
-      'Help you decide whether a bid is worth pursuing',
-      'Break down the requirements and build a response plan',
-      'Write and edit bid sections with your team',
-      'Check the response against every requirement before you submit',
-      'Manage the bid schedule so nothing is late',
-    ],
-    result: 'A complete, compliant, well-written bid, submitted on time.',
-    image: '/images/service-bids.webp',
-  },
-];
+
 ---
 <Base
   title="Services"
-  description="Customer experience, phones and contact centre, networks, cybersecurity, cloud and IT, mobility and IoT, plus government contract support for Canadian businesses."
+  description="Customer experience, service desk and ITSM, phones and contact centre, networks, cybersecurity, cloud and infrastructure, mobility and IoT for Canadian businesses."
 >
   <PageHeader
     eyebrow="Services"
     title="Hands-on help, from choosing the tools to running them"
-    intro="We work in two areas: technology and customer experience for your business, and government contract support. Start with one service or bring us in for all of them."
+    intro="Technology and customer experience for Canadian businesses. Start with one service or bring us in for all of them."
   >
     <nav aria-label="Services on this page" class="mt-6">
       <ul class="flex flex-wrap gap-2">
         {techServices.map((s) => <li><a href={`#${s.id}`} class="btn-secondary">{s.title}</a></li>)}
-        <li><a href="#government" class="btn-secondary">Government Contract Support</a></li>
+        <li><a href="/government/" class="btn-secondary">Selling to Government</a></li>
       </ul>
     </nav>
   </PageHeader>
@@ -177,14 +169,22 @@ const govServices = [
             {s.providers.length > 0 && (
               <>
                 <h3 class="text-lg mt-6">Providers we work with</h3>
-                <ul class="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-5">
-                  {s.providers.map((p) => (
-                    <li class="logo-tile flex h-14 items-center justify-center rounded-[var(--radius-sm)] border border-border p-2">
-                      <img src={p.logo} alt={`${p.name} logo`} width={p.width} height={p.height} loading="lazy" decoding="async" class="max-h-10 w-auto max-w-full object-contain" />
-                    </li>
-                  ))}
-                </ul>
-                <p class="mt-3"><a href={directoryLink(s.area)}>See more {s.title === 'Mobility and IoT' ? 'mobility and IoT' : s.title.toLowerCase()} providers</a></p>
+                {s.providers.length === 1 ? (
+                  <div class="logo-tile mt-3 inline-flex h-20 items-center justify-center rounded-[var(--radius-sm)] border border-border px-6">
+                    <img src={s.providers[0].logo} alt={`${s.providers[0].name} logo`} width={s.providers[0].width} height={s.providers[0].height} loading="lazy" decoding="async" class="h-8 w-auto" />
+                  </div>
+                ) : (
+                  <ul class="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-5">
+                    {s.providers.map((p) => (
+                      <li class="logo-tile flex h-14 items-center justify-center rounded-[var(--radius-sm)] border border-border p-2">
+                        <img src={p.logo} alt={`${p.name} logo`} width={p.width} height={p.height} loading="lazy" decoding="async" class="max-h-10 w-auto max-w-full object-contain" />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {s.area && (
+                  <p class="mt-3"><a href={directoryLink(s.area)}>See more {s.title === 'Mobility and IoT' ? 'mobility and IoT' : s.title.toLowerCase()} providers</a></p>
+                )}
               </>
             )}
             <h3 class="text-lg mt-6">What you get</h3>
@@ -193,33 +193,6 @@ const govServices = [
         </section>
       ))}
     </div>
-  </section>
-
-  <section id="government" class="scroll-mt-6 container-site mt-16" aria-labelledby="gov-heading">
-    <h2 id="gov-heading">Government Contract Support</h2>
-    <p class="mt-3 max-w-2xl">
-      For vendors and subcontractors who want to sell to government. Procurement Assistance Canada offers free seminars, resources and coaching, and we recommend them. We add the hands-on work on top: getting you ready, and writing and reviewing your bid with you.
-    </p>
-    <div class="mt-8 grid gap-6">
-      {govServices.map((s) => (
-        <section id={s.id} class="scroll-mt-6 card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
-          <div>
-            <h3 class="text-2xl">{s.title}</h3>
-            <p class="mt-3 text-lg">{s.lead}</p>
-            <img src={s.image} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
-          </div>
-          <div class="mt-6 md:mt-0">
-            <h4 class="text-lg">What we do</h4>
-            <ul class="mt-2 list-disc pl-5 grid gap-1">
-              {s.work.map((w) => <li>{w}</li>)}
-            </ul>
-            <h4 class="text-lg mt-6">What you get</h4>
-            <p class="mt-2">{s.result}</p>
-          </div>
-        </section>
-      ))}
-    </div>
-    <p class="mt-6"><a href="/government-buyers/">Information for government buyers</a></p>
   </section>
 
   <CtaBand title="Not sure where to start?" text="Book a call. We will help you figure out which service fits where you are today." />

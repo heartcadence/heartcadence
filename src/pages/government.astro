@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBand from '../components/CtaBand.astro';
+
+// Services for vendors and subcontractors who want to sell to Government.
+const govServices = [
+  {
+    id: 'readiness',
+    title: 'Procurement readiness',
+    lead: 'Getting ready before the right opportunity appears, so you are not rushing when it does.',
+    work: [
+      'Review your registrations, such as your Procurement Business Number and supplier profiles',
+      'Gather the documents buyers often ask for, such as insurance, policies and past work summaries',
+      'Find gaps in your processes and fix them',
+      'Set up a simple way to track opportunities that fit your business',
+      'Review your security practices and arrange an assessment if buyers will expect one',
+    ],
+    result: 'A clear picture of where you stand, and the pieces in place to bid with confidence.',
+    image: '/images/service-readiness.webp',
+  },
+  {
+    id: 'bids',
+    title: 'Bid and proposal development',
+    lead: 'Stronger, clearer responses that answer what the buyer actually asked.',
+    work: [
+      'Help you decide whether a bid is worth pursuing',
+      'Break down the requirements and build a response plan',
+      'Write and edit bid sections with your team',
+      'Check the response against every requirement before you submit',
+      'Manage the bid schedule so nothing is late',
+    ],
+    result: 'A complete, compliant, well-written bid, submitted on time.',
+    image: '/images/service-bids.webp',
+  },
+];
+---
+<Base
+  title="Government"
+  description="Government contract support for Canadian vendors and subcontractors: procurement readiness and bid development. Plus company details for Government buyers."
+>
+  <PageHeader
+    eyebrow="Government"
+    title="Government Contract Support"
+    intro="For vendors and subcontractors who want to sell to Government. Procurement Assistance Canada offers free seminars, resources and coaching, and we recommend them. We add the hands-on work on top: getting you ready, and writing and reviewing your bid with you."
+  >
+    <nav aria-label="On this page" class="mt-6">
+      <ul class="flex flex-wrap gap-2">
+        {govServices.map((s) => <li><a href={`#${s.id}`} class="btn-secondary">{s.title}</a></li>)}
+        <li><a href="#buyers" class="btn-secondary">For Government Buyers</a></li>
+      </ul>
+    </nav>
+  </PageHeader>
+
+  <section class="container-site" aria-labelledby="selling-heading">
+    <h2 id="selling-heading" class="sr-only">Selling to Government</h2>
+    <div class="grid gap-6">
+      {govServices.map((s) => (
+        <section id={s.id} class="scroll-mt-6 card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
+          <div>
+            <h2>{s.title}</h2>
+            <p class="mt-3 text-lg">{s.lead}</p>
+            <img src={s.image} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
+          </div>
+          <div class="mt-6 md:mt-0">
+            <h3 class="text-lg">What we do</h3>
+            <ul class="mt-2 list-disc pl-5 grid gap-1">
+              {s.work.map((w) => <li>{w}</li>)}
+            </ul>
+            <h3 class="text-lg mt-6">What you get</h3>
+            <p class="mt-2">{s.result}</p>
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section id="buyers" class="scroll-mt-6 container-site mt-16" aria-labelledby="buyers-heading">
+    <div class="card-hover rounded-[var(--radius-md)] bg-surface-alt border border-border p-6 md:p-10 md:flex md:items-center md:justify-between md:gap-10">
+      <div class="max-w-2xl">
+        <h2 id="buyers-heading">For Government Buyers</h2>
+        <p class="mt-3">Procurement staff can confirm who we are in one place: company details, Procurement Business Number, capabilities, UNSPSC codes and our capability statement.</p>
+      </div>
+      <a href="/government-buyers/" class="btn-primary mt-6 shrink-0 md:mt-0">View company details</a>
+    </div>
+  </section>
+
+  <CtaBand title="Thinking about bidding?" text="Book a call. We will look at where you stand today and whether a bid is worth pursuing." />
+</Base>

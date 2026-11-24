@@ -6,38 +6,34 @@ import CtaBand from '../components/CtaBand.astro';
 const steps = [
   {
     title: 'Fit call',
-    text: 'We talk about your business, the contracts you want, and your timeline. If we are not the right fit, we will say so and point you to better options.',
+    text: 'We talk about your business, your goals and your timeline. If we are not the right fit, we will say so and point you to better options.',
   },
   {
-    title: 'Readiness review',
-    text: 'We look at your registrations, documents, systems and processes. You get a plain-language summary of what is in place and what is missing.',
+    title: 'Review',
+    text: 'We look at your current tools, costs, processes and where customers or staff get stuck. You get a plain-language summary of what works and what does not.',
   },
   {
     title: 'Plan',
-    text: 'We agree on priorities, tasks, owners and dates. You always know what is happening next and who is doing it.',
+    text: 'A clear recommendation with options, owners and dates. You always know what is happening next and who is doing it.',
   },
   {
-    title: 'Do the work',
-    text: 'We write bid sections, set up technology, and design client processes with your team. You review and approve everything.',
-  },
-  {
-    title: 'Deliver and improve',
-    text: 'We support you through contract delivery and review what worked after each bid, so the next one is stronger.',
+    title: 'Set up and support',
+    text: 'We manage the setup with your team, train your staff and stay your point of contact once it is running. You review and approve every decision.',
   },
 ];
 
 const principles = [
   { title: 'One point of contact', text: 'You always know who to call.' },
   { title: 'Plain language', text: 'No jargon. If something is unclear, we explain it.' },
-  { title: 'Honest advice', text: 'If a bid is not worth pursuing, we will tell you.' },
+  { title: 'Honest advice', text: 'If an option or a bid is not worth it, we will tell you.' },
   { title: 'You own the work', text: 'Every document and system we build for you is yours to keep.' },
 ];
 ---
-<Base title="How we work" description="Our five-step process: fit call, readiness review, plan, do the work, and deliver and improve.">
+<Base title="How we work" description="Our four-step process: fit call, review, plan, and set up and support.">
   <PageHeader
     eyebrow="How we work"
     title="A clear process, with no surprises"
-    intro="Every engagement follows the same five steps. The work in each step changes with your needs."
+    intro="Every engagement follows the same four steps, whether we are setting up new technology or preparing a Government bid."
   />
 
   <section class="container-site">
@@ -66,13 +62,21 @@ const principles = [
     </ul>
   </section>
 
-  <section class="container-site mt-16">
+  <section class="container-site mt-16 grid gap-6 md:grid-cols-2">
+    <div class="card-hover rounded-[var(--radius-md)] border border-border p-8">
+      <h2>For Government bids</h2>
+      <p class="mt-4 max-w-2xl">
+        The same steps apply. In the review we check your registrations, documents and security practices. In set up and support we write and check bid sections with you, manage the bid schedule, and review what worked after each bid so the next one is stronger.
+      </p>
+      <p class="mt-4"><a href="/government/">See Government Contract Support</a></p>
+    </div>
     <div class="card-hover rounded-[var(--radius-md)] bg-surface-alt border border-border p-8">
       <h2>What we don't do</h2>
       <ul class="mt-4 list-disc pl-5 grid gap-2 max-w-2xl">
+        <li>We do not push one brand. We recommend what fits your business.</li>
         <li>We do not lobby or contact public officials on your behalf.</li>
         <li>We do not promise contract wins. The buyer makes that decision, based on your bid.</li>
-        <li>We do not claim insider access or government connections.</li>
+        <li>We do not claim insider access or Government connections.</li>
         <li>We do not submit bids for you. You review, approve and submit your own response.</li>
       </ul>
     </div>

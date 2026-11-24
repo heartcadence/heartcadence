@@ -4,7 +4,7 @@ export const SITE = {
   name: 'Heart Cadence Inc.',
   shortName: 'HCI',
   description:
-    'Heart Cadence helps Canadian businesses become government-ready, submit stronger bids, and deliver public sector contracts with confidence.',
+    'Heart Cadence Inc. helps Canadian businesses choose, set up and run the phone, contact centre, network, security and service desk tools their teams and customers rely on. We also help vendors become Government-ready and submit stronger bids.',
   url: 'https://heartcadence.com',
   email: 'info@heartcadence.com',
   location: 'Brantford, Ontario',
@@ -17,7 +17,7 @@ export const SITE = {
 export const NAV = [
   { href: '/services/', label: 'Services' },
   { href: '/how-we-work/', label: 'How we work' },
-  { href: '/government-buyers/', label: 'For Government Buyers' },
+  { href: '/government/', label: 'Government' },
   { href: '/about/', label: 'About' },
   { href: '/resources/', label: 'Resources' },
 ];
