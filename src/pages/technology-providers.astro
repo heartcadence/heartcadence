@@ -137,4 +137,10 @@ const itemList = {
       apply();
     });
   }
+  // Preselect an area from the link, for example ?area=Cybersecurity
+  const startArea = new URLSearchParams(location.search).get('area');
+  if (startArea) {
+    const chip = chips.find((c) => c.dataset.category === startArea);
+    if (chip) chip.click();
+  }
 </script>
