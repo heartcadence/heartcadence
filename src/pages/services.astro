@@ -2,8 +2,113 @@
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import CtaBand from '../components/CtaBand.astro';
+import allProviders from '../data/providers.json';
 
-const services = [
+type Provider = (typeof allProviders)[number];
+const byName = new Map<string, Provider>(allProviders.filter((p) => p.include).map((p) => [p.name, p]));
+const pick = (names: string[]) => names.map((n) => byName.get(n)).filter((p): p is Provider => Boolean(p));
+const directoryLink = (area: string) => `/technology-providers/?area=${encodeURIComponent(area)}`;
+
+// Part 1: technology and customer experience. The ids match the cards on the home page.
+// "area" is the filter name used on the Technology providers page.
+const techServices = [
+  {
+    id: 'customer-experience',
+    title: 'Customer experience',
+    lead: 'We look at every way customers reach you, and what happens next.',
+    work: [
+      'Map the journey from first contact to follow-up',
+      'Find where customers wait, repeat themselves or give up',
+      'Design simple processes your team can follow',
+      'Choose and set up the tools that support them',
+    ],
+    result: 'A clear picture of your customer journey and a plan to improve it.',
+    image: '/images/service-customer-experience.webp',
+    area: 'Contact centre and CX',
+    providers: pick(['Genesys', 'Five9', 'Talkdesk', 'NICE', 'Sprinklr']),
+  },
+  {
+    id: 'phones-contact-centre',
+    title: 'Phones and contact centre',
+    lead: 'Business phones (UCaaS), contact centre (CCaaS), call recording, chat, text and AI agents.',
+    work: [
+      'Review your current setup and costs',
+      'Compare options that fit your size and budget',
+      'Manage number transfers and setup',
+      'Train your team',
+      'Stay your point of contact',
+    ],
+    result: 'A phone and contact centre setup that fits how your team works.',
+    image: '/images/service-technology.webp',
+    area: 'Unified communications',
+    providers: pick(['RingCentral', 'Zoom', '8x8', 'Dialpad', 'Nextiva']),
+  },
+  {
+    id: 'networking',
+    title: 'Networks and connectivity',
+    lead: 'Internet, backup connections and secure networks for every location.',
+    work: [
+      'Fibre and business internet',
+      '4G and 5G backup',
+      'SD-WAN and SASE',
+      'Managed Wi-Fi',
+      'Replacing old copper phone lines',
+    ],
+    result: 'Connections that stay up, with one contact when something goes wrong.',
+    area: 'Networking and connectivity',
+    providers: pick(['Cisco', 'Lumen', 'Rogers Communications', 'Zayo', 'Cato Networks']),
+  },
+  {
+    id: 'cybersecurity',
+    title: 'Cybersecurity',
+    lead: 'Find the gaps, close them and watch for threats.',
+    work: [
+      'Security assessments',
+      'Managed detection and response',
+      'Firewall and endpoint protection',
+      'Staff training',
+      'Compliance support',
+      'Incident response',
+    ],
+    result: 'A security setup sized for your business, not a big-company price tag.',
+    area: 'Cybersecurity',
+    providers: pick(['eSentire', 'Field Effect', 'Akamai Technologies, Inc', 'Appgate Cybersecurity', 'Drata']),
+  },
+  {
+    id: 'cloud-it',
+    title: 'Cloud and IT management',
+    lead: 'Cloud, backup and the day-to-day running of your IT.',
+    work: [
+      'Cloud setup and migration',
+      'Backup and disaster recovery',
+      'Helpdesk and managed IT',
+      'Licence management',
+      'IT service management tools',
+    ],
+    note: 'We are an authorized ManageEngine reseller.',
+    result: 'IT that runs in the background, so your team can focus on customers.',
+    area: 'Cloud and managed services',
+    providers: pick(['Equinix', 'Rackspace Technology', 'Pax8', 'Expedient', 'Digital Realty']),
+  },
+  {
+    id: 'mobility-iot',
+    title: 'Mobility and IoT',
+    lead: 'Phones, plans and connected devices for teams on the move.',
+    work: [
+      'Business phones and plans',
+      'Device management',
+      'Cameras and access control',
+      'Sensors',
+      'Mobile and telecom expense management',
+    ],
+    result: 'Devices that are set up, tracked and paid for in one place.',
+    area: 'Mobility',
+    providers: pick(['T-Mobile', 'AT&T Wireless', 'KORE Wireless', 'Eseye', 'Semtech']),
+  },
+];
+
+// Part 2: government contract support.
+const govServices = [
   {
     id: 'readiness',
     title: 'Procurement readiness',
@@ -16,6 +121,7 @@ const services = [
       'Review your security practices and arrange an assessment if buyers will expect one',
     ],
     result: 'A clear picture of where you stand, and the pieces in place to bid with confidence.',
+    image: '/images/service-readiness.webp',
   },
   {
     id: 'bids',
@@ -29,95 +135,97 @@ const services = [
       'Manage the bid schedule so nothing is late',
     ],
     result: 'A complete, compliant, well-written bid, submitted on time.',
-  },
-  {
-    id: 'technology',
-    title: 'Technology sourcing and setup',
-    lead: 'We work with a network of technology providers. We review what your contract needs, compare options, and manage the setup with you. You get one point of contact instead of five vendors.',
-    work: [
-      'Review your current systems and what a contract will need',
-      'Compare options from our provider network that fit your size and budget',
-      'Manage the setup with the provider and your team',
-      'Stay your main point of contact once the service is running',
-    ],
-    categories: [
-      { name: 'Cybersecurity', items: 'assessments, managed security, staff training, incident response' },
-      { name: 'Cloud and IT management', items: 'cloud setup and migration, backup and recovery, helpdesk, licence management' },
-      { name: 'Networking and connectivity', items: 'internet, SD-WAN, managed Wi-Fi, network security' },
-      { name: 'Phone and contact centre', items: 'business phone systems, contact centre, call recording' },
-      { name: 'Mobile devices', items: 'phones, plans, device management' },
-      { name: 'Sensors and physical security', items: 'cameras, access control, IoT monitoring' },
-    ],
-    link: { href: '/technology-providers/', label: 'See the technology providers we work with' },
-    result: 'Technology that supports delivery, instead of getting in the way.',
-  },
-  {
-    id: 'customer-experience',
-    title: 'Customer experience and delivery',
-    lead: 'Delivering the contract well, so the buyer wants to work with you again.',
-    work: [
-      'Map the journey your clients go through, from first contact to final report',
-      'Design processes that make your work easy to receive and easy to trust',
-      'Choose and set up the phone, chat and contact centre tools your clients use to reach you',
-      'Improve how your business runs day to day',
-      'Plan and manage contract delivery, with clear milestones',
-    ],
-    result: 'Smooth delivery and a better experience for the people you serve.',
+    image: '/images/service-bids.webp',
   },
 ];
-
-// Illustrations by service id. Add a line here as each image is ready.
-// The images are decorative, so they use empty alt text. The heading beside each one already says what it is.
-const images: Record<string, string> = {
-  readiness: '/images/service-readiness.webp',
-  bids: '/images/service-bids.webp',
-  technology: '/images/service-technology.webp',
-  'customer-experience': '/images/service-customer-experience.webp',
-};
 ---
-<Base title="Services" description="Procurement readiness, bid and proposal development, technology sourcing and setup, and customer experience services for Canadian businesses selling to government.">
+<Base
+  title="Services"
+  description="Customer experience, phones and contact centre, networks, cybersecurity, cloud and IT, mobility and IoT, plus government contract support for Canadian businesses."
+>
   <PageHeader
     eyebrow="Services"
-    title="Hands-on help, from first registration to final delivery"
-    intro="We work alongside your team in four areas. You can start with one or bring us in for all of them."
+    title="Hands-on help, from choosing the tools to running them"
+    intro="We work in two areas: technology and customer experience for your business, and government contract support. Start with one service or bring us in for all of them."
   >
     <nav aria-label="Services on this page" class="mt-6">
       <ul class="flex flex-wrap gap-2">
-        {services.map((s) => <li><a href={`#${s.id}`} class="btn-secondary">{s.title}</a></li>)}
+        {techServices.map((s) => <li><a href={`#${s.id}`} class="btn-secondary">{s.title}</a></li>)}
+        <li><a href="#government" class="btn-secondary">Government Contract Support</a></li>
       </ul>
     </nav>
   </PageHeader>
 
-  <div class="container-site grid gap-6">
-    {services.map((s) => (
-      <section id={s.id} class="scroll-mt-6 card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
-        <div>
-          <h2>{s.title}</h2>
-          <p class="mt-3 text-lg">{s.lead}</p>
-          {images[s.id] && (
-            <img src={images[s.id]} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
-          )}
-        </div>
-        <div class="mt-6 md:mt-0">
-          <h3 class="text-lg">What we do</h3>
-          <ul class="mt-2 list-disc pl-5 grid gap-1">
-            {s.work.map((w) => <li>{w}</li>)}
-          </ul>
-          {s.categories && (
-            <>
-              <h3 class="text-lg mt-6">What we can source</h3>
-              <ul class="mt-2 list-disc pl-5 grid gap-1">
-                {s.categories.map((c) => <li><strong class="font-semibold">{c.name}:</strong> {c.items}</li>)}
-              </ul>
-              {s.link && <p class="mt-3"><a href={s.link.href}>{s.link.label}</a></p>}
-            </>
-          )}
-          <h3 class="text-lg mt-6">What you get</h3>
-          <p class="mt-2">{s.result}</p>
-        </div>
-      </section>
-    ))}
-  </div>
+  <section class="container-site" aria-labelledby="tech-heading">
+    <h2 id="tech-heading" class="sr-only">Technology and customer experience</h2>
+    <div class="grid gap-6">
+      {techServices.map((s) => (
+        <section id={s.id} class="scroll-mt-6 card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
+          <div>
+            <h2>{s.title}</h2>
+            <p class="mt-3 text-lg">{s.lead}</p>
+            {s.image && (
+              <img src={s.image} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
+            )}
+          </div>
+          <div class="mt-6 md:mt-0">
+            <h3 class="text-lg">What we do</h3>
+            <ul class="mt-2 list-disc pl-5 grid gap-1">
+              {s.work.map((w) => <li>{w}</li>)}
+            </ul>
+            {s.note && <p class="mt-4 font-semibold">{s.note}</p>}
+            {s.providers.length > 0 && (
+              <>
+                <h3 class="text-lg mt-6">Providers we work with</h3>
+                <ul class="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-5">
+                  {s.providers.map((p) => (
+                    <li class="logo-tile flex h-14 items-center justify-center rounded-[var(--radius-sm)] border border-border p-2">
+                      <img src={p.logo} alt={`${p.name} logo`} width={p.width} height={p.height} loading="lazy" decoding="async" class="max-h-10 w-auto max-w-full object-contain" />
+                    </li>
+                  ))}
+                </ul>
+                <p class="mt-3"><a href={directoryLink(s.area)}>See more {s.title === 'Mobility and IoT' ? 'mobility and IoT' : s.title.toLowerCase()} providers</a></p>
+              </>
+            )}
+            <h3 class="text-lg mt-6">What you get</h3>
+            <p class="mt-2">{s.result}</p>
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section id="government" class="scroll-mt-6 container-site mt-16" aria-labelledby="gov-heading">
+    <h2 id="gov-heading">Government Contract Support</h2>
+    <p class="mt-3 max-w-2xl">
+      For vendors and subcontractors who want to sell to government. Procurement Assistance Canada offers free seminars, resources and coaching, and we recommend them. We add the hands-on work on top: getting you ready, and writing and reviewing your bid with you.
+    </p>
+    <div class="mt-8 grid gap-6">
+      {govServices.map((s) => (
+        <section id={s.id} class="scroll-mt-6 card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-10 md:grid md:grid-cols-[1fr_1.3fr] md:gap-10">
+          <div>
+            <h3 class="text-2xl">{s.title}</h3>
+            <p class="mt-3 text-lg">{s.lead}</p>
+            <img src={s.image} alt="" width="1600" height="1195" loading="lazy" decoding="async" class="mt-6 h-auto w-full max-w-xs" />
+          </div>
+          <div class="mt-6 md:mt-0">
+            <h4 class="text-lg">What we do</h4>
+            <ul class="mt-2 list-disc pl-5 grid gap-1">
+              {s.work.map((w) => <li>{w}</li>)}
+            </ul>
+            <h4 class="text-lg mt-6">What you get</h4>
+            <p class="mt-2">{s.result}</p>
+          </div>
+        </section>
+      ))}
+    </div>
+    <p class="mt-6"><a href="/government-buyers/">Information for government buyers</a></p>
+  </section>
 
   <CtaBand title="Not sure where to start?" text="Book a call. We will help you figure out which service fits where you are today." />
 </Base>
+
+<style>
+  /* Logos keep their own colours, so tiles stay light in both themes. */
+  .logo-tile { background: #FFFFFF; }
+</style>
