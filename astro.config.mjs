@@ -11,6 +11,6 @@ export default defineConfig({
     locales: ['en', 'fr'],
     routing: { prefixDefaultLocale: false },
   },
-  integrations: [sitemap()],
+  integrations: [sitemap({ lastmod: new Date() })],
   vite: { plugins: [tailwindcss()] },
 });
