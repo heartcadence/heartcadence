@@ -10,7 +10,7 @@ export const SITE = {
   location: 'Brantford, Ontario',
   pbn: '794978619PG0001',
   // HCI LinkedIn company page. The footer icon shows only when this is set.
-  linkedin: '',
+  linkedin: 'https://www.linkedin.com/company/heartcadence/',
   // Set PUBLIC_BOOKING_URL in .env (or in Cloudflare Pages settings) to the
   // Google Calendar appointment schedule booking page link.
   bookingUrl: import.meta.env.PUBLIC_BOOKING_URL || '',
