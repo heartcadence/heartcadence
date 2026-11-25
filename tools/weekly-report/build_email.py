@@ -77,7 +77,7 @@ def main():
 <div style="font-size:14px;margin-top:4px;opacity:.9">{html.escape(data["title"])}</div>
 <div style="height:4px;width:80px;background:{COPPER};margin-top:12px;border-radius:2px"></div>
 </td></tr>
-<tr><td style="padding:18px 24px 0"><div style="font-size:18px;font-weight:bold;color:{NAVY}">Last 7 days</div>
+<tr><td style="padding:18px 24px 0"><div style="font-size:18px;font-weight:bold;color:{NAVY}">{html.escape(data.get("sectionTitle", "Last 7 days"))}</div>
 <div style="height:3px;width:60px;background:{COPPER};margin-top:6px;border-radius:2px"></div></td></tr>
 <tr><td style="padding:10px 18px 4px"><table width="100%" cellpadding="0" cellspacing="0"><tr>{tiles}</tr></table></td></tr>
 <tr><td style="padding:0 20px"><table width="100%" cellpadding="0" cellspacing="0">{week_imgs}</table></td></tr>

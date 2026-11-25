@@ -62,6 +62,8 @@ def hbar(rows, colour, title, path, label="Visits"):
     plt.close(fig)
     return path
 
+period = "last 7 days"
+
 def trend(daily, path):
     if not daily or len(daily) < 2:
         return None
@@ -73,7 +75,7 @@ def trend(daily, path):
     ax.plot(dates, views, color=TEAL, linewidth=2, marker="o", markersize=4, label="Page views")
     ax.plot(dates, visits, color=COPPER, linewidth=2, marker="o", markersize=4, label="Visits")
     ax.fill_between(range(len(dates)), views, color=TEAL, alpha=0.12)
-    ax.set_title("Daily traffic, last 7 days", loc="left", fontsize=13, fontweight="bold", color=NAVY, pad=10)
+    ax.set_title("Daily traffic, " + period, loc="left", fontsize=13, fontweight="bold", color=NAVY, pad=10)
     ax.legend(frameon=False, loc="lower right", bbox_to_anchor=(1, 1.0), ncol=2, fontsize=10)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
@@ -116,14 +118,16 @@ def weeks_chart(weeks, path):
 
 def main():
     data = json.load(open(sys.argv[1]))
+    global period
+    period = data.get("periodLabel", "last 7 days")
     out = sys.argv[2]
     os.makedirs(out, exist_ok=True)
     made = [
         trend(data.get("daily"), os.path.join(out, "1-trend.png")),
-        hbar(data.get("referers", []), COPPER, "Where visitors came from, last 7 days", os.path.join(out, "2-sources.png")),
-        hbar(data.get("pages", []), TEAL, "Top pages, last 7 days", os.path.join(out, "3-pages.png"), "Page views"),
-        hbar(data.get("countries", []), NAVY, "Countries, last 7 days", os.path.join(out, "4-countries.png")),
-        hbar(data.get("devices", []), SLATE, "Devices, last 7 days", os.path.join(out, "5-devices.png")),
+        hbar(data.get("referers", []), COPPER, "Where visitors came from, " + period, os.path.join(out, "2-sources.png")),
+        hbar(data.get("pages", []), TEAL, "Top pages, " + period, os.path.join(out, "3-pages.png"), "Page views"),
+        hbar(data.get("countries", []), NAVY, "Countries, " + period, os.path.join(out, "4-countries.png")),
+        hbar(data.get("devices", []), SLATE, "Devices, " + period, os.path.join(out, "5-devices.png")),
     ]
     life = data.get("lifetime")
     if life:
