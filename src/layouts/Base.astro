@@ -15,6 +15,10 @@ interface Props {
 const { title, description = SITE.description, lang = 'en' } = Astro.props;
 const fullTitle = Astro.url.pathname === '/' ? `${SITE.name} | Technology and customer experience for Canadian businesses` : `${title} | ${SITE.name}`;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
+// Only the English home page and /fr/ are translations of each other.
+// Other pages have no French version, so they get no hreflang tags.
+const currentPath = Astro.url.pathname;
+const hasTranslation = currentPath === '/' || currentPath === '/fr/' || currentPath === '/fr';
 ---
 <!doctype html>
 <html lang={lang} data-theme="light">
@@ -25,8 +29,13 @@ const canonical = new URL(Astro.url.pathname, SITE.url).href;
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="en-CA" href={new URL('/', SITE.url).href} />
-    <link rel="alternate" hreflang="fr-CA" href={new URL('/fr/', SITE.url).href} />
+    {hasTranslation && (
+      <>
+        <link rel="alternate" hreflang="en-CA" href={new URL('/', SITE.url).href} />
+        <link rel="alternate" hreflang="fr-CA" href={new URL('/fr/', SITE.url).href} />
+        <link rel="alternate" hreflang="x-default" href={new URL('/', SITE.url).href} />
+      </>
+    )}
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
