@@ -1,0 +1,27 @@
+# Heart Cadence Inc.
+
+> Heart Cadence Inc. (HCI) is a Canadian consultancy based in Brantford, Ontario. We help small and mid-sized Canadian businesses choose, set up and run the technology their teams and customers rely on. We also help vendors and subcontractors get ready for and bid on Government contracts.
+
+We are not tied to any one brand. We compare options, manage the setup with the client and stay their point of contact. Consultations are in English.
+
+## Services
+
+- [Technology and customer experience services](https://heartcadence.com/services/): customer experience, service desk and IT service management (ITSM), phones and contact centre (UCaaS and CCaaS), networks and connectivity, cybersecurity, cloud and infrastructure, mobility and IoT
+- [Government contract support](https://heartcadence.com/government/): procurement readiness, and bid and proposal development
+- [How we work](https://heartcadence.com/how-we-work/): fit call, review, plan, and set up and support
+
+## Company
+
+- [About](https://heartcadence.com/about/): Jason K. McEwan, Founder and Principal Consultant (ITIL 4 Foundation, ITIL 4 Specialist: Create, Deliver and Support, ITIL 4 Strategist: Direct, Plan and Improve). Rory Stennett, Director, Client Experience and Growth.
+- [Technology providers](https://heartcadence.com/technology-providers/): the technology providers we work with. We are an authorized ManageEngine reseller.
+- [For Government Buyers](https://heartcadence.com/government-buyers/): company details, Procurement Business Number, capabilities and UNSPSC codes
+- [Book a call](https://heartcadence.com/book-a-call/)
+- [Résumé en français](https://heartcadence.com/fr/)
+
+## Facts
+
+- Legal name: Heart Cadence Inc.
+- Location: Brantford, Ontario, Canada. Serves clients across Canada.
+- Procurement Business Number: 794978619PG0001
+- Email: info@heartcadence.com
+- HCI is new to Government contracting and has no Government contracts or case studies to list yet.

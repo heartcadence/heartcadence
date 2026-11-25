@@ -16,6 +16,7 @@ const data = {
       image: `${SITE.url}/images/heart-cadence-icon-512.png`,
       description: SITE.description,
       email: SITE.email,
+      ...(SITE.linkedin ? { sameAs: [SITE.linkedin] } : {}),
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Brantford',
