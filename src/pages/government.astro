@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import CtaBand from '../components/CtaBand.astro';
+import { SITE } from '../site';
 
 // Services for vendors and subcontractors who want to sell to Government.
 const govServices = [
@@ -34,11 +35,31 @@ const govServices = [
     image: '/images/service-bids.webp',
   },
 ];
+
+// Service details for search engines (schema.org JSON-LD).
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  itemListElement: govServices.map((s, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Service',
+      '@id': `${SITE.url}/government/#${s.id}`,
+      name: s.title,
+      description: s.lead,
+      url: `${SITE.url}/government/#${s.id}`,
+      provider: { '@id': `${SITE.url}/#organization` },
+      areaServed: { '@type': 'Country', name: 'Canada' },
+    },
+  })),
+};
 ---
 <Base
-  title="Government"
-  description="Government contract support for Canadian vendors and subcontractors: procurement readiness and bid development. Plus company details for Government buyers."
+  title="Government contract support for Canadian vendors"
+  description="Government contract support for Canadian vendors and subcontractors: procurement readiness, bid writing and review, plus details for buyers."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
   <PageHeader
     eyebrow="Government"
     title="Government Contract Support"
