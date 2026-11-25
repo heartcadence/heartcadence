@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import allProviders from '../../data/providers.json';
 import { servicePages, type ServicePage } from '../../data/servicePages';
+import { scorecardForServicePage } from '../../data/scorecards';
 import { SITE } from '../../site';
 
 export function getStaticPaths() {
@@ -15,6 +16,7 @@ type Provider = (typeof allProviders)[number];
 const byName = new Map<string, Provider>(allProviders.filter((p) => p.include).map((p) => [p.name, p]));
 const providers = page.providers.map((n) => byName.get(n)).filter((p): p is Provider => Boolean(p));
 const pageUrl = `${SITE.url}/services/${page.slug}/`;
+const scorecard = scorecardForServicePage(`/services/${page.slug}/`);
 
 // Search engine data: the service, its questions and answers, and where it sits in the site.
 const schema = {
@@ -66,6 +68,7 @@ const schema = {
       <p class="mt-4 max-w-2xl text-lg">{page.intro}</p>
       <div class="mt-8 flex flex-wrap gap-3">
         <a href="/book-a-call/" class="btn-primary">Book a call</a>
+        {scorecard && <a href={`/scorecards/${scorecard.slug}/`} class="btn-secondary">Take the free scorecard</a>}
         <a href="#questions" class="btn-secondary">Common questions</a>
       </div>
     </div>
