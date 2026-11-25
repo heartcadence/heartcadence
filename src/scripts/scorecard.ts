@@ -77,10 +77,12 @@ if (dataEl && app) {
 
   const go = (n: number) => { S.step = Math.max(0, Math.min(LAST, n)); render(); app.scrollIntoView({ block: 'start' }); };
 
+  // Counts questions only (scored and unscored). The contact step shows no count.
   function progress(label: string) {
-    const pos = S.step - 1;
-    const tot = NQ + NE + 1;
-    return `<div class="sc-prog"><div class="sc-progmeta"><span>${esc(label)}</span><span>Step ${pos} of ${tot}</span></div><div class="sc-track"><i style="width:${Math.round((pos / tot) * 100)}%"></i></div></div>`;
+    const tot = NQ + NE;
+    const n = S.step - 1;
+    const count = S.step >= 2 ? `<span>Question ${n} of ${tot}</span>` : '';
+    return `<div class="sc-prog"><div class="sc-progmeta"><span>${esc(label)}</span>${count}</div><div class="sc-track"><i style="width:${Math.round((Math.max(0, n - 1) / tot) * 100)}%"></i></div></div>`;
   }
 
   function vContact() {
@@ -101,7 +103,7 @@ if (dataEl && app) {
   function vQuestion(i: number) {
     const q = SC.questions[i];
     const cat = SC.categories.find((c) => c.id === q.cat);
-    return `${progress(cat?.name ?? '')}<p class="sc-tag">Question ${i + 1} of ${NQ}</p><h2 class="sc-q">${esc(q.text)}</h2>
+    return `${progress(cat?.name ?? '')}<h2 class="sc-q">${esc(q.text)}</h2>
 <div class="sc-opts" role="group" aria-label="Your answer">${ANSWERS.map((a, n) => `<button type="button" class="sc-opt" data-a="${a.key}" aria-pressed="${S.answers[i] === a.key}"><span class="sc-key" aria-hidden="true">${n + 1}</span>${esc(a.label)}</button>`).join('')}</div>
 <div class="sc-row sc-between"><button type="button" class="btn-secondary" data-back>Back</button><span class="sc-small sc-hint">You can also press 1, 2 or 3</span></div>`;
   }

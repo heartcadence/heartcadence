@@ -40,7 +40,6 @@ const HELP: Extra = {
   text: 'How would you like to make these improvements?',
   options: ['Do it myself with a good checklist', 'With expert help along the way', 'Have it done for me, start to finish'],
 };
-const COMMENTS: Extra = { id: 'comments', text: 'Anything else we should know?' };
 
 export const scorecards: Scorecard[] = [
   {
@@ -49,11 +48,11 @@ export const scorecards: Scorecard[] = [
     serviceHref: '/services/phones-contact-centre/',
     serviceLabel: 'See our phone and contact centre services',
     cardTitle: 'Phone system buyer checklist',
-    cardText: 'Ten quick questions to see if you are ready to switch business phone or contact centre providers.',
+    cardText: 'Twelve quick questions to see if you are ready to switch business phone or contact centre providers.',
     title: 'Are you ready to choose a new phone system?',
     metaTitle: 'Phone system buyer scorecard',
-    description: 'Answer 10 quick questions and see how ready your business is to choose a new phone or contact centre system. Free, about 3 minutes.',
-    lead: 'Answer 10 quick questions and see how prepared you are before you talk to providers.',
+    description: 'Answer 12 quick questions and see how ready your business is to choose a new phone or contact centre system. Free, about 2 minutes.',
+    lead: 'Answer 12 quick questions and see how prepared you are before you talk to providers.',
     gets: ['A readiness score out of 100', 'Your score in 3 key areas', 'Practical tips for your weakest area', 'A printable report'],
     resultTitle: 'phone system readiness',
     categories: [
@@ -77,7 +76,6 @@ export const scorecards: Scorecard[] = [
       { cat: 'costs', text: 'I know how many users we have and roughly how many calls we handle each month.' },
       { cat: 'costs', text: 'I know when our current contract ends and what it costs to leave early.' },
       { cat: 'needs', text: 'We know how calls should be routed: auto attendant, departments and after-hours rules.' },
-      { cat: 'needs', text: 'We know whether staff need to make and take business calls on a mobile app or laptop.' },
       { cat: 'needs', text: 'We know which tools the phone system must connect to, such as our CRM, Microsoft Teams or help desk.' },
       { cat: 'needs', text: 'We know whether we need contact centre features like call queues, callbacks and reporting.' },
       { cat: 'switch', text: 'The provider has explained how 911 knows each user’s location, including remote workers.' },
@@ -87,11 +85,8 @@ export const scorecards: Scorecard[] = [
     ],
     extras: [
       { id: 'timing', text: 'When do you plan to make a change?', options: ['Within 3 months', 'In 3 to 6 months', 'In 6 to 12 months', 'Just researching for now'] },
-      { id: 'situation', text: 'What best describes your phone system today?', options: ['An older on-site system', 'A cloud system we are not happy with', 'Mobile phones only', 'A mix of systems', 'Not sure'] },
-      { id: 'outcome', text: 'What matters most in a new system?', options: ['Lower monthly cost', 'A better experience for callers', 'Staff can work from anywhere', 'Fewer outages', 'Easier to manage'] },
       { id: 'obstacle', text: 'What is your biggest obstacle right now?', options: ['Not enough time', 'Hard to compare providers', 'Locked into a contract', 'Getting budget approved', 'Getting staff on board'] },
       HELP,
-      COMMENTS,
     ],
     bands: [
       { min: 0, name: 'Early stage',
@@ -113,11 +108,11 @@ export const scorecards: Scorecard[] = [
     serviceHref: '/services/service-desk-itsm/',
     serviceLabel: 'See our service desk services',
     cardTitle: 'Service desk health check',
-    cardText: 'Ten quick questions to see how your support desk is doing, based on ITIL 4 practice.',
+    cardText: 'Twelve quick questions to see how your support desk is doing, based on ITIL 4 practice.',
     title: 'How healthy is your service desk?',
     metaTitle: 'Service desk health check',
-    description: 'Answer 10 quick questions and see how well your service desk handles requests, fixes and reporting. Based on ITIL 4 practice. Free, about 3 minutes.',
-    lead: 'Answer 10 quick questions about how your team handles requests, fixes issues and tracks results.',
+    description: 'Answer 12 quick questions and see how well your service desk handles requests, fixes and reporting. Based on ITIL 4 practice. Free, about 2 minutes.',
+    lead: 'Answer 12 quick questions about how your team handles requests, fixes issues and tracks results.',
     gets: ['A health score out of 100', 'Your score in 3 key areas', 'Practical tips for your weakest area', 'A printable report'],
     resultTitle: 'service desk health',
     categories: [
@@ -144,18 +139,14 @@ export const scorecards: Scorecard[] = [
       { cat: 'fix', text: 'Everyone agrees on how urgent an issue is, using clear priority rules.' },
       { cat: 'fix', text: 'When the same issue keeps happening, someone finds and fixes the root cause.' },
       { cat: 'fix', text: 'Changes to our systems are reviewed and planned before they happen.' },
-      { cat: 'fix', text: 'Our team writes down fixes so the next person can solve the issue faster.' },
       { cat: 'measure', text: 'We have agreed response and fix times, and we track whether we meet them.' },
       { cat: 'measure', text: 'We regularly ask staff how happy they are with the help they get.' },
       { cat: 'measure', text: 'Our help desk tool does what we need, and the team uses it fully.' },
     ],
     extras: [
       { id: 'timing', text: 'When do you want to improve your service desk?', options: ['Within 3 months', 'In 3 to 6 months', 'In 6 to 12 months', 'Just researching for now'] },
-      { id: 'size', text: 'About how many staff does your service desk support?', options: ['Under 50', '50 to 200', '200 to 500', 'Over 500'] },
-      { id: 'outcome', text: 'What would you most like to improve?', options: ['Faster fixes', 'Fewer repeat issues', 'Better reporting', 'Happier staff', 'Lower tool costs'] },
       { id: 'obstacle', text: 'What is your biggest obstacle right now?', options: ['Not enough people', 'Our tool does not fit', 'No clear process', 'No time to improve', 'Getting budget approved'] },
       HELP,
-      COMMENTS,
     ],
     bands: [
       { min: 0, name: 'Needs attention',
@@ -176,11 +167,11 @@ export const scorecards: Scorecard[] = [
     serviceHref: '/government/',
     serviceLabel: 'See how we help with Government contracts',
     cardTitle: 'Government-ready checklist',
-    cardText: 'Ten quick questions to see what you have in place, and what is missing, before you bid.',
+    cardText: 'Twelve quick questions to see what you have in place, and what is missing, before you bid.',
     title: 'Are you ready to bid on Government contracts?',
     metaTitle: 'Government-ready scorecard',
-    description: 'Answer 10 quick questions and see what your business has in place, and what is missing, before you bid on federal contracts. Free, about 3 minutes.',
-    lead: 'Answer 10 quick questions and see what you have in place, and what is missing, before you bid on a federal contract.',
+    description: 'Answer 12 quick questions and see what your business has in place, and what is missing, before you bid on federal contracts. Free, about 2 minutes.',
+    lead: 'Answer 12 quick questions and see what you have in place, and what is missing, before you bid on a federal contract.',
     gets: ['A readiness score out of 100', 'Your score in 3 key areas', 'Practical tips with links to official sources', 'A printable report'],
     resultTitle: 'Government readiness',
     categories: [
@@ -209,7 +200,6 @@ export const scorecards: Scorecard[] = [
     ],
     questions: [
       { cat: 'register', text: 'We have a business number from the Canada Revenue Agency.' },
-      { cat: 'register', text: 'We are registered for GST/HST, or we know we do not have to be yet.' },
       { cat: 'register', text: 'We are registered as a supplier in SAP Business Network, used to bid on CanadaBuys tenders.' },
       { cat: 'register', text: 'We know the UNSPSC and NAICS codes that describe what we sell.' },
       { cat: 'bid', text: 'We have an up-to-date one-page capability statement.' },
@@ -221,11 +211,8 @@ export const scorecards: Scorecard[] = [
     ],
     extras: [
       { id: 'timing', text: 'When do you plan to bid on a Government contract?', options: ['Within 3 months', 'In 3 to 6 months', 'In 6 to 12 months', 'Just researching for now'] },
-      { id: 'situation', text: 'Have you sold to Government before?', options: ['Not yet', 'Municipal or provincial only', 'Federal, as a subcontractor', 'Federal, as the main contractor'] },
-      { id: 'outcome', text: 'What do you want to sell?', options: ['Goods', 'Professional services', 'IT or technology services', 'Construction', 'Not sure yet'] },
       { id: 'obstacle', text: 'What is your biggest obstacle right now?', options: ['Finding the right opportunities', 'Understanding the bid documents', 'Time to write bids', 'Security requirements', 'Pricing a bid'] },
       HELP,
-      COMMENTS,
     ],
     bands: [
       { min: 0, name: 'Getting started',

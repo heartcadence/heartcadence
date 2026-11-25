@@ -34,7 +34,7 @@ const data = JSON.stringify({ scorecard: sc, answers: ANSWERS }).replace(/</g, '
           </ul>
           <div class="sc-row">
             <button type="button" id="sc-start" class="btn-primary">Start the scorecard</button>
-            <span class="sc-small">{sc.questions.length} questions. About 3 minutes.</span>
+            <span class="sc-small">{sc.questions.length + sc.extras.length} questions. About 2 minutes.</span>
           </div>
           <noscript><p class="sc-small mt-4">This scorecard needs JavaScript. You can also <a href="/book-a-call/">book a call</a> and we will go through it with you.</p></noscript>
         </div>
