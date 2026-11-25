@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { SITE, UNSPSC } from '../../site';
+import { SITE, UNSPSC, NAICS } from '../../site';
 ---
 <Base
   title="En français"
@@ -75,6 +75,30 @@ import { SITE, UNSPSC } from '../../site';
           ))}
         </table>
       </div>
+    </div>
+  </section>
+
+  <section id="naics" class="container-site mt-12 scroll-mt-6">
+    <div class="rounded-[var(--radius-md)] bg-surface border border-border p-6 md:p-8">
+      <h2 class="text-2xl">Codes d’industrie (SCIAN)</h2>
+      <p class="mt-2 max-w-3xl text-text-muted text-[0.9375rem]">Codes du Système de classification des industries de l’Amérique du Nord (SCIAN) Canada 2022 qui correspondent à notre travail.</p>
+      <table class="mt-2 w-full text-left">
+        <caption class="sr-only">Codes SCIAN de Heart Cadence Inc.</caption>
+        <thead>
+          <tr class="border-b border-border">
+            <th scope="col" class="py-2 pr-4 w-28">Code</th>
+            <th scope="col" class="py-2">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {NAICS.map((c) => (
+            <tr class="border-b border-border">
+              <th scope="row" class="py-2 pr-4 font-normal tabular-nums whitespace-nowrap align-top">{c.code}</th>
+              <td class="py-2 break-words">{c.fr}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   </section>
 

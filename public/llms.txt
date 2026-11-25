@@ -11,6 +11,9 @@ We are not tied to any one brand. We compare options, manage the setup with the 
   - [Business phones and contact centre](https://heartcadence.com/services/phones-contact-centre/)
   - [Customer experience consulting](https://heartcadence.com/services/customer-experience/)
   - [Cybersecurity for small and mid-sized businesses](https://heartcadence.com/services/cybersecurity/)
+  - [Networks and connectivity](https://heartcadence.com/services/networks-connectivity/)
+  - [Cloud and infrastructure](https://heartcadence.com/services/cloud-infrastructure/)
+  - [Mobility and IoT](https://heartcadence.com/services/mobility-iot/)
 - [Government contract support](https://heartcadence.com/government/): procurement readiness, and bid and proposal development
 - [How we work](https://heartcadence.com/how-we-work/): fit call, review, plan, and set up and support
 
