@@ -24,6 +24,7 @@ if (dataEl && app) {
   const fresh = (): State => ({ step: 0, contact: { name: '', email: '', company: '', tips: false, call: false }, answers: Array(NQ).fill(null), extras: {} });
   let S = fresh();
   let submitted = false;
+  let honeypot = '';
 
   const esc = (v: unknown) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
   const pts = (k: string | null) => ANSWERS.find((a) => a.key === k)?.points ?? 0;
@@ -68,11 +69,27 @@ if (dataEl && app) {
     };
   }
 
-  // KB-157 to KB-159: POST the payload to a Pages Function that saves it to D1,
-  // sends the results email and, if a call was requested, creates the CRM lead.
-  // Not built yet, so nothing leaves the browser.
-  async function submitResults(_data: ReturnType<typeof payload>) {
-    return;
+  // KB-157: saves to D1 and emails the lead notice (functions/api/scorecard.ts).
+  // The server checks everything and works out the score again. A failure never blocks the results.
+  async function submitResults() {
+    try {
+      const c = S.contact;
+      await fetch('/api/scorecard', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        keepalive: true,
+        body: JSON.stringify({
+          scorecard: SC.slug,
+          website: honeypot,
+          contact: { name: c.name, email: c.email, company: c.company },
+          consent: { marketingEmail: c.tips, followUpCall: c.call },
+          answers: S.answers,
+          qualifying: S.extras,
+        }),
+      });
+    } catch {
+      // Network error: the visitor still sees their results.
+    }
   }
 
   const go = (n: number) => { S.step = Math.max(0, Math.min(LAST, n)); render(); app.scrollIntoView({ block: 'start' }); };
@@ -93,6 +110,7 @@ if (dataEl && app) {
 <div class="sc-field"><label for="sc-name">Your name</label><input type="text" id="sc-name" autocomplete="name" value="${esc(c.name)}" aria-describedby="sc-e-name"><p class="sc-err" id="sc-e-name"></p></div>
 <div class="sc-field"><label for="sc-email">Work email</label><input type="email" id="sc-email" autocomplete="email" value="${esc(c.email)}" aria-describedby="sc-e-email"><p class="sc-err" id="sc-e-email"></p></div>
 <div class="sc-field"><label for="sc-company">Company</label><input type="text" id="sc-company" autocomplete="organization" value="${esc(c.company)}" aria-describedby="sc-e-company"><p class="sc-err" id="sc-e-company"></p></div>
+<div class="sc-hp" aria-hidden="true"><label for="sc-website">Website</label><input type="text" id="sc-website" name="website" tabindex="-1" autocomplete="off"></div>
 <label class="sc-check"><input type="checkbox" id="sc-tips" ${c.tips ? 'checked' : ''}><span>Send me occasional tips and updates from Heart Cadence Inc. by email. I can unsubscribe at any time.</span></label>
 <label class="sc-check"><input type="checkbox" id="sc-call" ${c.call ? 'checked' : ''}><span>I would like a follow-up call from Heart Cadence Inc. about my results.</span></label>
 <p class="sc-small">Read how we use, store and delete your answers in our <a href="/privacy/">privacy policy</a>.</p>
@@ -149,7 +167,7 @@ if (dataEl && app) {
 <hr class="sc-hr">
 <div class="sc-row sc-between sc-noprint"><p class="sc-small">Print this report or save it as a PDF to share with your team.</p>
 <div class="sc-row"><button type="button" class="btn-secondary" id="sc-print">Print or save as PDF</button><button type="button" class="btn-secondary" id="sc-again">Start over</button></div></div>
-${preview ? `<details class="sc-noprint sc-preview"><summary>Preview only: the record that will be saved</summary><p class="sc-small">Shown because the page address ends in ?preview. Saving to D1, the results email and the CRM lead are not built yet (KB-157 to KB-159).</p><pre>${esc(JSON.stringify(payload(), null, 2))}</pre></details>` : ''}`;
+${preview ? `<details class="sc-noprint sc-preview"><summary>Preview only: the record that will be saved</summary><p class="sc-small">Shown because the page address ends in ?preview. This record is now saved and emailed to the lead mailbox. The visitor's results email and the CRM lead are not built yet (KB-158, KB-159).</p><pre>${esc(JSON.stringify(payload(), null, 2))}</pre></details>` : ''}`;
   }
 
   function render() {
@@ -169,7 +187,7 @@ ${preview ? `<details class="sc-noprint sc-preview"><summary>Preview only: the r
     if (s === LAST) {
       setNeedle(app!, score().total);
       requestAnimationFrame(() => requestAnimationFrame(() => app!.querySelectorAll<HTMLElement>('.sc-fill').forEach((f) => { f.style.width = `${f.dataset.w}%`; })));
-      if (!submitted) { submitted = true; submitResults(payload()); }
+      if (!submitted) { submitted = true; submitResults(); }
     }
     app!.querySelector<HTMLElement>('h2')?.setAttribute('tabindex', '-1');
     app!.querySelector<HTMLElement>('h2')?.focus({ preventScroll: true });
@@ -177,6 +195,7 @@ ${preview ? `<details class="sc-noprint sc-preview"><summary>Preview only: the r
 
   function saveContact() {
     const v = (id: string) => (document.getElementById(id) as HTMLInputElement);
+    honeypot = v('sc-website').value;
     S.contact = { name: v('sc-name').value.trim(), email: v('sc-email').value.trim(), company: v('sc-company').value.trim(), tips: v('sc-tips').checked, call: v('sc-call').checked };
   }
 
