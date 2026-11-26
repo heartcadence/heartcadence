@@ -4,7 +4,7 @@ import PageHeader from '../components/PageHeader.astro';
 import { SITE } from '../site';
 ---
 <Base title="Privacy policy" description="How Heart Cadence Inc. collects, uses and protects personal information.">
-  <PageHeader eyebrow="Privacy" title="Privacy policy" intro="Last updated: November 24, 2026" />
+  <PageHeader eyebrow="Privacy" title="Privacy policy" intro="Last updated: November 25, 2026" />
 
   <div class="container-site prose-site">
     <p>
@@ -15,6 +15,7 @@ import { SITE } from '../site';
     <ul>
       <li><strong>When you email us:</strong> your name, email address, and anything you choose to include in your message.</li>
       <li><strong>When you book a call:</strong> your name, email address, and the time you choose. Booking is handled by Google Calendar.</li>
+      <li><strong>When you complete a scorecard:</strong> your name, work email, company name, your answers and score, and your choices about a follow-up call and marketing emails. To limit spam, we also store a coded (hashed) version of your IP address that cannot be turned back into the address, and your browser type.</li>
       <li><strong>When you visit the site:</strong> our hosting provider, Cloudflare, processes basic technical data such as your IP address and browser type to deliver and protect the site.</li>
     </ul>
     <p>We do not use advertising or tracking cookies. The site remembers your light or dark mode choice in your own browser. That setting never leaves your device.</p>
@@ -23,6 +24,10 @@ import { SITE } from '../site';
     <ul>
       <li>To reply to your questions and schedule calls</li>
       <li>To provide services you have asked for</li>
+      <li>To prepare your scorecard report</li>
+      <li>To follow up with a call, only if you ask for one</li>
+      <li>To send you tips and updates by email, only if you agree. You can unsubscribe at any time.</li>
+      <li>To improve our scorecards using combined results that do not identify you</li>
       <li>To keep the website secure and working</li>
     </ul>
     <p>We do not sell or rent your personal information.</p>
@@ -31,12 +36,18 @@ import { SITE } from '../site';
     <p>
       We use a small number of service providers to run our business, including Google (email and calendar) and Cloudflare (website hosting). They may store data outside Canada, including in the United States, where it may be subject to local laws. We share only what is needed for them to provide their service.
     </p>
+    <p>Scorecard results are stored with Cloudflare in a data centre in eastern North America, and a copy is sent to our business email, hosted by Google.</p>
+
+    <h2>How we protect it</h2>
+    <p>Only our team can see your information. It travels over encrypted (HTTPS) connections and is stored with providers that protect their systems to industry standards.</p>
 
     <h2>How long we keep it</h2>
     <p>We keep personal information only as long as we need it for the purposes above, or as required by law.</p>
+    <p>We keep scorecard results for 24 months, then delete them, unless you become a client. The coded IP address is deleted after 30 days.</p>
 
     <h2>Your choices and rights</h2>
     <p>You can ask to see, correct or delete the personal information we hold about you. You can also withdraw your consent at any time, subject to legal or contract limits.</p>
+    <p>To delete your scorecard results, email <a href={`mailto:${SITE.email}?subject=Delete%20my%20scorecard`}>{SITE.email}</a> with the subject "Delete my scorecard". We will confirm within 30 days.</p>
 
     <h2>Contact our privacy officer</h2>
     <p>
