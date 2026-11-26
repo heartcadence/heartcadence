@@ -62,8 +62,8 @@ if (dataEl && app) {
             best: `${r.best.name} (${r.best.pct}%)`,
             weakest: `${r.weak.name} (${r.weak.pct}%)`,
             callScript: [
-              `You scored highest on ${r.best.name.toLowerCase()}, at ${r.best.pct}%. That is a strong base.`,
-              `Your lowest area was ${r.weak.name.toLowerCase()}, at ${r.weak.pct}%.`,
+              `Your strongest area was ${r.best.name}, at ${r.best.pct}%. That is a strong base.`,
+              `Your lowest area was ${r.weak.name}, at ${r.weak.pct}%.`,
               'Would you like to improve your score?',
             ],
           }

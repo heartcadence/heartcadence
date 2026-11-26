@@ -193,8 +193,8 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
     ...(call
       ? [
           'Call script:',
-          `1. You scored highest on ${best.name.toLowerCase()}, at ${best.pct}%. That is a strong base.`,
-          `2. Your lowest area was ${weak.name.toLowerCase()}, at ${weak.pct}%.`,
+          `1. Your strongest area was ${best.name}, at ${best.pct}%. That is a strong base.`,
+          `2. Your lowest area was ${weak.name}, at ${weak.pct}%.`,
           '3. Would you like to improve your score?',
           '',
         ]
