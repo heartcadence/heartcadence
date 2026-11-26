@@ -10,9 +10,10 @@ interface Props {
   title: string;
   description?: string;
   lang?: 'en' | 'fr';
+  noindex?: boolean; // keep a page out of search results (scorecards until launch, KB-165)
 }
 
-const { title, description = SITE.description, lang = 'en' } = Astro.props;
+const { title, description = SITE.description, lang = 'en', noindex = false } = Astro.props;
 const fullTitle = Astro.url.pathname === '/' ? `${SITE.name} | Technology and customer experience for Canadian businesses` : `${title} | ${SITE.name}`;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 // Only the English home page and /fr/ are translations of each other.
@@ -29,6 +30,7 @@ const hasTranslation = currentPath === '/' || currentPath === '/fr/' || currentP
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
     {hasTranslation && (
       <>
         <link rel="alternate" hreflang="en-CA" href={new URL('/', SITE.url).href} />

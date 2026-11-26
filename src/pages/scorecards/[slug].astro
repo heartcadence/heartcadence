@@ -1,0 +1,55 @@
+---
+// One page per scorecard. Content: src/data/scorecards.ts. Engine: src/scripts/scorecard.ts.
+import Base from '../../layouts/Base.astro';
+import { scorecards, ANSWERS, type Scorecard } from '../../data/scorecards';
+import { gaugeSvg } from '../../lib/gauge';
+import '../../styles/scorecard.css';
+
+export function getStaticPaths() {
+  return scorecards.map((sc) => ({ params: { slug: sc.slug }, props: { sc } }));
+}
+
+const { sc } = Astro.props as { sc: Scorecard };
+// Safe to place inside a script tag.
+const data = JSON.stringify({ scorecard: sc, answers: ANSWERS }).replace(/</g, '\\u003c');
+---
+<Base title={sc.metaTitle} description={sc.description} noindex>
+  <nav aria-label="Breadcrumb" class="container-site pt-6 text-[0.9375rem]">
+    <ol class="flex flex-wrap gap-2 text-text-muted">
+      <li><a href="/resources/">Resources</a></li>
+      <li aria-hidden="true">/</li>
+      <li aria-current="page">{sc.cardTitle}</li>
+    </ol>
+  </nav>
+
+  <section class="container-site pt-6">
+    <div id="sc-app" class="sc-card" aria-live="polite">
+      <div class="sc-screen sc-land">
+        <div>
+          <p class="sc-eyebrow">Free scorecard</p>
+          <h1>{sc.title}</h1>
+          <p class="sc-lead">{sc.lead}</p>
+          <ul class="sc-gets">
+            {sc.gets.map((g) => <li>{g}</li>)}
+          </ul>
+          <div class="sc-row">
+            <button type="button" id="sc-start" class="btn-primary">Start the scorecard</button>
+            <span class="sc-small">{sc.questions.length + sc.extras.length} questions. About 2 minutes.</span>
+          </div>
+          <noscript><p class="sc-small mt-4">This scorecard needs JavaScript. You can also <a href="/book-a-call/">book a call</a> and we will go through it with you.</p></noscript>
+        </div>
+        <div class="sc-gaugebox">
+          <Fragment set:html={gaugeSvg('Sample score: 72 out of 100')} />
+          <p class="sc-score">72</p>
+          <p class="sc-band">{sc.bands[1].name}</p>
+          <p class="sc-small">Sample result</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/json" id="sc-data" set:html={data} />
+  <script>
+    import '../../scripts/scorecard.ts';
+  </script>
+</Base>

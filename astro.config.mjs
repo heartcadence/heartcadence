@@ -11,6 +11,7 @@ export default defineConfig({
     locales: ['en', 'fr'],
     routing: { prefixDefaultLocale: false },
   },
-  integrations: [sitemap({ lastmod: new Date() })],
+  // Scorecards stay out of the sitemap until launch (KB-165). Remove the filter then.
+  integrations: [sitemap({ lastmod: new Date(), filter: (page) => !page.includes('/scorecards/') })],
   vite: { plugins: [tailwindcss()] },
 });

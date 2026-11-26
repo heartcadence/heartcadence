@@ -41,3 +41,25 @@ Company facts (email, PBN, location) live in `src/site.ts`. Change them there, n
 ## Brand rules for copy
 
 No em-dashes. No exclamation marks. No "unlock," "seamless," "leverage," or "empower." Never promise wins or suggest government connections. Never publish pricing or success-fee language until a lawyer has reviewed it.
+
+## Scorecards
+
+Pages at `/scorecards/<slug>/`. Content: `src/data/scorecards.ts`. Engine: `src/scripts/scorecard.ts`.
+Submissions go to `functions/api/scorecard.ts` (a Cloudflare Pages Function), which saves them to D1
+and emails a lead notice through the Gmail API.
+
+D1 databases (schema in `migrations/scorecards/`): `hci-scorecards` for Production, `hci-scorecards-dev` for Preview.
+
+Cloudflare Pages settings (set Production and Preview separately):
+
+| Name | Type | Value |
+| --- | --- | --- |
+| `DB` | D1 binding | `hci-scorecards` (Production) or `hci-scorecards-dev` (Preview) |
+| `GMAIL_CLIENT_ID` | Secret | Google OAuth client ID |
+| `GMAIL_CLIENT_SECRET` | Secret | Google OAuth client secret |
+| `GMAIL_REFRESH_TOKEN` | Secret | Refresh token for the sending mailbox, scope `https://www.googleapis.com/auth/gmail.send` |
+| `GMAIL_SENDER` | Variable | The mailbox that sends the notice |
+| `NOTIFY_TO` | Variable | Where lead notices go |
+
+If the Gmail settings are missing, submissions are still saved, with `emailed = 0` and the reason in `email_error`.
+Scorecard pages are `noindex` and left out of the sitemap until launch (KB-165).

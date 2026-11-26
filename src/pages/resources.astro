@@ -2,30 +2,12 @@
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import CtaBand from '../components/CtaBand.astro';
+import { scorecards } from '../data/scorecards';
 
+const card = (slug: string) => scorecards.find((s) => s.slug === slug)!;
 const guideGroups = [
-  {
-    heading: 'Technology and customer experience',
-    guides: [
-      {
-        title: 'Phone system buyer checklist',
-        text: 'The questions to ask before you switch business phone or contact centre providers.',
-      },
-      {
-        title: 'Service desk health check',
-        text: 'A quick way to see how your support desk is doing, based on ITIL practice.',
-      },
-    ],
-  },
-  {
-    heading: 'Government',
-    guides: [
-      {
-        title: 'Government-ready checklist',
-        text: 'A short checklist to see what you have in place, and what is missing, before you bid.',
-      },
-    ],
-  },
+  { heading: 'Technology and customer experience', guides: [card('phone-system'), card('service-desk')] },
+  { heading: 'Government', guides: [card('government-ready')] },
 ];
 
 const official = [
@@ -41,24 +23,25 @@ const official = [
   },
 ];
 ---
-<Base title="Technology and Government contract resources" description="Free technology and Government contract guides from Heart Cadence Inc., plus links to official procurement resources.">
+<Base title="Technology and Government contract resources" description="Free technology and Government contract scorecards from Heart Cadence Inc., plus links to official procurement resources.">
   <PageHeader
     eyebrow="Resources"
-    title="Free guides to help you get started"
+    title="Free scorecards to help you get started"
     intro="Practical tools you can use on your own, whether or not you work with us."
   />
 
   <section class="container-site">
-    <h2>Our guides</h2>
+    <h2>Our scorecards</h2>
     {guideGroups.map((group) => (
       <>
         <h3 class="mt-8 text-xl">{group.heading}</h3>
         <ul class="mt-4 grid gap-4 md:grid-cols-2">
           {group.guides.map((g) => (
-            <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6">
-              <p class="text-sm font-semibold uppercase tracking-wider text-text-muted">Coming soon</p>
-              <h4 class="mt-1 text-lg">{g.title}</h4>
-              <p class="mt-2">{g.text}</p>
+            <li class="card-hover rounded-[var(--radius-md)] bg-surface border border-border p-6 flex flex-col">
+              <p class="text-sm font-semibold uppercase tracking-wider text-text-muted">Free scorecard</p>
+              <h4 class="mt-1 text-lg">{g.cardTitle}</h4>
+              <p class="mt-2">{g.cardText}</p>
+              <p class="mt-4"><a href={`/scorecards/${g.slug}/`} class="btn-secondary">Take the scorecard<span class="sr-only">: {g.cardTitle.toLowerCase()}</span></a></p>
             </li>
           ))}
         </ul>
