@@ -1,6 +1,6 @@
 // Scorecard wizard engine (KB-154, KB-155, KB-156). Reads one scorecard from the JSON block on the page.
 // Flow: landing, contact details, scored questions, unscored questions, results.
-// Saving (KB-157), the results email (KB-158) and the CRM lead (KB-159) plug in at submitResults().
+// submitResults() saves to D1 and emails the lead notice with the PDF (KB-157, KB-166). KB-158 and KB-159 plug in on the server.
 import type { Scorecard } from '../data/scorecards';
 import { gaugeSvg, setNeedle } from '../lib/gauge';
 
@@ -25,6 +25,8 @@ if (dataEl && app) {
   let S = fresh();
   let submitted = false;
   let honeypot = '';
+  let pdfUrl = '';
+  let pdfName = '';
 
   const esc = (v: unknown) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
   const pts = (k: string | null) => ANSWERS.find((a) => a.key === k)?.points ?? 0;
@@ -71,13 +73,35 @@ if (dataEl && app) {
 
   // KB-157: saves to D1 and emails the lead notice (functions/api/scorecard.ts).
   // The server checks everything and works out the score again. A failure never blocks the results.
+  // Builds the one-page PDF report in the browser (KB-166). Returns base64, or '' if it fails.
+  async function buildPdf(): Promise<string> {
+    try {
+      const { buildReportPdf, toBase64, pdfFileName } = await import('./scorecard-pdf');
+      const r = score();
+      const cta = ctaFor(r.total);
+      const bytes = await buildReportPdf({
+        sc: SC, total: r.total, bandName: r.band.name, carrot: r.band.carrot, stick: r.band.stick,
+        per: r.per, best: r.best, weak: r.weak, name: S.contact.name, company: S.contact.company,
+        ctaTitle: cta.title, ctaText: cta.text, bandStarts: SC.bands.map((b) => b.min),
+      });
+      if (pdfUrl) URL.revokeObjectURL(pdfUrl);
+      pdfUrl = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+      pdfName = pdfFileName(SC, S.contact.company);
+      const a = document.getElementById('sc-pdf') as HTMLAnchorElement | null;
+      if (a) { a.href = pdfUrl; a.download = pdfName; a.hidden = false; }
+      return toBase64(bytes);
+    } catch {
+      return '';
+    }
+  }
+
   async function submitResults() {
+    const pdf = await buildPdf();
     try {
       const c = S.contact;
       await fetch('/api/scorecard', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        keepalive: true,
         body: JSON.stringify({
           scorecard: SC.slug,
           website: honeypot,
@@ -85,6 +109,7 @@ if (dataEl && app) {
           consent: { marketingEmail: c.tips, followUpCall: c.call },
           answers: S.answers,
           qualifying: S.extras,
+          pdf,
         }),
       });
     } catch {
@@ -137,17 +162,21 @@ if (dataEl && app) {
 <div class="sc-row sc-between"><button type="button" class="btn-secondary" data-back>Back</button>${x.options ? '' : `<button type="button" class="btn-primary" id="sc-next">${last ? 'See my results' : 'Next'}</button>`}</div>`;
   }
 
+  function ctaFor(total: number) {
+    const selfServe = (S.extras.help || '').startsWith('Do it myself');
+    if (total >= SC.bands[SC.bands.length - 1].min) return SC.ctaHigh;
+    return selfServe
+      ? { title: 'Keep going on your own', text: 'Work through the tips in your report. When you want a second opinion, we are a short call away.' }
+      : { title: 'Talk it through with us', text: 'Book a short call. We will walk through your answers with you and help you close the gaps.' };
+  }
+
   function vResults() {
     const r = score();
     const c = S.contact;
     const help = S.extras.help || '';
     const selfServe = help.startsWith('Do it myself');
     const high = r.total >= SC.bands[SC.bands.length - 1].min;
-    const cta = high
-      ? SC.ctaHigh
-      : selfServe
-        ? { title: 'Keep going on your own', text: 'Work through the tips above. When you want a second opinion, we are a short call away.' }
-        : { title: 'Talk it through with us', text: 'Book a short call. We will walk through your answers with you and help you close the gaps.' };
+    const cta = ctaFor(r.total);
     const buttons = selfServe && !high
       ? `<a class="btn-primary" href="${SC.serviceHref}">${esc(SC.serviceLabel)}</a><a class="btn-secondary" href="/book-a-call/">Book a call</a>`
       : `<a class="btn-primary" href="/book-a-call/">Book a call</a><a class="btn-secondary" href="${SC.serviceHref}">${esc(SC.serviceLabel)}</a>`;
@@ -165,8 +194,8 @@ if (dataEl && app) {
 <div class="sc-split"><div><h3>Tips for ${esc(r.weak.name.toLowerCase())}</h3><div class="sc-panel"><ul class="sc-tips">${r.weak.tips.map(tip).join('')}</ul></div></div>
 <div><h3>${esc(cta.title)}</h3><p>${esc(cta.text)}</p><div class="sc-row sc-noprint">${buttons}</div></div></div>
 <hr class="sc-hr">
-<div class="sc-row sc-between sc-noprint"><p class="sc-small">Print this report or save it as a PDF to share with your team.</p>
-<div class="sc-row"><button type="button" class="btn-secondary" id="sc-print">Print or save as PDF</button><button type="button" class="btn-secondary" id="sc-again">Start over</button></div></div>
+<div class="sc-row sc-between sc-noprint"><p class="sc-small">Download your report to share with your team.</p>
+<div class="sc-row"><a class="btn-primary" id="sc-pdf" hidden>Download PDF report</a><button type="button" class="btn-secondary" id="sc-print">Print</button><button type="button" class="btn-secondary" id="sc-again">Start over</button></div></div>
 ${preview ? `<details class="sc-noprint sc-preview"><summary>Preview only: the record that will be saved</summary><p class="sc-small">Shown because the page address ends in ?preview. This record is now saved and emailed to the lead mailbox. The visitor's results email and the CRM lead are not built yet (KB-158, KB-159).</p><pre>${esc(JSON.stringify(payload(), null, 2))}</pre></details>` : ''}`;
   }
 

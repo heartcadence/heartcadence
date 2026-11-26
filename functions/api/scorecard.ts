@@ -24,7 +24,8 @@ interface Env {
 }
 interface Ctx { request: Request; env: Env }
 
-const MAX_BODY = 8000;
+const MAX_BODY = 400_000; // room for the PDF report (about 60 KB, base64)
+const MAX_PDF_B64 = 350_000;
 const MAX_PER_HOUR = 5; // per visitor IP
 
 const json = (status: number, body: unknown) =>
@@ -43,11 +44,12 @@ function b64(text: string) {
   for (const b of new TextEncoder().encode(text)) bin += String.fromCharCode(b);
   return btoa(bin);
 }
-const b64url = (text: string) => b64(text).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 // RFC 2047 encoded word, so names and accents survive in the subject.
 const encodeHeader = (text: string) => `=?UTF-8?B?${b64(text)}?=`;
 
-export async function sendGmail(env: Env, msg: { to: string; subject: string; text: string; replyTo?: string }) {
+export interface Attachment { filename: string; contentType: string; base64: string }
+
+export async function sendGmail(env: Env, msg: { to: string; subject: string; text: string; replyTo?: string; attachments?: Attachment[] }) {
   if (!env.GMAIL_CLIENT_ID || !env.GMAIL_CLIENT_SECRET || !env.GMAIL_REFRESH_TOKEN || !env.GMAIL_SENDER || !msg.to) {
     throw new Error('Gmail settings are missing');
   }
@@ -64,21 +66,32 @@ export async function sendGmail(env: Env, msg: { to: string; subject: string; te
   if (!tokenRes.ok) throw new Error(`Google token error ${tokenRes.status}`);
   const { access_token } = (await tokenRes.json()) as { access_token: string };
 
+  const lines76 = (b: string) => (b.match(/.{1,76}/g) || []).join('\r\n');
+  const textPart = lines76(b64(msg.text.replace(/\r?\n/g, '\r\n')));
   const headers = [
     `From: Heart Cadence Inc. <${env.GMAIL_SENDER}>`,
     `To: ${msg.to}`,
     msg.replyTo ? `Reply-To: ${msg.replyTo}` : '',
     `Subject: ${encodeHeader(msg.subject)}`,
     'MIME-Version: 1.0',
-    'Content-Type: text/plain; charset=UTF-8',
-    'Content-Transfer-Encoding: base64',
   ].filter(Boolean);
-  const bodyB64 = (b64(msg.text.replace(/\r?\n/g, '\r\n')).match(/.{1,76}/g) || []).join('\r\n');
-  const raw = b64url(`${headers.join('\r\n')}\r\n\r\n${bodyB64}`);
-  const sendRes = await fetch('https://gmail.googleapis.com/gmail/v1/users/me/messages/send', {
+  let mime: string;
+  if (msg.attachments?.length) {
+    const boundary = `hci-${crypto.randomUUID()}`;
+    const parts = [
+      `--${boundary}\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n${textPart}`,
+      ...msg.attachments.map((a) =>
+        `--${boundary}\r\nContent-Type: ${a.contentType}; name="${a.filename}"\r\nContent-Disposition: attachment; filename="${a.filename}"\r\nContent-Transfer-Encoding: base64\r\n\r\n${lines76(a.base64)}`),
+    ];
+    mime = `${headers.join('\r\n')}\r\nContent-Type: multipart/mixed; boundary="${boundary}"\r\n\r\n${parts.join('\r\n')}\r\n--${boundary}--\r\n`;
+  } else {
+    mime = `${headers.join('\r\n')}\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n${textPart}`;
+  }
+  // Media upload: send the raw message as is, so the server never re-encodes the attachment (keeps CPU low).
+  const sendRes = await fetch('https://gmail.googleapis.com/upload/gmail/v1/users/me/messages/send?uploadType=media', {
     method: 'POST',
-    headers: { Authorization: `Bearer ${access_token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ raw }),
+    headers: { Authorization: `Bearer ${access_token}`, 'Content-Type': 'message/rfc822' },
+    body: mime,
   });
   if (!sendRes.ok) throw new Error(`Gmail send error ${sendRes.status}`);
 }
@@ -123,6 +136,10 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
   const sorted = [...per].sort((a, b) => b.pct - a.pct);
   const best = sorted[0];
   const weak = sorted[sorted.length - 1];
+
+  // PDF report built in the visitor's browser (KB-166). Only attached if it looks like a real, small PDF.
+  const pdfB64 = typeof body.pdf === 'string' && body.pdf.length < MAX_PDF_B64 && body.pdf.startsWith('JVBERi0') && /^[A-Za-z0-9+/]+=*$/.test(body.pdf) ? body.pdf : '';
+  const fileName = `HCI-${sc.cardTitle}-${company}`.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/-+$/, '').slice(0, 80) + '.pdf';
 
   const marketing = body.consent?.marketingEmail === true;
   const call = body.consent?.followUpCall === true;
@@ -182,6 +199,7 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
           '',
         ]
       : []),
+    pdfB64 ? `PDF report attached: ${fileName}` : 'PDF report: not received from the browser.',
     `Record ID: ${id} (D1 table submissions)`,
     'Reply to this email to write to the lead directly.',
   ];
@@ -194,6 +212,7 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
       subject: `Scorecard lead: ${company}, ${score}/100 on ${sc.cardTitle}${call ? ', wants a call' : ''}`,
       text: lines.join('\n'),
       replyTo: `${encodeHeader(name)} <${email}>`,
+      attachments: pdfB64 ? [{ filename: fileName, contentType: 'application/pdf', base64: pdfB64 }] : [],
     });
     emailed = 1;
   } catch (e) {
