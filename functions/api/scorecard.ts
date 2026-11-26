@@ -96,6 +96,15 @@ export async function sendGmail(env: Env, msg: { to: string; subject: string; te
   if (!sendRes.ok) throw new Error(`Gmail send error ${sendRes.status}`);
 }
 
+export async function cleanUp(db: NonNullable<Env['DB']>) {
+  const now = Date.now();
+  const months24 = new Date(now);
+  months24.setUTCMonth(months24.getUTCMonth() - 24);
+  const days30 = new Date(now - 30 * 86400_000).toISOString();
+  await db.prepare('DELETE FROM submissions WHERE created_at < ?').bind(months24.toISOString()).run();
+  await db.prepare('UPDATE submissions SET ip_hash = NULL WHERE ip_hash IS NOT NULL AND created_at < ?').bind(days30).run();
+}
+
 export const onRequestPost = async ({ request, env }: Ctx) => {
   if (!env.DB) return json(503, { ok: false, error: 'Not set up yet' });
 
@@ -152,6 +161,10 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
     const row = await env.DB.prepare('SELECT COUNT(*) AS n FROM submissions WHERE ip_hash = ? AND created_at > ?').bind(ipHash, since).first<{ n: number }>();
     if ((row?.n ?? 0) >= MAX_PER_HOUR) return json(429, { ok: false });
   }
+
+  // Retention (privacy policy, KB-167): results deleted after 24 months, coded IP removed after 30 days.
+  // Runs on every submission. A monthly scheduled task does the same as a backstop.
+  await cleanUp(env.DB);
 
   const id = crypto.randomUUID();
   const createdAt = new Date().toISOString();
