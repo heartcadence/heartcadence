@@ -130,7 +130,7 @@ if (dataEl && app) {
   function vContact() {
     const c = S.contact;
     return `${progress('Your details')}<h2>Where should we send your results?</h2>
-<p class="sc-small">We use these details to send you a copy of your report.</p>
+<p class="sc-small">We use these details to prepare your report. You can download it as a PDF at the end.</p>
 <form id="sc-form" novalidate>
 <div class="sc-field"><label for="sc-name">Your name</label><input type="text" id="sc-name" autocomplete="name" value="${esc(c.name)}" aria-describedby="sc-e-name"><p class="sc-err" id="sc-e-name"></p></div>
 <div class="sc-field"><label for="sc-email">Work email</label><input type="email" id="sc-email" autocomplete="email" value="${esc(c.email)}" aria-describedby="sc-e-email"><p class="sc-err" id="sc-e-email"></p></div>
