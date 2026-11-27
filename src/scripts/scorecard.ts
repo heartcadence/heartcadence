@@ -138,7 +138,7 @@ if (dataEl && app) {
 <div class="sc-hp" aria-hidden="true"><label for="sc-website">Website</label><input type="text" id="sc-website" name="website" tabindex="-1" autocomplete="off"></div>
 <label class="sc-check"><input type="checkbox" id="sc-tips" ${c.tips ? 'checked' : ''}><span>Send me occasional tips and updates from Heart Cadence Inc. by email. I can unsubscribe at any time.</span></label>
 <label class="sc-check"><input type="checkbox" id="sc-call" ${c.call ? 'checked' : ''}><span>I would like a follow-up call from Heart Cadence Inc. about my results.</span></label>
-<p class="sc-small">Read how we use, store and delete your answers in our <a href="/privacy/">privacy policy</a>.</p>
+<p class="sc-small">Read how we use, store and delete your answers in our <a href="/privacy/" target="_blank" rel="noopener">privacy policy<span class="sr-only"> (opens in a new tab)</span></a>.</p>
 <div class="sc-row sc-between"><button type="button" class="btn-secondary" data-back>Back</button><button type="submit" class="btn-primary">Start the questions</button></div>
 </form>`;
   }
