@@ -227,6 +227,66 @@ export const scorecards: Scorecard[] = [
     ],
     ctaHigh: { title: 'Get a second set of eyes', text: 'We can review your next bid with you, against every requirement, before you submit it.' },
   },
+
+  {
+    slug: 'network-connectivity',
+    serviceAnchor: 'networking',
+    serviceHref: '/services/#networking',
+    serviceLabel: 'See our network and connectivity services',
+    cardTitle: 'Network and connectivity check',
+    cardText: 'Twelve quick questions to see if your internet, Wi-Fi and network security will keep your team working on a bad day.',
+    title: 'Will your business stay online on a bad day?',
+    metaTitle: 'Network and connectivity scorecard',
+    description: 'Answer 12 quick questions and see how well your internet, Wi-Fi and network security hold up when something goes wrong. Free, about 2 minutes.',
+    lead: 'Answer 12 quick questions about your internet, Wi-Fi and network security.',
+    gets: ['A readiness score out of 100', 'Your score in 3 key areas', 'Practical tips for your weakest area', 'A printable report'],
+    resultTitle: 'network readiness',
+    categories: [
+      { id: 'internet', name: 'Internet and backup', tips: [
+        { text: 'Add a second internet line from a different provider or type, such as fibre plus 4G or 5G, so one outage does not stop work.' },
+        { text: 'Use a router that switches to the backup line on its own, and test it by unplugging the main line.' },
+        { text: 'Put your contract end dates on the calendar so you can compare prices before they renew.' },
+      ]},
+      { id: 'wifi', name: 'Wi-Fi and office network', tips: [
+        { text: 'Walk your space and note the weak spots, then add or move access points to cover them.' },
+        { text: 'Put guests on their own network so they cannot see your staff devices or systems.' },
+        { text: 'Set up monitoring that alerts you, or your provider, when the network or a key device goes down.' },
+      ]},
+      { id: 'security', name: 'Network security', tips: [
+        { text: 'Name one person or provider who is responsible for firewall updates and reviews.' },
+        { text: 'Give remote staff one secure way to connect, and turn off old accounts and access nobody uses.' },
+        { text: 'Book an outside security check once a year, and fix the top findings first.' },
+      ]},
+    ],
+    questions: [
+      { cat: 'internet', text: 'If our main internet goes down, a backup connection takes over on its own.' },
+      { cat: 'internet', text: 'We get the internet speed we pay for, even at our busiest times of day.' },
+      { cat: 'internet', text: 'We have reviewed our internet contracts and costs in the last 12 months.' },
+      { cat: 'wifi', text: 'Our Wi-Fi works well in every part of our workspace, including meeting rooms.' },
+      { cat: 'wifi', text: 'Guest Wi-Fi is kept separate from the network our staff and systems use.' },
+      { cat: 'wifi', text: 'Someone gets an alert when our network goes down, before staff notice.' },
+      { cat: 'security', text: 'Someone keeps our firewall updated and reviews it at least every 3 months.' },
+      { cat: 'security', text: 'Staff who work from home or on the road connect through a secure, company-approved connection.' },
+      { cat: 'security', text: 'An outside expert has checked our network security in the last 12 months.' },
+    ],
+    extras: [
+      { id: 'timing', text: 'When do you plan to make changes to your network?', options: ['Within 3 months', 'In 3 to 6 months', 'In 6 to 12 months', 'Just researching for now'] },
+      { id: 'obstacle', text: 'What is your biggest obstacle right now?', options: ['Getting budget approved', 'Not enough time or staff', 'Not sure what to choose', 'Locked into current contracts'] },
+      HELP,
+    ],
+    bands: [
+      { min: 0, name: 'At risk',
+        stick: 'Your network has gaps that could stop work during an outage or put your data at risk.',
+        carrot: 'Most of these gaps are low-cost to fix once you know where to start.' },
+      { min: 50, name: 'Mostly covered',
+        stick: 'Your basics are in place, but a few weak spots could still cost you time or money.',
+        carrot: 'Fix your weakest area first. It gives you the biggest gain for the effort.' },
+      { min: 80, name: 'Well connected',
+        stick: 'The risk now is drift. Contracts renew, equipment ages and settings change over time.',
+        carrot: 'Your network is in good shape. Review contracts and security once a year to keep it that way.' },
+    ],
+    ctaHigh: { title: 'Get your contracts checked', text: 'Send us your current internet and network contracts and we will compare them with the options available today.' },
+  },
 ];
 
 export const scorecardForService = (anchor: string) => scorecards.find((s) => s.serviceAnchor === anchor);
